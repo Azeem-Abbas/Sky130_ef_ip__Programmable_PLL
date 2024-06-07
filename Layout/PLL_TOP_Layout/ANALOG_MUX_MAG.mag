@@ -1,0 +1,48 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717691374
+<< nwell >>
+rect -692 799 162 842
+rect -84 764 174 799
+rect -170 695 219 764
+rect -84 346 174 695
+<< locali >>
+rect 1053 769 1786 821
+rect -170 695 219 764
+rect -887 266 -657 340
+rect -155 277 52 347
+rect -759 -339 -707 266
+rect -191 20 219 73
+rect -191 5 731 20
+rect 197 -94 731 5
+rect -759 -391 82 -339
+rect 1734 -828 1786 769
+rect 1060 -880 1786 -828
+<< metal1 >>
+rect 91 -14 135 115
+rect -834 -58 135 -14
+rect 1732 65 1778 344
+rect 1732 19 1869 65
+rect -841 -295 73 -251
+rect 1732 -423 1778 19
+use inverter  inverter_0
+timestamp 1717691374
+transform 1 0 -976 0 1 432
+box 220 -453 904 367
+use TG_ANALOG_MUX  TG_ANALOG_MUX_0
+timestamp 1717691374
+transform 1 0 102 0 -1 -60
+box -102 -22 1676 841
+use TG_ANALOG_MUX  TG_ANALOG_MUX_1
+timestamp 1717691374
+transform 1 0 102 0 1 1
+box -102 -22 1676 841
+<< labels >>
+flabel locali s -852 304 -852 304 0 FreeSans 600 0 0 0 SEL
+flabel locali s -4 716 -4 716 0 FreeSans 600 0 0 0 VDD
+flabel locali s -40 28 -40 28 0 FreeSans 600 0 0 0 VSS
+flabel metal1 s -814 -41 -814 -41 0 FreeSans 600 0 0 0 IN_1
+flabel metal1 s -810 -288 -810 -288 0 FreeSans 600 0 0 0 IN_2
+flabel metal1 s 1840 38 1840 38 0 FreeSans 600 0 0 0 OUT
+<< end >>

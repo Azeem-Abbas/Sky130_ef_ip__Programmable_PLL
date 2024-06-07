@@ -1,0 +1,695 @@
+timestamp 1717686518
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use Divide_By_2_magic Divide_By_2_magic_0 1 0 8014 0 1 3305
+use INV_1_mag INV_1_mag_5 1 0 1327 0 -1 2899
+use INV_1_mag INV_1_mag_4 1 0 3048 0 -1 2856
+use INV_1_mag INV_1_mag_3 1 0 -3408 0 1 1353
+use INV_1_mag INV_1_mag_2 1 0 -3408 0 -1 2877
+use INV_1_mag INV_1_mag_1 1 0 3048 0 1 1419
+use INV_1_mag INV_1_mag_0 1 0 1327 0 1 1376
+use DelayCell_1 DelayCell_1_1 1 0 -5629 0 1 2770
+use DelayCell_1 DelayCell_1_0 1 0 -774 0 1 2763
+node "m1_n2102_2346#" 3 397.97 -2102 2346 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51382 2326 0 0 0 0 0 0 0 0 0 0
+node "m1_n4221_2656#" 4 511.797 -4221 2656 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61364 2760 0 0 0 0 0 0 0 0 0 0
+node "m1_665_2722#" 5 701.727 665 2722 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77372 3456 0 0 0 0 0 0 0 0 0 0
+node "m1_11610_3153#" 8 26.4075 11610 3153 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 130 0 0 0 0 0 0 0 0 0 0
+node "li_2639_710#" 114 219.505 2639 710 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26840 1086 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_730_681#" 247 305.146 730 681 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28170 1550 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n2096_668#" 129 437.993 -2096 668 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81282 1990 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n4107_684#" 92 388.834 -4107 684 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84016 1768 0 0 0 0 0 0 0 0 0 0 0 0
+node "VCTRL2" 166 2607.41 -6805 826 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74608 2062 527408 13062 0 0 0 0 0 0 0 0 0 0
+node "li_2688_1350#" 99 98.7104 2688 1350 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8976 596 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1531_1294#" 58 14.0546 -1531 1294 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 369 100 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n2035_1294#" 122 158.905 -2035 1294 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17274 898 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_579_1440#" 127 390.146 579 1440 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66748 1792 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n4284_1468#" 154 458.17 -4284 1468 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80852 2136 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n7449_1263#" 341 7331.05 -7449 1263 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141501 3952 2026600 29874 0 0 0 0 0 0 0 0 0 0
+node "OUT" 33 97.7188 13002 2204 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11352 476 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_4359_2217#" 312 927.379 4359 2217 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172116 4266 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2639_1923#" 298 435.286 2639 1923 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69917 2660 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2323_1908#" 161 119.767 2323 1908 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14518 922 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2007_1926#" 155 118.081 2007 1926 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13974 890 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1691_1949#" 133 98.4596 1691 1949 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11968 772 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1375_1945#" 136 135.65 1375 1945 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12274 790 0 0 0 0 0 0 0 0 0 0 0 0
+node "OUTB" 37 115.54 12925 2743 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14350 550 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2688_2891#" 94 94.8291 2688 2891 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8500 568 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n2073_2869#" 309 604.966 -2073 2869 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70910 2724 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n7412_1811#" 407 8368.97 -7412 1811 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 233270 5522 2165320 31914 0 0 0 0 0 0 0 0 0 0
+node "li_844_2737#" 82 274.253 844 2737 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43214 1218 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n4048_2734#" 105 341.363 -4048 2734 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54940 1504 0 0 0 0 0 0 0 0 0 0 0 0
+node "VCTRL" 214 3008.81 -6652 3120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107373 2778 551855 13514 0 0 0 0 0 0 0 0 0 0
+node "li_4360_3523#" 178 1029.43 4360 3523 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143808 3022 105057 2068 0 0 0 0 0 0 0 0 0 0
+node "li_2639_3523#" 67 249.594 2639 3523 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45384 1162 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 38 366.778 -5865 3275 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105462 1494 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSS" 0 0 -8083 -449 ppd 0 0 0 0 0 0 0 0 0 0 10447320 107152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16711889 116830 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_n2096_668#" "li_n7449_1263#" 14.1762
+cap "li_n7412_1811#" "VDD" 14.7362
+cap "li_2688_1350#" "li_579_1440#" 0.102754
+cap "li_n7412_1811#" "VCTRL" 559.466
+cap "li_n4048_2734#" "li_n4284_1468#" 8.71726
+cap "li_n7449_1263#" "li_2639_710#" 6.4265
+cap "li_n4048_2734#" "m1_n4221_2656#" 42.7732
+cap "li_1691_1949#" "li_2007_1926#" 28.9548
+cap "li_n7449_1263#" "li_1691_1949#" 0.00209382
+cap "li_n2073_2869#" "m1_n4221_2656#" 0.015651
+cap "li_1691_1949#" "m1_665_2722#" 0.305073
+cap "VCTRL" "m1_n4221_2656#" 42.6744
+cap "li_n2073_2869#" "li_n2035_1294#" 7.06496
+cap "li_n2096_668#" "li_n2035_1294#" 17.2713
+cap "li_2639_1923#" "li_2007_1926#" 0.0790698
+cap "li_n7449_1263#" "li_2639_1923#" 0.102613
+cap "li_4359_2217#" "li_2639_1923#" 0.541274
+cap "li_730_681#" "li_2639_710#" 0.101351
+cap "li_n2035_1294#" "li_n1531_1294#" 6.97
+cap "li_n2073_2869#" "VCTRL2" 0.296946
+cap "li_n2096_668#" "VCTRL2" 221.36
+cap "li_2639_1923#" "m1_665_2722#" 0.0727765
+cap "li_2688_2891#" "li_2639_3523#" 10.1837
+cap "VCTRL2" "li_n1531_1294#" 0.0709357
+cap "li_n7449_1263#" "li_n4107_684#" 6.33372
+cap "li_2688_1350#" "li_2639_710#" 10.9821
+cap "m1_n2102_2346#" "m1_n4221_2656#" 3.00784
+cap "li_1375_1945#" "li_1691_1949#" 28.9548
+cap "li_n7412_1811#" "li_n7449_1263#" 70.6438
+cap "li_n7412_1811#" "li_4359_2217#" 55.3482
+cap "li_n7449_1263#" "li_2007_1926#" 0.0102678
+cap "li_n7449_1263#" "li_4359_2217#" 19.2882
+cap "li_n4284_1468#" "li_n4107_684#" 28.9239
+cap "m1_n2102_2346#" "li_n2035_1294#" 0.403121
+cap "li_n7412_1811#" "m1_665_2722#" 8.38559
+cap "m1_665_2722#" "li_2007_1926#" 0.363247
+cap "li_n7412_1811#" "li_4360_3523#" 282.701
+cap "li_n7449_1263#" "m1_665_2722#" 15.3705
+cap "li_n4107_684#" "m1_n4221_2656#" 0.126327
+cap "li_4360_3523#" "li_4359_2217#" 2.66853
+cap "OUT" "OUTB" 6.51497
+cap "m1_n2102_2346#" "VCTRL2" 22.1444
+cap "li_n7449_1263#" "li_n4284_1468#" 0.166554
+cap "li_2688_1350#" "li_2639_1923#" 11.894
+cap "li_n7412_1811#" "li_844_2737#" 0.57484
+cap "li_2323_1908#" "li_2639_1923#" 33.85
+cap "li_n7449_1263#" "li_730_681#" 9.22175
+cap "li_844_2737#" "m1_665_2722#" 42.4485
+cap "VCTRL2" "li_n4107_684#" 171.23
+cap "li_730_681#" "m1_665_2722#" 0.288173
+cap "li_n4284_1468#" "m1_n4221_2656#" 1.12518
+cap "li_1375_1945#" "li_2007_1926#" 0.366613
+cap "li_n2073_2869#" "li_n4048_2734#" 0.102273
+cap "li_2688_2891#" "li_2639_1923#" 10.9725
+cap "li_n7412_1811#" "VCTRL2" 0.207783
+cap "li_n7449_1263#" "VCTRL2" 836.999
+cap "VCTRL" "li_n4048_2734#" 3.30024
+cap "li_n7449_1263#" "li_2688_1350#" 0.144308
+cap "li_1375_1945#" "m1_665_2722#" 13.3857
+cap "li_n4284_1468#" "li_n2035_1294#" 0.659483
+cap "li_n2073_2869#" "VCTRL" 1.08712
+cap "li_n2096_668#" "li_n1531_1294#" 0.406915
+cap "VDD" "VCTRL" 241.978
+cap "li_2323_1908#" "li_2007_1926#" 33.6435
+cap "li_n7449_1263#" "li_2323_1908#" 0.0168333
+cap "VCTRL2" "li_n4284_1468#" 2.86817
+cap "li_2639_3523#" "li_2639_1923#" 4.74202
+cap "li_2323_1908#" "m1_665_2722#" 0.203014
+cap "li_n7449_1263#" "li_579_1440#" 1.18541
+cap "li_730_681#" "li_1375_1945#" 0.689189
+cap "li_2688_2891#" "li_n7412_1811#" 0.119214
+cap "m1_665_2722#" "li_579_1440#" 3.79789
+cap "VCTRL2" "li_n2035_1294#" 1.93657
+cap "li_n2073_2869#" "m1_n2102_2346#" 56.0104
+cap "li_n2096_668#" "m1_n2102_2346#" 0.0425468
+cap "li_n7412_1811#" "li_2639_3523#" 7.29031
+cap "m1_n2102_2346#" "VCTRL" 49.2259
+cap "li_844_2737#" "li_579_1440#" 5.89749
+cap "m1_n2102_2346#" "li_n1531_1294#" 0.0094327
+cap "li_730_681#" "li_579_1440#" 20.7477
+cap "li_2639_710#" "li_2639_1923#" 4.54204
+cap "li_2688_2891#" "li_844_2737#" 0.100196
+cap "li_n2096_668#" "li_n4107_684#" 1.48793
+cap "li_4360_3523#" "li_2639_3523#" 1.88065
+cap "li_n7412_1811#" "li_n4048_2734#" 0.569182
+cap "DelayCell_1_1/INB" "DelayCell_1_1/VSS" 6.16027
+cap "DelayCell_1_1/IN" "DelayCell_1_1/INB" 8.67362e-19
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 21.9341
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/INB" 2.14165
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/VSS" 249.377
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/IN" 7.28885
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 0.192605
+cap "DelayCell_1_1/VSS" "li_n7449_1263#" 8.58744
+cap "DelayCell_1_1/VSS" "INV_1_mag_3/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n187_n200#" 0.06686
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 42.3879
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/VCTRL2" -0.355444
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/VSS" -1.40163
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/VSS" 172.629
+cap "DelayCell_1_1/VSS" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" -0.0320449
+cap "DelayCell_1_1/VSS" "DelayCell_1_0/INB" -3.58923
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_1/OUTB" 72.7028
+cap "DelayCell_1_1/OUTB" "li_n7449_1263#" 2.62867
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/INB" 34.9656
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 6.45995
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_1/VSS" 404.222
+cap "li_n7449_1263#" "DelayCell_1_1/VSS" 72.9614
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/VSS" 6.76513
+cap "DelayCell_1_0/INB" "DelayCell_1_0/VSS" 8.17878
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" "DelayCell_1_0/VCTRL2" 0.194407
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_0/VCTRL2" -4.38536
+cap "li_n7449_1263#" "DelayCell_1_0/VCTRL2" -0.335059
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VCTRL2" 11.0349
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_0/VSS" -0.0215409
+cap "DelayCell_1_0/INB" "DelayCell_1_0/VCTRL2" 2.36905
+cap "INV_1_mag_3/IN" "DelayCell_1_0/VCTRL2" 5.68047
+cap "li_n7449_1263#" "DelayCell_1_0/VSS" 42.0847
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VCTRL2" 449.747
+cap "DelayCell_1_0/VSS" "li_n7449_1263#" 33.6959
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_0/VCTRL2" -0.651189
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/INB" 0.118142
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/VSS" 16.3904
+cap "DelayCell_1_0/VCTRL2" "li_n7449_1263#" 17.6314
+cap "DelayCell_1_0/INB" "li_n7449_1263#" 0.0150993
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "li_n7449_1263#" 31.4293
+cap "INV_1_mag_0/OUT" "DelayCell_1_0/VSS" 0.0973422
+cap "DelayCell_1_0/OUTB" "li_n7449_1263#" 11.7168
+cap "INV_1_mag_0/VDD" "li_n7449_1263#" 0.372998
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/VSS" 0.37375
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "li_n7449_1263#" 7.41019
+cap "li_n7449_1263#" "DelayCell_1_0/VSS" 46.676
+cap "INV_1_mag_0/OUT" "li_n7449_1263#" 4.87604
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VSS" 1.65732
+cap "INV_1_mag_0/VDD" "DelayCell_1_0/VSS" -0.417549
+cap "DelayCell_1_0/VCTRL2" "li_n7449_1263#" 4.06731
+cap "DelayCell_1_0/VSS" "li_n7449_1263#" 119.827
+cap "DelayCell_1_0/VSS" "INV_1_mag_0/VDD" -1.93657
+cap "li_n7449_1263#" "INV_1_mag_0/VDD" 2.76969
+cap "li_n7449_1263#" "INV_1_mag_0/OUT" 5.6333
+cap "DelayCell_1_0/VSS" "INV_1_mag_0/OUT" 3.45332
+cap "DelayCell_1_0/VSS" "INV_1_mag_1/OUT" 0.009014
+cap "li_n7449_1263#" "DelayCell_1_0/OUTB" 15.7472
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/OUTB" 0.430842
+cap "INV_1_mag_1/OUT" "INV_1_mag_0/VDD" 2.07043
+cap "INV_1_mag_0/VSS" "INV_1_mag_0/VDD" -0.334447
+cap "INV_1_mag_0/VSS" "INV_1_mag_1/OUT" 121.659
+cap "INV_1_mag_1/OUT" "INV_1_mag_0/OUT" 24.7006
+cap "INV_1_mag_0/VSS" "INV_1_mag_0/OUT" 0.94984
+cap "INV_1_mag_1/OUT" "INV_1_mag_1/VSS" 10.5962
+cap "INV_1_mag_1/IN" "INV_1_mag_1/OUT" 0.174697
+cap "DelayCell_1_1/IN" "DelayCell_1_1/sky130_fd_pr__pfet_01v8_ES28UG_0/a_n345_n100#" 0.739726
+cap "DelayCell_1_1/IN" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 2.30001
+cap "DelayCell_1_1/INB" "DelayCell_1_1/VCTRL2" 0.0223359
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/INB" 11.3877
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_1/INB" 0.000564333
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/IN" 2.20314
+cap "DelayCell_1_1/IN" "DelayCell_1_1/INB" -7.10543e-15
+cap "DelayCell_1_1/INB" "DelayCell_1_1/IN" -2.35788
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/VSS" 1.7076
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/VSS" 46.071
+cap "DelayCell_1_1/IN" "DelayCell_1_1/OUTB" 0.739726
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/VDD" -1.0708
+cap "DelayCell_1_1/INB" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 2.84217e-14
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/IN" 2.10757
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/IN" 11.8148
+cap "DelayCell_1_1/INB" "DelayCell_1_1/OUTB" 0.586783
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/IN" 14.8186
+cap "DelayCell_1_1/INB" "DelayCell_1_1/VCTRL2" 14.8687
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/IN" 2.27429
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/VDD" 0.197093
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/OUT" 2.78842
+cap "DelayCell_1_1/INB" "DelayCell_1_1/VSS" 13.9113
+cap "DelayCell_1_1/VCTRL2" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 21.0377
+cap "DelayCell_1_1/INB" "DelayCell_1_1/OUTB" 0.6215
+cap "DelayCell_1_1/IN" "INV_1_mag_3/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n187_n200#" 0.0042889
+cap "DelayCell_1_1/VSS" "INV_1_mag_3/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n187_n200#" 0.514821
+cap "li_n7449_1263#" "DelayCell_1_1/VCTRL2" 2.98422
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/OUT" 1.16221
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/OUT" -0.0263018
+cap "DelayCell_1_1/IN" "DelayCell_1_1/VDD" 0.116815
+cap "li_n7449_1263#" "DelayCell_1_1/OUTB" -0.166554
+cap "DelayCell_1_1/OUTB" "INV_1_mag_3/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n187_n200#" 0.00318626
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/VSS" 11.6927
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/OUTB" -1.31699
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/VCTRL2" 18.5884
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 0.579358
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_1/VSS" 2.27374e-13
+cap "DelayCell_1_1/IN" "DelayCell_1_1/OUTB" 1.76693
+cap "DelayCell_1_1/INB" "DelayCell_1_1/OUT" -5.68434e-14
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/OUTB" 16.0724
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_1/VCTRL2" 40.595
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/OUTB" 40.4818
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/VCTRL2" 0.119428
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/INB" 0.372096
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_1/OUTB" 0.661264
+cap "DelayCell_1_0/INB" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n445_n126#" 0.244351
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_0/a_n187_n100#" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 0.529323
+cap "DelayCell_1_1/INB" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 0.0330284
+cap "VCTRL" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 0.0226624
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_0/a_n187_n100#" "DelayCell_1_1/OUTB" 0.0930882
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_0/a_n187_n100#" "DelayCell_1_1/VSS" 0.0100029
+cap "DelayCell_1_0/INB" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 5.06777
+cap "DelayCell_1_0/INB" "DelayCell_1_0/IN" 4.68929
+cap "DelayCell_1_0/INB" "DelayCell_1_0/VCTRL2" 0.77522
+cap "DelayCell_1_0/INB" "DelayCell_1_1/OUTB" 2.71759
+cap "DelayCell_1_0/INB" "DelayCell_1_1/VSS" 0.0792579
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_287_n100#" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 1.0366
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n445_n126#" 0.312312
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n445_n126#" 0.264701
+cap "DelayCell_1_1/OUTB" "li_n7449_1263#" 0.625827
+cap "DelayCell_1_1/VSS" "li_n7449_1263#" 0.109768
+cap "DelayCell_1_1/OUTB" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 40.1131
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 0.0187793
+cap "DelayCell_1_1/VSS" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 8.25259
+cap "DelayCell_1_0/IN" "DelayCell_1_1/OUTB" 0.361921
+cap "DelayCell_1_1/IN" "DelayCell_1_1/OUTB" 0.73464
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/OUTB" 10.7103
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_1/OUTB" 0.681041
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/OUTB" 4.95765
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_1/VSS" 0.17409
+cap "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_0/a_n187_n100#" "DelayCell_1_0/INB" 0.113514
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/INB" 2.7269
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VDD" 11.2724
+cap "DelayCell_1_0/VSS" "li_n7449_1263#" 0.377792
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VSS" 2.46236
+cap "DelayCell_1_0/IN" "DelayCell_1_0/INB" -0.426298
+cap "DelayCell_1_0/VCTRL" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 0.195807
+cap "INV_1_mag_3/IN" "DelayCell_1_0/VDD" 11.7296
+cap "DelayCell_1_0/IN" "INV_1_mag_3/IN" 0.23202
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" "DelayCell_1_0/VDD" 11.0346
+cap "DelayCell_1_0/IN" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 18.8104
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_0/VDD" 0.000790523
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/INB" 9.32793
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VCTRL" 0.284334
+cap "DelayCell_1_0/VSS" "INV_1_mag_3/IN" 0.669956
+cap "INV_1_mag_3/IN" "DelayCell_1_0/INB" -0.0672617
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VCTRL2" 10.991
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VDD" 77.1436
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" "DelayCell_1_0/VSS" 2.04582
+cap "INV_1_mag_3/IN" "DelayCell_1_1/OUT" 4.91649
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_0/INB" 0.00312611
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 0.0121697
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" "INV_1_mag_3/IN" 0.0129309
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/VSS" 27.8904
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/INB" 1.39495
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/VCTRL" 1.24317
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/IN" 0.0676926
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/INB" 0.533068
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/INB" 0.0347968
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/INB" 0.602221
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_0/VDD" 0.652928
+cap "INV_1_mag_3/IN" "DelayCell_1_0/INB" 0.0508834
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/INB" -5.68434e-14
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/IN" 0.236284
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VDD" 15.4223
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/IN" 1.55439
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VDD" 0.578351
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/VDD" 2.04953
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/IN" 1.04344
+cap "li_n7449_1263#" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 30.5365
+cap "li_n7449_1263#" "DelayCell_1_0/VSS" 7.02038
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/VSS" 7.83701
+cap "DelayCell_1_0/INB" "DelayCell_1_0/IN" 0.0375133
+cap "DelayCell_1_0/VCTRL2" "li_n7449_1263#" 0.902671
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/INB" 0.771273
+cap "INV_1_mag_3/IN" "DelayCell_1_0/VSS" 1.10437
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VCTRL" 1.00802
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/VSS" 0.0290875
+cap "INV_1_mag_0/OUT" "INV_1_mag_4/IN" 1.56552
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/INB" 0.637434
+cap "DelayCell_1_0/VDD" "INV_1_mag_0/OUT" 1.79965
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 0.603068
+cap "DelayCell_1_0/VDD" "li_n7449_1263#" -0.784359
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/VSS" 0.506847
+cap "INV_1_mag_0/OUT" "DelayCell_1_0/VSS" 0.701302
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_0/VSS" 0.0430485
+cap "DelayCell_1_0/VSS" "li_n7449_1263#" 6.17928
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/OUT" 1.81609
+cap "DelayCell_1_0/OUTB" "INV_1_mag_4/IN" 0.120839
+cap "DelayCell_1_0/IN" "DelayCell_1_0/OUTB" 1.77474
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/OUT" -0.00950424
+cap "INV_1_mag_0/OUT" "DelayCell_1_0/VCTRL2" 0.17962
+cap "INV_1_mag_0/OUT" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" 0.126802
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/OUTB" 112.999
+cap "DelayCell_1_0/VCTRL2" "li_n7449_1263#" 0.115027
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "li_n7449_1263#" 7.21414
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VSS" 48.3315
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/INB" 0.0781707
+cap "INV_1_mag_0/OUT" "DelayCell_1_0/OUTB" 3.08091
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/OUTB" 0.546075
+cap "DelayCell_1_0/OUTB" "li_n7449_1263#" 0.227824
+cap "DelayCell_1_0/sky130_fd_pr__nfet_01v8_N7QDUL_0/a_n819_n100#" "DelayCell_1_0/OUTB" 0.796139
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/OUT" 4.11216
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/VSS" 22.966
+cap "INV_1_mag_1/OUT" "DelayCell_1_0/VSS" 1.2666
+cap "li_n7449_1263#" "DelayCell_1_0/VSS" 0.313895
+cap "DelayCell_1_0/m1_1225_n41#" "li_n7449_1263#" -0.0107544
+cap "INV_1_mag_1/OUT" "DelayCell_1_0/m1_1225_n41#" 1.02344
+cap "li_n7449_1263#" "DelayCell_1_0/OUTB" 0.2226
+cap "INV_1_mag_1/OUT" "DelayCell_1_0/OUTB" 0.0471991
+cap "li_n7449_1263#" "INV_1_mag_0/OUT" 0.18654
+cap "INV_1_mag_1/OUT" "INV_1_mag_0/OUT" 0.818767
+cap "DelayCell_1_0/m1_1225_n41#" "DelayCell_1_0/VSS" -2.13178
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VSS" 0.0254181
+cap "DelayCell_1_0/m1_1225_n41#" "DelayCell_1_0/OUTB" 26.575
+cap "DelayCell_1_0/VSS" "INV_1_mag_0/OUT" 4.35982
+cap "DelayCell_1_0/m1_1225_n41#" "INV_1_mag_0/OUT" 13.636
+cap "INV_1_mag_4/IN" "DelayCell_1_0/OUTB" 0.362517
+cap "DelayCell_1_0/OUTB" "INV_1_mag_0/OUT" 3.63368
+cap "INV_1_mag_4/IN" "INV_1_mag_0/OUT" 5.38985
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/OUTB" 10.6718
+cap "INV_1_mag_0/OUT" "INV_1_mag_4/OUT" 0.559701
+cap "INV_1_mag_0/OUT" "INV_1_mag_0/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n287_n226#" 0.787168
+cap "INV_1_mag_0/OUT" "INV_1_mag_0/VSS" 1.13703
+cap "INV_1_mag_0/OUT" "INV_1_mag_1/OUT" 2.16489
+cap "INV_1_mag_0/VDD" "INV_1_mag_4/OUT" 0.334735
+cap "INV_1_mag_0/OUT" "INV_1_mag_4/IN" 16.5819
+cap "INV_1_mag_0/VDD" "INV_1_mag_0/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n287_n226#" 0.815591
+cap "INV_1_mag_0/VDD" "INV_1_mag_0/VSS" -0.834247
+cap "INV_1_mag_0/VDD" "INV_1_mag_1/OUT" 12.1945
+cap "INV_1_mag_0/VDD" "INV_1_mag_4/IN" -0.172816
+cap "INV_1_mag_0/VDD" "INV_1_mag_0/OUT" 34.3347
+cap "INV_1_mag_0/VSS" "INV_1_mag_0/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n287_n226#" 0.269499
+cap "INV_1_mag_4/OUT" "INV_1_mag_1/OUT" 7.22362
+cap "INV_1_mag_0/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n287_n226#" "INV_1_mag_1/OUT" 0.162754
+cap "INV_1_mag_0/VSS" "INV_1_mag_1/OUT" 18.9659
+cap "INV_1_mag_1/IN" "INV_1_mag_1/OUT" 3.99822
+cap "INV_1_mag_1/VSS" "INV_1_mag_1/OUT" 19.368
+cap "INV_1_mag_1/VDD" "INV_1_mag_1/VSS" 1.88614
+cap "INV_1_mag_1/VDD" "INV_1_mag_1/OUT" 8.29366
+cap "INV_1_mag_1/VDD" "INV_1_mag_4/OUT" 2.86949
+cap "INV_1_mag_1/VDD" "INV_1_mag_4/VSS" 6.88831
+cap "INV_1_mag_1/VDD" "Divide_By_2_magic_0/inverter_0/IN" 2.5106
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_3/OUT" 2.45477
+cap "Divide_By_2_magic_0/inverter_3/OUT" "Divide_By_2_magic_0/inverter_5/VSS" 1.60083
+cap "Divide_By_2_magic_0/inverter_3/OUT" "Divide_By_2_magic_0/inverter_5/OUT" -0.967066
+cap "DelayCell_1_1/IN" "DelayCell_1_1/VSS" 3.55271e-15
+cap "DelayCell_1_1/sky130_fd_pr__pfet_01v8_ES28UG_0/a_n345_n100#" "DelayCell_1_1/IN" 5.41096
+cap "DelayCell_1_1/IN" "DelayCell_1_1/w_n341_n125#" 8.97212
+cap "DelayCell_1_1/IN" "DelayCell_1_1/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 0.0266015
+cap "DelayCell_1_1/IN" "DelayCell_1_1/VCTRL" -0.00103773
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/INB" 6.93889e-18
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/IN" 8.59545
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/VCTRL" 273.523
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/VSS" 5.12505
+cap "DelayCell_1_1/VDD" "DelayCell_1_1/OUT" -1.48798
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/IN" 12.0858
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/IN" 5.41096
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/VCTRL" 37.0798
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/VSS" 1.8554
+cap "DelayCell_1_1/IN" "DelayCell_1_1/OUT" 0.0267649
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/OUT" 3.62602
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/OUTB" -0.770533
+cap "INV_1_mag_2/sky130_fd_pr__pfet_01v8_2P97UG_0/a_445_n200#" "DelayCell_1_1/VDD" 1.69056
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/OUTB" 88.0542
+cap "DelayCell_1_1/OUTB" "li_n7412_1811#" 0.373421
+cap "DelayCell_1_1/OUTB" "DelayCell_1_1/VDD" 5.56001
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/VSS" 2.22045e-16
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/VCTRL" 0.552485
+cap "INV_1_mag_2/sky130_fd_pr__pfet_01v8_2P97UG_0/a_445_n200#" "DelayCell_1_1/OUTB" 0.00512418
+cap "DelayCell_1_1/OUT" "li_n7412_1811#" 0.134718
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/VSS" 0.258849
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/VDD" 74.9436
+cap "DelayCell_1_1/VSS" "DelayCell_1_1/VDD" 16.7817
+cap "DelayCell_1_1/VCTRL" "li_n7412_1811#" 0.802925
+cap "DelayCell_1_1/OUT" "INV_1_mag_2/sky130_fd_pr__pfet_01v8_2P97UG_0/a_445_n200#" 1.25592
+cap "DelayCell_1_1/VCTRL" "DelayCell_1_1/VDD" 71.6768
+cap "li_n7412_1811#" "DelayCell_1_1/VDD" 2.83063
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/OUTB" -1.26882
+cap "DelayCell_1_0/IN" "DelayCell_1_0/INB" 4.68929
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_1/VSS" 6.75253
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/VSS" 2.2384
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/w_n341_n125#" 0.0122343
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/INB" 0.361921
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/sky130_fd_pr__pfet_01v8_ES28UG_1/a_n29_n100#" 0.0433494
+cap "DelayCell_1_1/OUT" "li_n7412_1811#" 2.4591
+cap "DelayCell_1_1/sky130_fd_pr__pfet_01v8_ES28UG_1/a_n29_n100#" "DelayCell_1_1/VSS" 1.90408
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_1/sky130_fd_pr__pfet_01v8_ES28UG_0/a_n287_n126#" 0.0112682
+cap "VCTRL" "DelayCell_1_0/IN" 40.2695
+cap "li_n7412_1811#" "DelayCell_1_1/VSS" 0.562207
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_1/OUTB" 12.8779
+cap "DelayCell_1_1/OUT" "DelayCell_1_1/OUTB" 13.0222
+cap "VCTRL" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 4.59683
+cap "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "DelayCell_1_0/IN" 6.45194
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/IN" 1.29482
+cap "DelayCell_1_1/OUT" "VCTRL" 78.8787
+cap "DelayCell_1_0/IN" "DelayCell_1_1/VSS" -3.58923
+cap "VCTRL" "DelayCell_1_1/VSS" 414.152
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" 51.3486
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/IN" 95.5528
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/IN" 1.65434
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/VCTRL2" -8.63496
+cap "DelayCell_1_0/INB" "DelayCell_1_0/IN" 1.72192
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/VCTRL" 5.84197
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 0.0171352
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VCTRL" 0.604907
+cap "DelayCell_1_0/IN" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 1.52943
+cap "DelayCell_1_0/IN" "DelayCell_1_1/OUT" 1.14503
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES28UG_0/a_n345_n100#" 2.10256
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES28UG_0/a_n345_n100#" 0.854701
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VDD" 6.98716
+cap "DelayCell_1_0/INB" "DelayCell_1_0/VDD" -0.0257409
+cap "DelayCell_1_1/OUT" "INV_1_mag_3/IN" 4.91649
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 9.17997
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/VCTRL" 10.5002
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/sky130_fd_pr__nfet_01v8_SMD9NL_1/a_n345_n100#" 2.04582
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VCTRL" 291.452
+cap "DelayCell_1_1/OUT" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES28UG_0/a_n345_n100#" 0.0233795
+cap "DelayCell_1_0/VDD" "DelayCell_1_1/OUT" 16.855
+cap "DelayCell_1_0/VSS" "li_n7412_1811#" 1.20429
+cap "DelayCell_1_0/INB" "DelayCell_1_1/OUT" 0.12064
+cap "INV_1_mag_2/IN" "DelayCell_1_0/VCTRL" 0.0560224
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/VCTRL" 266.357
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/IN" 0.174301
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/OUT" 1.71721
+cap "DelayCell_1_0/OUTB" "li_n7412_1811#" 26.435
+cap "DelayCell_1_0/VCTRL2" "DelayCell_1_0/VDD" -0.633624
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VSS" 15.824
+cap "DelayCell_1_0/VDD" "INV_1_mag_2/IN" 0.0384615
+cap "DelayCell_1_0/IN" "DelayCell_1_0/VCTRL" 0.105983
+cap "DelayCell_1_0/VCTRL" "li_n7412_1811#" 0.800559
+cap "DelayCell_1_0/IN" "DelayCell_1_0/OUT" 1.52943
+cap "DelayCell_1_0/VCTRL" "DelayCell_1_0/VSS" -10.2387
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/OUT" 0.0290875
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/IN" 10.1708
+cap "DelayCell_1_0/VDD" "li_n7412_1811#" 0.305777
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/VSS" 153.016
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VCTRL" 3.2483
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/OUT" 0.184527
+cap "DelayCell_1_0/OUTB" "INV_1_mag_5/sky130_fd_pr__pfet_01v8_2P97UG_0/a_445_n200#" 0.0160358
+cap "DelayCell_1_0/VDD" "DelayCell_1_0/OUTB" 14.282
+cap "DelayCell_1_0/VCTRL" "DelayCell_1_0/OUT" 1.99705
+cap "INV_1_mag_4/IN" "INV_1_mag_0/OUT" 1.56552
+cap "DelayCell_1_0/OUTB" "DelayCell_1_0/VDD" 63.5731
+cap "li_n7412_1811#" "DelayCell_1_0/OUT" 1.30428
+cap "DelayCell_1_0/OUT" "INV_1_mag_0/OUT" 0.120839
+cap "li_n7412_1811#" "DelayCell_1_0/OUTB" 4.03301
+cap "DelayCell_1_0/VCTRL" "DelayCell_1_0/OUT" 0.0261952
+cap "DelayCell_1_0/VCTRL" "DelayCell_1_0/OUTB" 0.274023
+cap "li_n7412_1811#" "DelayCell_1_0/VDD" 4.39431
+cap "INV_1_mag_4/IN" "DelayCell_1_0/OUT" 3.08219
+cap "INV_1_mag_4/IN" "DelayCell_1_0/OUTB" 0.000724042
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/VSS" 14.0983
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/OUTB" 5.69773
+cap "DelayCell_1_0/VCTRL" "DelayCell_1_0/VDD" 0.0359696
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/OUTB" 6.27048
+cap "INV_1_mag_4/IN" "DelayCell_1_0/VDD" 5.1609
+cap "DelayCell_1_0/VSS" "DelayCell_1_0/VDD" 51.4874
+cap "li_n7412_1811#" "INV_1_mag_4/IN" 1.84335
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/VDD" 110.454
+cap "li_n7412_1811#" "DelayCell_1_0/VSS" 1.46724
+cap "INV_1_mag_4/OUT" "DelayCell_1_0/VSS" 1.27561
+cap "DelayCell_1_0/m1_1225_n41#" "INV_1_mag_4/OUT" 1.02344
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/OUTB" 10.6718
+cap "DelayCell_1_0/OUT" "INV_1_mag_4/IN" 3.63496
+cap "DelayCell_1_0/OUT" "li_n7412_1811#" 1.14861
+cap "INV_1_mag_0/OUT" "INV_1_mag_4/IN" 5.38985
+cap "DelayCell_1_0/OUT" "INV_1_mag_4/OUT" 0.0471991
+cap "li_n7412_1811#" "INV_1_mag_4/IN" 2.00717
+cap "DelayCell_1_0/m1_1225_n41#" "DelayCell_1_0/VSS" -3.8741
+cap "INV_1_mag_4/OUT" "INV_1_mag_4/IN" 0.818767
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/VSS" 0.452086
+cap "DelayCell_1_0/OUT" "DelayCell_1_0/m1_1225_n41#" 26.575
+cap "INV_1_mag_4/IN" "DelayCell_1_0/VSS" 8.32762
+cap "li_n7412_1811#" "DelayCell_1_0/VSS" 12.8486
+cap "DelayCell_1_0/m1_1225_n41#" "INV_1_mag_4/IN" 14.1757
+cap "DelayCell_1_0/OUT" "INV_1_mag_0/OUT" 0.362517
+cap "INV_1_mag_4/VSS" "INV_1_mag_0/VDD" -1.17251
+cap "INV_1_mag_4/VSS" "INV_1_mag_4/OUT" 42.0521
+cap "INV_1_mag_4/VSS" "INV_1_mag_4/IN" 2.07591
+cap "INV_1_mag_5/sky130_fd_pr__pfet_01v8_2P97UG_0/a_503_n226#" "INV_1_mag_4/OUT" 0.162754
+cap "INV_1_mag_0/VDD" "INV_1_mag_5/sky130_fd_pr__pfet_01v8_2P97UG_0/a_503_n226#" 0.815591
+cap "INV_1_mag_4/IN" "INV_1_mag_5/sky130_fd_pr__pfet_01v8_2P97UG_0/a_503_n226#" 0.787168
+cap "INV_1_mag_4/IN" "INV_1_mag_0/OUT" 16.5819
+cap "INV_1_mag_1/OUT" "INV_1_mag_4/OUT" 7.22362
+cap "INV_1_mag_4/VSS" "Divide_By_2_magic_0/inverter_1/VDD" 0.403335
+cap "INV_1_mag_1/OUT" "INV_1_mag_4/IN" 0.559701
+cap "INV_1_mag_0/VDD" "INV_1_mag_4/OUT" 12.4098
+cap "INV_1_mag_4/IN" "INV_1_mag_4/OUT" 4.12981
+cap "INV_1_mag_4/IN" "INV_1_mag_0/VDD" 34.5095
+cap "Divide_By_2_magic_0/inverter_1/OUT" "INV_1_mag_4/VSS" 0.687075
+cap "INV_1_mag_4/VSS" "INV_1_mag_5/sky130_fd_pr__pfet_01v8_2P97UG_0/a_503_n226#" 0.269499
+cap "INV_1_mag_4/VSS" "INV_1_mag_1/VDD" 2.33108
+cap "INV_1_mag_1/VDD" "INV_1_mag_4/OUT" 12.4517
+cap "INV_1_mag_4/VSS" "INV_1_mag_4/OUT" 235.108
+cap "Divide_By_2_magic_0/TG_MAGIC_1/a_538_271#" "INV_1_mag_4/OUT" 0.0192085
+cap "INV_1_mag_4/VSS" "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/VDD" 3.95385
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_4/VSS" 11.4126
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/VDD" "INV_1_mag_4/OUT" 2.62677
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_4/OUT" 3.26204
+cap "Divide_By_2_magic_0/TG_MAGIC_1/sky130_fd_pr__pfet_01v8_WN2VTC_1/a_n78_n50#" "INV_1_mag_4/OUT" 1.08051
+cap "Divide_By_2_magic_0/TG_MAGIC_0/IN" "INV_1_mag_4/OUT" 1.23701
+cap "INV_1_mag_4/IN" "INV_1_mag_4/OUT" 4.47363
+cap "Divide_By_2_magic_0/TG_MAGIC_1/OUT" "INV_1_mag_4/OUT" 7.57473
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_1/VDD" 0.294649
+cap "INV_1_mag_4/OUT" "Divide_By_2_magic_0/inverter_2/OUT" 1.08051
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_4/VSS" 3.49939
+cap "Divide_By_2_magic_0/TG_MAGIC_0/IN" "INV_1_mag_1/VDD" 0.0169866
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_4/OUT" 2.57595
+cap "Divide_By_2_magic_0/inverter_0/IN" "INV_1_mag_1/VDD" 1.9502
+cap "Divide_By_2_magic_0/TG_MAGIC_1/inverter_0/OUT" "INV_1_mag_1/VDD" -5.68434e-13
+cap "INV_1_mag_4/VSS" "INV_1_mag_1/VDD" 6.93796
+cap "INV_1_mag_4/OUT" "Divide_By_2_magic_0/TG_MAGIC_0/IN" 1.23701
+cap "INV_1_mag_4/OUT" "INV_1_mag_1/VDD" 0.0428819
+cap "INV_1_mag_4/OUT" "Divide_By_2_magic_0/inverter_0/IN" 8.51619
+cap "INV_1_mag_1/VDD" "Divide_By_2_magic_0/inverter_2/OUT" 5.68434e-14
+cap "INV_1_mag_4/VSS" "INV_1_mag_4/OUT" 0.128778
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" "Divide_By_2_magic_0/inverter_0/IN" 1.01721
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/IN" 0.000135579
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/IN" "Divide_By_2_magic_0/inverter_3/VSS" 1.29412
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_3/IN" 1.02442
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/TG_MAGIC_3/inverter_0/IN" 0.366723
+cap "Divide_By_2_magic_0/inverter_3/OUT" "Divide_By_2_magic_0/inverter_5/OUT" 0.166121
+cap "Divide_By_2_magic_0/inverter_5/OUT" "Divide_By_2_magic_0/inverter_3/VSS" 4.90124
+cap "Divide_By_2_magic_0/inverter_3/VDD" "Divide_By_2_magic_0/inverter_3/VSS" 1.35336
+cap "Divide_By_2_magic_0/inverter_3/OUT" "Divide_By_2_magic_0/inverter_3/VSS" 1.82045
+cap "Divide_By_2_magic_0/inverter_5/VSS" "Divide_By_2_magic_0/inverter_3/OUT" 0.116193
+cap "Divide_By_2_magic_0/inverter_3/OUT" "Divide_By_2_magic_0/inverter_5/OUT" -0.967066
+cap "Divide_By_2_magic_0/inverter_5/VSS" "Divide_By_2_magic_0/inverter_5/VDD" 1.90466
+cap "Divide_By_2_magic_0/inverter_5/VSS" "Divide_By_2_magic_0/inverter_5/OUT" 4.15646
+cap "DelayCell_1_1/VCTRL" "VSS" -0.679422
+cap "VSS" "DelayCell_1_1/VDD" 5.51478
+cap "INV_1_mag_2/VSS" "DelayCell_1_1/VDD" 13.5637
+cap "DelayCell_1_1/OUT" "INV_1_mag_2/VSS" 1.31984
+cap "li_n7412_1811#" "INV_1_mag_2/VSS" 30.8181
+cap "INV_1_mag_2/VSS" "VCTRL" -0.888228
+cap "INV_1_mag_2/VSS" "li_n7412_1811#" 16.4634
+cap "INV_1_mag_2/VSS" "DelayCell_1_0/VCTRL" -0.445137
+cap "li_n7412_1811#" "DelayCell_1_0/OUTB" 26.3782
+cap "DelayCell_1_0/OUT" "li_n7412_1811#" 0.0541412
+cap "li_n7412_1811#" "DelayCell_1_0/VDD" 13.5718
+cap "INV_1_mag_2/VSS" "li_n7412_1811#" -5.68434e-14
+cap "DelayCell_1_0/VCTRL" "li_n7412_1811#" 0.252306
+cap "INV_1_mag_4/IN" "li_n7412_1811#" 2.37716
+cap "DelayCell_1_0/OUTB" "li_n7412_1811#" 3.77962
+cap "INV_1_mag_5/VDD" "li_n7412_1811#" 0.753781
+cap "DelayCell_1_0/VDD" "li_n7412_1811#" 8.83888
+cap "INV_1_mag_5/VSS" "li_n7412_1811#" 16.1409
+cap "li_n7412_1811#" "DelayCell_1_0/OUT" 9.14551
+cap "li_n7412_1811#" "INV_1_mag_1/VDD" 1.62712
+cap "li_n7412_1811#" "DelayCell_1_0/OUT" 12.3466
+cap "li_n7412_1811#" "INV_1_mag_4/VSS" 68.9679
+cap "li_n7412_1811#" "INV_1_mag_4/IN" 3.0504
+cap "INV_1_mag_4/OUT" "INV_1_mag_1/VDD" 1.03481
+cap "Divide_By_2_magic_0/inverter_1/VDD" "INV_1_mag_4/VSS" 0.102182
+cap "INV_1_mag_4/OUT" "INV_1_mag_4/IN" 18.9794
+cap "INV_1_mag_4/OUT" "INV_1_mag_4/VSS" 68.4048
+cap "INV_1_mag_4/OUT" "Divide_By_2_magic_0/TG_MAGIC_0/IN" 1.9573
+cap "INV_1_mag_4/OUT" "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" 0.00895727
+cap "INV_1_mag_4/OUT" "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/VDD" 20.8676
+cap "INV_1_mag_4/OUT" "INV_1_mag_4/VSS" 1.22442
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_4/VSS" 0.95742
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/VDD" "INV_1_mag_4/VSS" 29.0213
+cap "Divide_By_2_magic_0/TG_MAGIC_0/IN" "INV_1_mag_4/VSS" 16.1145
+cap "Divide_By_2_magic_0/inverter_0/VDD" "INV_1_mag_4/VSS" 93.5327
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/OUT" "INV_1_mag_4/VSS" 1.36343
+cap "Divide_By_2_magic_0/inverter_0/VDD" "Divide_By_2_magic_0/TG_MAGIC_0/IN" -1.13687e-13
+cap "INV_1_mag_4/VSS" "INV_1_mag_4/OUT" 0.228691
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/IN" "INV_1_mag_4/VSS" 1.62216
+cap "Divide_By_2_magic_0/TG_MAGIC_0/IN" "INV_1_mag_4/OUT" 1.9573
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VDD" 93.0619
+cap "Divide_By_2_magic_0/TG_MAGIC_0/IN" "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" 21.9458
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" "Divide_By_2_magic_0/inverter_0/IN" 1.14345
+cap "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/OUT" "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" 2.10339
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/IN" "Divide_By_2_magic_0/inverter_3/VSS" 1.14345
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_3/IN" 21.9458
+cap "Divide_By_2_magic_0/inverter_3/VDD" "Divide_By_2_magic_0/inverter_3/VSS" 93.3093
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/OUT" 1.8001
+cap "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/OUT" "Divide_By_2_magic_0/inverter_3/VSS" 1.66672
+cap "Divide_By_2_magic_0/inverter_3/VDD" "Divide_By_2_magic_0/inverter_3/VSS" 94.2838
+cap "Divide_By_2_magic_0/inverter_3/OUT" "Divide_By_2_magic_0/inverter_3/VSS" 1.43613
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_3/IN" 7.87823
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_3/VDD" 6.77153
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_5/OUT" 0.0523208
+cap "Divide_By_2_magic_0/inverter_3/VSS" "Divide_By_2_magic_0/inverter_3/OUT" 1.42136
+merge "Divide_By_2_magic_0/inverter_1/IN" "INV_1_mag_4/OUT" -4812.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7865 -634 -1457376 -21432 0 0 0 0 0 0 0 0 0 0
+merge "INV_1_mag_4/OUT" "DelayCell_1_1/IN"
+merge "DelayCell_1_1/IN" "li_n7412_1811#"
+merge "INV_1_mag_3/sky130_fd_pr__nfet_01v8_TMD3M2_1/a_n345_n200#" "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" -8746.39 0 0 0 0 0 0 0 0 0 0 -1311960 -13651 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2018438 -17385 -9025 -380 0 0 0 0 0 0 0 0 0 0
+merge "Divide_By_2_magic_0/TG_MAGIC_2/inverter_0/VSS" "Divide_By_2_magic_0/inverter_0/VSS"
+merge "Divide_By_2_magic_0/inverter_0/VSS" "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/VSS"
+merge "Divide_By_2_magic_0/TG_MAGIC_0/inverter_0/VSS" "Divide_By_2_magic_0/inverter_1/VSS"
+merge "Divide_By_2_magic_0/inverter_1/VSS" "Divide_By_2_magic_0/VSUBS"
+merge "Divide_By_2_magic_0/VSUBS" "li_4360_3523#"
+merge "li_4360_3523#" "li_2639_3523#"
+merge "li_2639_3523#" "INV_1_mag_1/VSS"
+merge "INV_1_mag_1/VSS" "li_2639_710#"
+merge "li_2639_710#" "INV_1_mag_4/VSS"
+merge "INV_1_mag_4/VSS" "INV_1_mag_0/VSS"
+merge "INV_1_mag_0/VSS" "li_730_681#"
+merge "li_730_681#" "INV_1_mag_5/VSS"
+merge "INV_1_mag_5/VSS" "DelayCell_1_0/VSS"
+merge "DelayCell_1_0/VSS" "INV_1_mag_2/VSS"
+merge "INV_1_mag_2/VSS" "li_n2096_668#"
+merge "li_n2096_668#" "INV_1_mag_3/VSS"
+merge "INV_1_mag_3/VSS" "DelayCell_1_1/VSS"
+merge "DelayCell_1_1/VSS" "li_n4107_684#"
+merge "li_n4107_684#" "VSS"
+merge "DelayCell_1_0/OUT" "INV_1_mag_5/IN" -260.293 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4428 -436 0 0 0 0 0 0 0 0 0 0 0 0
+merge "INV_1_mag_5/IN" "li_844_2737#"
+merge "INV_1_mag_2/OUT" "DelayCell_1_0/IN" -400.492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4613 -428 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_0/IN" "li_n2073_2869#"
+merge "INV_1_mag_3/IN" "DelayCell_1_1/OUTB" -437.211 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4592 -440 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_1/OUTB" "li_n4284_1468#"
+merge "Divide_By_2_magic_0/inverter_5/OUT" "OUTB" -94.9114 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8050 -370 0 0 0 0 0 0 0 0 0 0 0 0
+merge "Divide_By_2_magic_0/inverter_2/VDD" "DelayCell_1_0/m1_1225_n41#" -4539.97 0 0 0 0 -128248 -5760 0 0 -11763 -2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75162 -7648 -7915 -946 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_0/m1_1225_n41#" "DelayCell_1_0/VDD"
+merge "DelayCell_1_0/VDD" "DelayCell_1_1/VDD"
+merge "DelayCell_1_1/VDD" "VDD"
+merge "VDD" "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#"
+merge "DelayCell_1_0/sky130_fd_pr__pfet_01v8_ES6JVF_0/a_n108_n100#" "INV_1_mag_2/VDD"
+merge "INV_1_mag_2/VDD" "m1_n2102_2346#"
+merge "m1_n2102_2346#" "m1_n4221_2656#"
+merge "m1_n4221_2656#" "INV_1_mag_3/VDD"
+merge "INV_1_mag_3/VDD" "Divide_By_2_magic_0/TG_MAGIC_3/inverter_0/VDD"
+merge "Divide_By_2_magic_0/TG_MAGIC_3/inverter_0/VDD" "Divide_By_2_magic_0/TG_MAGIC_1/inverter_0/VDD"
+merge "Divide_By_2_magic_0/TG_MAGIC_1/inverter_0/VDD" "Divide_By_2_magic_0/TG_MAGIC_1/VDD"
+merge "Divide_By_2_magic_0/TG_MAGIC_1/VDD" "INV_1_mag_1/VDD"
+merge "INV_1_mag_1/VDD" "li_4359_2217#"
+merge "li_4359_2217#" "INV_1_mag_4/VDD"
+merge "INV_1_mag_4/VDD" "INV_1_mag_0/VDD"
+merge "INV_1_mag_0/VDD" "li_2639_1923#"
+merge "li_2639_1923#" "li_2323_1908#"
+merge "li_2323_1908#" "li_2007_1926#"
+merge "li_2007_1926#" "m1_665_2722#"
+merge "m1_665_2722#" "INV_1_mag_5/VDD"
+merge "INV_1_mag_5/VDD" "li_1375_1945#"
+merge "li_1375_1945#" "li_1691_1949#"
+merge "DelayCell_1_0/VCTRL2" "DelayCell_1_1/VCTRL2" -914.268 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3336 -418 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_1/VCTRL2" "VCTRL2"
+merge "INV_1_mag_4/IN" "INV_1_mag_5/OUT" -185.814 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -268 0 0 0 0 0 0 0 0 0 0 0 0
+merge "INV_1_mag_5/OUT" "li_2688_2891#"
+merge "DelayCell_1_0/OUTB" "INV_1_mag_0/IN" -471.614 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4510 -438 0 0 0 0 0 0 0 0 0 0 0 0
+merge "INV_1_mag_0/IN" "li_579_1440#"
+merge "DelayCell_1_0/VCTRL" "DelayCell_1_1/VCTRL" -1183.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3042 -312 -113400 -2800 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_1/VCTRL" "VCTRL"
+merge "Divide_By_2_magic_0/inverter_3/OUT" "m1_11610_3153#" -97.2426 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4356 -264 -64 -130 0 0 0 0 0 0 0 0 0 0
+merge "m1_11610_3153#" "Divide_By_2_magic_0/Q"
+merge "Divide_By_2_magic_0/Q" "OUT"
+merge "INV_1_mag_1/OUT" "DelayCell_1_1/INB" -3674.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3812 -352 -1142400 -16800 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_1/INB" "li_n7449_1263#"
+merge "DelayCell_1_0/INB" "li_n1531_1294#" -161.59 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5463 -506 0 0 0 0 0 0 0 0 0 0 0 0
+merge "li_n1531_1294#" "INV_1_mag_3/OUT"
+merge "INV_1_mag_3/OUT" "li_n2035_1294#"
+merge "INV_1_mag_2/IN" "DelayCell_1_1/OUT" -252.555 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5658 -466 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DelayCell_1_1/OUT" "li_n4048_2734#"
+merge "INV_1_mag_0/OUT" "INV_1_mag_1/IN" -188.219 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2720 -296 0 0 0 0 0 0 0 0 0 0 0 0
+merge "INV_1_mag_1/IN" "li_2688_1350#"

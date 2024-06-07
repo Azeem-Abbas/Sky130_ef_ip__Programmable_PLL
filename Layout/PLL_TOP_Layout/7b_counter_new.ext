@@ -1,0 +1,2174 @@
+timestamp 1717686518
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use LD_GEN_MAGIC LD_GEN_MAGIC_0 1 0 -8105 0 -1 5859
+use mod_dff_magic mod_dff_magic_6 1 0 45330 0 1 3716
+use mod_dff_magic mod_dff_magic_5 1 0 36177 0 1 3699
+use mod_dff_magic mod_dff_magic_4 1 0 27423 0 1 3633
+use mod_dff_magic mod_dff_magic_3 1 0 18225 0 1 3599
+use mod_dff_magic mod_dff_magic_2 1 0 9362 0 1 3638
+use mod_dff_magic mod_dff_magic_1 1 0 922 0 1 3649
+use mod_dff_magic mod_dff_magic_0 1 0 54694 0 1 3754
+node "m1_52943_2936#" 9 6604.38 52943 2936 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3539697 32764 0 0 0 0 0 0 0 0 0 0
+node "m1_43718_2961#" 6 6929.68 43718 2961 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4669195 31626 0 0 0 0 0 0 0 0 0 0
+node "m1_34932_2957#" 8 5914.84 34932 2957 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3538584 30212 0 0 0 0 0 0 0 0 0 0
+node "m1_26143_2876#" 7 6521.13 26143 2876 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3915044 30750 0 0 0 0 0 0 0 0 0 0
+node "m1_16864_2812#" 10 6004.45 16864 2812 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3125748 31352 0 0 0 0 0 0 0 0 0 0
+node "m1_8368_2892#" 9 5121.02 8368 2892 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2727018 28328 0 0 0 0 0 0 0 0 0 0
+node "m1_385_2928#" 9 4694.71 385 2928 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2153567 25824 0 0 0 0 0 0 0 0 0 0
+node "D2_7" 13 32040.5 -14933 -3004 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9919024 146140 0 0 0 0 0 0 0 0 0 0 0 0
+node "D2_6" 13 20062.1 -14981 -2634 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8595880 126682 0 0 0 0 0 0 0 0 0 0 0 0
+node "D2_5" 13 15827.8 -15052 -2335 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7323872 107976 0 0 0 0 0 0 0 0 0 0 0 0
+node "LD2" 699 33961.2 35656 -1466 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2600726 24264 18022160 135760 0 0 0 0 0 0 0 0 0 0
+node "D2_4" 13 12927.4 -15052 -2049 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6090352 89836 0 0 0 0 0 0 0 0 0 0 0 0
+node "D2_3" 26 9743.67 -14862 -1794 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4768976 70404 0 0 0 0 0 0 0 0 0 0 0 0
+node "LD1" 1286 30984.5 16063 -653 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2599155 32636 13985375 133406 0 0 0 0 0 0 0 0 0 0
+node "D2_2" 13 7129.57 -14886 -1561 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3538720 52312 0 0 0 0 0 0 0 0 0 0 0 0
+node "D2_1" 1643 6373.38 -14981 -1362 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2374832 35196 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_7921_735#" 75 18.4138 7921 735 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 287 96 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q7" 740 52251.5 -13434 2351 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 635190 12328 26950877 191232 0 0 0 0 0 0 0 0 0 0
+node "LD3" 1025 9594.36 -1491 -621 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1737780 23778 1828630 23550 0 0 0 0 0 0 0 0 0 0
+node "li_50609_5393#" 181 3379.4 50609 5393 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1652544 10348 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_41447_5402#" 222 2899.1 41447 5402 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1210704 9700 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_32700_5308#" 140 3098.61 32700 5308 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1576261 9076 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_23517_5276#" 189 3160.7 23517 5276 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1453192 9884 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_14666_5286#" 216 2683.6 14666 5286 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1091184 9100 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_7197_5221#" 242 1545.04 7197 5221 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 441864 6082 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n735_5316#" 101 1541.06 -735 5316 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 680022 5214 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q6" 632 22893.7 -12452 2144 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1087326 14954 25403667 167796 0 0 0 0 0 0 0 0 0 0
+node "Q5" 444 14589.7 -11964 3151 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 878382 11354 14294948 149550 0 0 0 0 0 0 0 0 0 0
+node "Q4" 203 20794.4 34377 6368 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 447597 5668 12858270 127942 0 0 0 0 0 0 0 0 0 0
+node "VSS" 13 60304.5 -7831 7032 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35179070 142800 0 0 0 0 0 0 0 0 0 0 0 0
+node "LD" 319 7022.9 -15678 5922 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1335641 11820 1961246 25492 0 0 0 0 0 0 0 0 0 0
+node "G-CLK" 30 48208.5 -15441 6326 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9746739 101836 19260088 150556 0 0 0 0 0 0 0 0 0 0
+node "Q1" 740 11809.3 -10060 7849 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 924460 14872 6446179 52786 0 0 0 0 0 0 0 0 0 0
+node "Q2" 766 14258 -9700 8277 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1004456 15766 9128916 69932 0 0 0 0 0 0 0 0 0 0
+node "Q3" 980 18281 -9356 8752 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 745434 15308 9835920 88220 0 0 0 0 0 0 0 0 0 0
+node "VDD" 13 91071.8 -289 9526 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69334844 132454 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "D2_7" "LD2" 923.858
+cap "Q2" "G-CLK" 312.792
+cap "G-CLK" "li_32700_5308#" 46.3
+cap "LD" "Q6" 363.838
+cap "Q3" "Q6" 0.193177
+cap "m1_8368_2892#" "li_14666_5286#" 368.869
+cap "D2_2" "LD3" 91.2753
+cap "li_50609_5393#" "m1_52943_2936#" 473.753
+cap "Q2" "Q4" 38.3844
+cap "LD1" "LD" 12.0476
+cap "m1_26143_2876#" "Q3" 642.322
+cap "Q4" "li_32700_5308#" 559.211
+cap "G-CLK" "Q7" 405.972
+cap "Q5" "G-CLK" 474.811
+cap "LD1" "Q3" 15.1574
+cap "Q5" "li_41447_5402#" 396.303
+cap "D2_6" "D2_7" 5882.23
+cap "LD" "Q1" 191.041
+cap "VDD" "m1_52943_2936#" 679.389
+cap "G-CLK" "li_14666_5286#" 27.7426
+cap "G-CLK" "m1_8368_2892#" 367.488
+cap "Q2" "m1_16864_2812#" 1131.29
+cap "D2_5" "D2_4" 6109.83
+cap "Q4" "Q7" 25.0002
+cap "G-CLK" "D2_4" 316.514
+cap "G-CLK" "m1_385_2928#" 1048.46
+cap "Q5" "Q4" 6071.6
+cap "m1_52943_2936#" "VSS" 1972.3
+cap "Q3" "Q1" 173.271
+cap "m1_52943_2936#" "LD2" 346.212
+cap "LD" "VSS" 562.843
+cap "m1_43718_2961#" "Q6" 357.069
+cap "Q3" "VDD" 128.406
+cap "m1_8368_2892#" "li_7197_5221#" 223.541
+cap "D2_5" "G-CLK" 269.459
+cap "m1_385_2928#" "li_7197_5221#" 6.21189
+cap "Q3" "VSS" 853.315
+cap "LD1" "Q6" 11.901
+cap "G-CLK" "li_41447_5402#" 26.7911
+cap "m1_43718_2961#" "LD1" 320.892
+cap "li_7921_735#" "Q1" 5.45296
+cap "li_50609_5393#" "Q6" 645.47
+cap "m1_26143_2876#" "LD1" 281.414
+cap "m1_43718_2961#" "li_50609_5393#" 586.277
+cap "m1_16864_2812#" "li_14666_5286#" 343.441
+cap "G-CLK" "li_7197_5221#" 29.8267
+cap "D2_1" "D2_4" 4.18394
+cap "G-CLK" "Q4" 319.356
+cap "LD1" "D2_3" 704.31
+cap "Q3" "li_23517_5276#" 511.385
+cap "Q6" "VDD" 62302.4
+cap "D2_1" "G-CLK" 338.631
+cap "Q6" "VSS" 986.252
+cap "Q6" "LD2" 1.53093
+cap "m1_16864_2812#" "G-CLK" 278.684
+cap "m1_43718_2961#" "VSS" 3284.11
+cap "li_n735_5316#" "m1_385_2928#" 354.02
+cap "m1_26143_2876#" "VSS" 2737.16
+cap "D2_2" "D2_4" 1.61053
+cap "D2_3" "LD2" 722.24
+cap "li_7921_735#" "LD3" 0.047857
+cap "LD1" "LD2" 4257.49
+cap "G-CLK" "li_n735_5316#" 521.683
+cap "li_50609_5393#" "VSS" 48.5751
+cap "VDD" "Q1" 6.4872
+cap "Q2" "LD" 157.781
+cap "D2_2" "G-CLK" 463.682
+cap "m1_26143_2876#" "li_23517_5276#" 497.691
+cap "Q1" "VSS" 1501.84
+cap "G-CLK" "D2_7" 225.232
+cap "Q2" "Q3" 5478.03
+cap "Q7" "m1_52943_2936#" 221.449
+cap "LD1" "LD3" 162.328
+cap "VSS" "m1_34932_2957#" 1973.79
+cap "LD2" "m1_34932_2957#" 339.45
+cap "LD" "Q7" 390.014
+cap "Q5" "LD" 441.068
+cap "D2_6" "LD1" 750.986
+cap "LD3" "Q1" 17.1408
+cap "D2_2" "D2_1" 4478.47
+cap "Q5" "Q3" 0.327697
+cap "li_23517_5276#" "VSS" 47.3398
+cap "LD3" "LD2" 430.844
+cap "G-CLK" "m1_52943_2936#" 496.465
+cap "m1_26143_2876#" "li_32700_5308#" 574.957
+cap "D2_6" "LD2" 759.167
+cap "G-CLK" "LD" 3173.52
+cap "Q2" "LD1" 17.7375
+cap "Q6" "Q7" 5728.33
+cap "G-CLK" "Q3" 299.696
+cap "Q5" "Q6" 8342
+cap "m1_43718_2961#" "Q5" 1000.98
+cap "LD" "Q4" 244.804
+cap "Q2" "Q1" 5036.36
+cap "Q2" "VDD" 34.7314
+cap "Q3" "Q4" 4039.57
+cap "Q5" "LD1" 11.8047
+cap "G-CLK" "li_7921_735#" 0.0113035
+cap "li_32700_5308#" "m1_34932_2957#" 538.459
+cap "Q2" "VSS" 1000.6
+cap "li_32700_5308#" "VSS" 42.8653
+cap "D2_4" "D2_3" 5777.92
+cap "Q5" "Q1" 1.82031
+cap "G-CLK" "Q6" 409.93
+cap "LD1" "D2_4" 695.293
+cap "m1_16864_2812#" "Q3" 224.902
+cap "m1_43718_2961#" "G-CLK" 375.777
+cap "Q7" "VDD" 485.268
+cap "Q5" "VDD" 43811.4
+cap "m1_26143_2876#" "G-CLK" 317.728
+cap "m1_43718_2961#" "li_41447_5402#" 472.048
+cap "Q5" "m1_34932_2957#" 310.413
+cap "m1_8368_2892#" "Q1" 1219.48
+cap "G-CLK" "D2_3" 369.369
+cap "LD" "li_n735_5316#" 311.921
+cap "Q1" "m1_385_2928#" 380.826
+cap "Q5" "VSS" 732.488
+cap "D2_5" "LD1" 644.105
+cap "LD1" "G-CLK" 12434.1
+cap "Q4" "Q6" 19.2775
+cap "li_50609_5393#" "G-CLK" 64.0416
+cap "li_14666_5286#" "VSS" 41.4878
+cap "m1_26143_2876#" "Q4" 300.512
+cap "m1_8368_2892#" "VSS" 2155.63
+cap "G-CLK" "Q1" 720.681
+cap "m1_385_2928#" "VSS" 1157.69
+cap "D2_4" "LD2" 830.766
+cap "LD1" "Q4" 11.7753
+cap "G-CLK" "m1_34932_2957#" 774.044
+cap "Q1" "li_7197_5221#" 304.53
+cap "D2_5" "LD2" 923.393
+cap "G-CLK" "VSS" 1287.04
+cap "G-CLK" "LD2" 10256.2
+cap "Q4" "Q1" 37.1655
+cap "li_41447_5402#" "m1_34932_2957#" 403.645
+cap "D2_1" "LD1" 152.576
+cap "m1_8368_2892#" "LD3" 210.969
+cap "m1_16864_2812#" "LD1" 228.118
+cap "li_41447_5402#" "VSS" 42.622
+cap "LD3" "m1_385_2928#" 376.919
+cap "Q4" "VDD" 12780.7
+cap "Q4" "m1_34932_2957#" 1062.18
+cap "Q4" "VSS" 789.65
+cap "Q4" "LD2" 6.7123
+cap "G-CLK" "li_23517_5276#" 30.8284
+cap "G-CLK" "LD3" 3152.77
+cap "D2_2" "D2_3" 4977.19
+cap "D2_2" "LD1" 144.381
+cap "D2_5" "D2_6" 6853.23
+cap "D2_6" "G-CLK" 274.48
+cap "D2_1" "LD2" 251.767
+cap "m1_16864_2812#" "VSS" 2791.91
+cap "Q3" "LD" 126.228
+cap "Q2" "Q5" 0.636105
+cap "LD1" "D2_7" 1110.07
+cap "LD3" "li_7197_5221#" 5.66802
+cap "Q2" "li_14666_5286#" 465.303
+cap "Q2" "m1_8368_2892#" 344.059
+cap "li_n735_5316#" "VSS" 19.9428
+cap "D2_1" "LD3" 313.064
+cap "Q5" "Q7" 74.3306
+cap "m1_16864_2812#" "li_23517_5276#" 422.856
+cap "D2_2" "LD2" 161.97
+cap "Q6" "m1_52943_2936#" 997.229
+cap "D2_2" "D2_1" 0.228149
+cap "D2_2" "D2_1" 12.2849
+cap "D2_2" "D2_1" 12.2849
+cap "mod_dff_magic_1/DATA" "D2_2" 6.78304
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD3" 2.67904
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.292801
+cap "D2_2" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.228149
+cap "LD3" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 20.4073
+cap "LD3" "mod_dff_magic_1/MUX_1_1/AND_1_0/A" 2.81598
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "D2_2" 12.2849
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 3.97456
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD3" 8.62979
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VSS" 2.55704
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/A" "LD3" 0.611448
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD3" 20.4066
+cap "D2_2" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 12.2849
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VOUT" 1.09007
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/B" "LD3" 8.33814
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_3/a_n78_n300#" 0.00925868
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 3.97456
+cap "LD3" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WNFSTC_0/w_n114_n212#" 0.135814
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 1.66855
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VSS" 20.6203
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 2.19452
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VSS" 45.6973
+cap "LD3" "mod_dff_magic_1/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 11.5293
+cap "mod_dff_magic_1/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "D2_2" 6.78304
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VSS" "LD3" 45.6973
+cap "LD3" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VSS" 37.5697
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "LD3" 0.0457728
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "LD3" 0.0555423
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.821186
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 8.41394
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 6.59687
+cap "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/VSS" "G-CLK" 1.03968
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/B" 6.47052
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/A" 0.251948
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 1.1297
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 8.40374
+cap "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/VOUT" "G-CLK" 0.787417
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/VSS" 12.269
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 4.9887
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/VSS" 30.4047
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VSS" "G-CLK" 30.4047
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VSS" 20.4363
+cap "LD1" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VSS" 10.9518
+cap "LD1" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 3.68789
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/VSS" 0.440663
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0177256
+cap "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 1.58093
+cap "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 20.1311
+cap "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 2.93403
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/A" 2.91055
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 9.03203
+cap "LD2" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 2.39794
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 1.30246
+cap "G-CLK" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 4.45032
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/A" 0.692402
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_3/a_n78_n300#" "LD1" 0.0138394
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0107276
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/inverter_2_0/VDD" 0.17895
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/B" 7.76438
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 10.2012
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 24.9138
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 1.15516
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 0.486858
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/VSS" 46.4366
+cap "LD1" "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 23.0175
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/B" "LD1" 0.946237
+cap "LD2" "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 2.18555
+cap "G-CLK" "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 4.05615
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 49.359
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 49.359
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "LD1" 0.0738163
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 8.95513
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.36769
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 0.203031
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/A" 1.02991
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 3.91429
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 21.713
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 3.12782
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 4.11812
+cap "LD2" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 2.27395
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 8.75456
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/A" 1.81566
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 1.1101
+cap "LD1" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VSS" 24.0845
+cap "LD1" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_3/a_n78_n300#" 0.010692
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 4.11812
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 1.70555
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 2.27395
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 21.7063
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/A" "LD1" 0.636348
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/B" "LD1" 8.45376
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/inverter_2_0/VDD" "LD1" 0.149307
+cap "LD1" "mod_dff_magic_4/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 10.7262
+cap "LD1" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VSS" 46.8085
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 1.98258
+cap "LD2" "mod_dff_magic_4/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 1.09474
+cap "LD1" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VSS" 46.8085
+cap "LD1" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 0.0282696
+cap "LD1" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VSS" 35.1733
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "LD1" 0.0444236
+cap "LD1" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 10.0692
+cap "LD1" "mod_dff_magic_5/MUX_1_1/AND_1_0/A" 2.72401
+cap "LD1" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 8.26177
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 1.13085
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_3/a_n78_n300#" "LD1" 0.00496472
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 1.03182
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/B" "LD1" 7.99669
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 9.8625
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WNFSTC_0/w_n114_n212#" "LD1" 0.0954168
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 12.2478
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 1.5618
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/A" "LD1" 0.539101
+cap "LD1" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VSS" 42.5414
+cap "mod_dff_magic_5/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 7.46588
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 42.5414
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 42.5414
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 0.18232
+cap "LD1" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.0793119
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 4.73021
+cap "LD1" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VSS" 0.0588428
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/A" "LD1" 2.68258
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD1" 2.07291
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_3/a_n78_n300#" "LD1" 0.00356542
+cap "LD1" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WNFSTC_0/w_n114_n212#" 0.0822611
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 9.29841
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 3.13637
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD1" 6.07077
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/A" "LD1" 0.00434398
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/B" "LD1" 1.07607
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/A" "LD1" 0.126131
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 1.52829
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 1.01339
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/B" "LD1" 6.81091
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 28.9389
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 9.29841
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/A" "LD1" 0.390098
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 2.74344
+cap "LD1" "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VSS" 41.5655
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 41.5655
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "LD1" 0.0551498
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" "LD1" 22.5344
+cap "LD1" "mod_dff_magic_0/MUX_1_1/OR_MAGIC_0/VSS" 0.265211
+cap "LD1" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 7.89151
+cap "LD1" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 6.86361
+cap "LD1" "mod_dff_magic_0/MUX_1_1/OR_MAGIC_0/VSS" 0.0637894
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 0.532973
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD_GEN_MAGIC_0/LD3" 0.540148
+cap "LD_GEN_MAGIC_0/LD3" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 0.19168
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 6.6417
+cap "LD_GEN_MAGIC_0/LD3" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 58.2107
+cap "G-CLK" "LD_GEN_MAGIC_0/LD3" -1.42109e-14
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 3.34906
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VSS" 0.075574
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 6.08648
+cap "LD_GEN_MAGIC_0/LD3" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VDD" 3.18908
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 6.68194
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "LD3" 4.30371
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD3" 0.641776
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.345883
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VDD" "LD3" 2.62786
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD3" 0.57571
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD3" 9.56695
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 6.04543
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/B" 8.16423
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "G-CLK" 0.0790493
+cap "LD3" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VSS" 16.1334
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/B" 0.0910321
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/A" 0.301563
+cap "LD3" "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VOUT" 1.0216
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD3" 1.34489
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/A" "G-CLK" 0.0651121
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VSS" "LD3" 46.0763
+cap "mod_dff_magic_1/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.0578327
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VIN" "G-CLK" 0.00144582
+cap "mod_dff_magic_1/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD3" 0.155494
+cap "mod_dff_magic_1/MUX_1_1/OR_MAGIC_0/VSS" "G-CLK" 0.275135
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VIN" "LD3" 0.120341
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VSS" "LD3" 49.3522
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VSS" "G-CLK" 2.20738
+cap "LD3" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/B" 0.298638
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/B" 0.117404
+cap "LD3" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VIN" 0.166875
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VIN" 0.0563869
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 2.80536
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "LD3" 0.614006
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VSS" 237.769
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VSS" 4.76856
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/B" 5.28075
+cap "LD3" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VSS" 40.7199
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/A" "G-CLK" 0.0682086
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/B" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VSS" 0.256364
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 6.12344
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/A" "LD3" 0.319339
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.868719
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.252629
+cap "LD3" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.265533
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/AND_1_1/inverter_2_0/VOUT" 6.12929
+cap "LD3" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 0.122584
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 3.32184
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 0.836209
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 5.53334
+cap "LD3" "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 82.9122
+cap "LD3" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 0.293583
+cap "LD3" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VDD" 4.08236
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.00632593
+cap "LD3" "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.626571
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VSS" "G-CLK" 3.81271
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_1/MUX_1_2/VOUT" 0.0188142
+cap "LD3" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VDD" 3.28185
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD3" 0.611922
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "LD3" 2.05042
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 7.36403
+cap "LD3" "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.778797
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_2/VOUT" 0.0103167
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_2/VOUT" 5.53334
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.314191
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD3" 1.3884
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "G-CLK" 1.09581
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0533325
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/A" 0.0661864
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VSS" 10.0855
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.884491
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/B" 6.30927
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/VOUT" 0.747826
+cap "mod_dff_magic_2/MUX_1_1/OR_MAGIC_0/VSS" "G-CLK" 30.6494
+cap "mod_dff_magic_2/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.0626833
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VIN" "G-CLK" 0.0626833
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VSS" "G-CLK" 32.6393
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 0.0802201
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 0.939624
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VSS" "LD1" 9.74506
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 238.133
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.100307
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VSS" "G-CLK" 23.5471
+cap "LD1" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 3.6745
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 8.08499
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 0.0960747
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" 4.66118
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/A" 0.0693603
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VSS" "G-CLK" 1.97207
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" -3.55271e-15
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" 4.61436
+cap "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 0.302345
+cap "G-CLK" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" 0.874849
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 1.39296
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 10.3599
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 88.7532
+cap "LD1" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VDD" 8.82635
+cap "G-CLK" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0326613
+cap "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 0.577025
+cap "LD1" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" 5.69432
+cap "G-CLK" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.262071
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/B" 7.56916
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/B" "G-CLK" 0.134139
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/A" 0.329295
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/A" "G-CLK" 0.0702161
+cap "LD1" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VSS" 3.11416
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 1.19469
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/B" "LD2" 0.012104
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/A" "LD2" 0.012104
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0297662
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "G-CLK" 0.104507
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 1.07991
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/B" "LD1" 0.946237
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD2" 0.012104
+cap "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 0.035721
+cap "LD1" "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/VSS" 45.8609
+cap "mod_dff_magic_3/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 0.234931
+cap "G-CLK" "mod_dff_magic_3/MUX_1_1/AND_1_1/inverter_2_0/VSS" 1.66547
+cap "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.0804782
+cap "LD2" "mod_dff_magic_3/MUX_1_1/AND_1_1/inverter_2_0/VSS" 0.433726
+cap "LD1" "mod_dff_magic_3/MUX_1_2/inverter_1_0/VIN" 0.386041
+cap "LD1" "mod_dff_magic_3/MUX_1_1/AND_1_1/inverter_2_0/VSS" 51.957
+cap "mod_dff_magic_3/MUX_1_2/inverter_1_0/VIN" "G-CLK" 0.0804782
+cap "LD1" "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0212086
+cap "LD1" "mod_dff_magic_3/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 0.200969
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 0.123599
+cap "LD1" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.289783
+cap "LD2" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0183292
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 0.162429
+cap "mod_dff_magic_3/MUX_1_2/inverter_1_0/VSS" "G-CLK" 2.49813
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/B" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 5.30848
+cap "LD1" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 0.297413
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/A" "G-CLK" 0.079112
+cap "LD1" "mod_dff_magic_3/MUX_1_2/inverter_1_0/VSS" 53.9097
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/B" "LD1" 0.326024
+cap "LD2" "mod_dff_magic_3/MUX_1_2/inverter_1_0/VSS" 1.50753
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/B" "LD2" 0.0183292
+cap "LD1" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/A" 0.3466
+cap "LD2" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/A" 0.0183292
+cap "G-CLK" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.12127
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 1.04481
+cap "G-CLK" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" 0.270962
+cap "LD1" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 0.559559
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" 261.51
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/B" 0.711928
+cap "LD1" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" 8.95513
+cap "G-CLK" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 0.273171
+cap "mod_dff_magic_3/MUX_1_2/VOUT" "G-CLK" 0.0255637
+cap "G-CLK" "mod_dff_magic_3/m1_2610_n3470#" 0.391466
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" 0.164196
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 69.5857
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VDD" "LD1" 3.93961
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD1" 0.59918
+cap "LD1" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" 1.6845
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.753201
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 10.0473
+cap "LD1" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" 3.55829
+cap "LD1" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VDD" 3.1992
+cap "LD1" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.727056
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "G-CLK" 0.0489857
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 0.705098
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "G-CLK" 0.824112
+cap "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.289806
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/A" 0.0666835
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0869937
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/B" "LD2" 0.00555332
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/B" "LD1" 8.2734
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VSS" "LD1" 19.8135
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/B" 0.104503
+cap "LD2" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.00555332
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/A" "LD2" 0.00555332
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 1.37095
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/A" "LD1" 0.311804
+cap "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 1.03956
+cap "LD1" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VSS" 47.345
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VIN" "G-CLK" 0.0348902
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 0.0649121
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/OR_MAGIC_0/VSS" 0.399121
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VIN" "LD1" 0.209572
+cap "LD1" "mod_dff_magic_4/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 0.180853
+cap "LD2" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" 1.06924
+cap "LD2" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/A" 0.0115146
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" 2.39208
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" "LD1" 0.30701
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/A" 0.0698933
+cap "mod_dff_magic_4/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD1" 0.00218584
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" "LD2" 0.0115146
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VIN" "LD1" 0.108488
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 0.131467
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VIN" "G-CLK" 0.0300218
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" "LD1" 50.8284
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/A" "LD1" 0.117867
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 0.923108
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 1.22135
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD2" 0.0115146
+cap "LD1" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 0.626434
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" 5.43504
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" 4.19927
+cap "LD1" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" 37.1301
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" 8.67724
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 280.915
+cap "mod_dff_magic_5/MUX_1_1/IN2" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 0.453197
+cap "mod_dff_magic_4/MUX_1_2/inverter_1_0/VSS" "LD2" 1.43234
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/A" "LD1" 0.209824
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "G-CLK" 0.225864
+cap "LD1" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.272945
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VSS" "G-CLK" 2.70659
+cap "LD2" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 46.487
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VDD" "LD2" 2.9766
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 3.64175
+cap "LD2" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 0.230728
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/inverter_2_0/VOUT" "G-CLK" 5.43504
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.00536566
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD2" 0.63676
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "LD1" 0.0979151
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "LD1" 2.82097
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 0.866221
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VDD" "LD2" 2.32274
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 41.7621
+cap "LD2" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.800278
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "LD2" 2.48016
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD1" 8.19169
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 3.30573
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.028621
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "G-CLK" 0.956628
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD2" 1.97718
+cap "LD1" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 6.08729
+cap "LD1" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 7.15493
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VSS" "LD1" 7.32942
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 3.57136
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 2.05925
+cap "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 1.26921
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0605415
+cap "LD1" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/B" 7.84096
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/B" 0.0605415
+cap "LD1" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VOUT" 0.969262
+cap "LD1" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/A" 0.261929
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/A" 0.0605415
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VSS" 0.00713197
+cap "LD1" "mod_dff_magic_5/MUX_1_1/OR_MAGIC_0/VSS" 42.5533
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 2.6224
+cap "LD2" "mod_dff_magic_5/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 1.51208
+cap "LD1" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VIN" 0.066695
+cap "LD1" "mod_dff_magic_5/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 5.25376
+cap "LD1" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VIN" 0.135285
+cap "LD1" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VSS" 45.3385
+cap "mod_dff_magic_5/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.0366584
+cap "LD1" "mod_dff_magic_5/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 0.107748
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VSS" "LD2" 0.469203
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VIN" 0.0366584
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VSS" "G-CLK" 1.66637
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VSS" "LD2" 0.729781
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/A" 0.0633165
+cap "LD1" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.244246
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/B" "LD1" 0.274591
+cap "LD1" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VSS" 45.2359
+cap "LD1" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.503104
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/B" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 4.75932
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.813112
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0698498
+cap "LD1" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/A" 0.286067
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 0.0754125
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VSS" 1.62956
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.0382186
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" 254.009
+cap "LD1" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" 0.18232
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "LD1" 0.18176
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" 0.617484
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/B" 2.36344
+cap "G-CLK" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.0685063
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD1" 1.26034
+cap "LD1" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VDD" 4.62186
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 89.3743
+cap "mod_dff_magic_5/MUX_1_2/li_1219_n385#" "G-CLK" 0.490598
+cap "LD1" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.63553
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 0.599795
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "LD1" 4.79134
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 1.325
+cap "mod_dff_magic_5/MUX_1_2/VOUT" "G-CLK" 0.0546988
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 0.846874
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "G-CLK" 0.89355
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 2.00888
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0594522
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 0.0175871
+cap "LD1" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 6.80685
+cap "LD1" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 6.03344
+cap "LD1" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.119829
+cap "LD1" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 0.110367
+cap "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 3.45699
+cap "LD1" "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/B" 1.13772
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VOUT" "LD1" 0.952669
+cap "LD1" "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/A" 0.249258
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 1.2453
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 3.44819
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 2.00888
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/B" "LD1" 6.59909
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/A" 0.0590959
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "G-CLK" 0.0590959
+cap "LD1" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VSS" 26.3887
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/B" 0.0590959
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 6.75681
+cap "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VSS" "LD1" 42.3946
+cap "mod_dff_magic_6/MUX_1_2/inverter_1_0/VIN" "LD1" 0.176435
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 1.94376
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/OR_MAGIC_0/VSS" 0.449422
+cap "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 0.546703
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/inverter_1_0/VIN" 0.0297693
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/AND_1_0/NAND_MAGIC_1_0/B" 0.96817
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/inverter_1_0/VSS" 2.2656
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 0.0617718
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/A" 0.0617718
+cap "mod_dff_magic_6/MUX_1_2/inverter_1_0/VSS" "LD2" 0.894697
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0108101
+cap "mod_dff_magic_6/MUX_1_2/inverter_1_0/VSS" "LD1" 45.2955
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/B" "LD1" 0.26708
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/A" "LD1" 0.27266
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "LD1" 0.0696021
+cap "LD2" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" 0.184052
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" 1.61811
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" 246.638
+cap "LD1" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.167995
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "LD1" 0.823195
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 4.10123
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/B" 5.07075
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0510167
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 1.17636
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 0.117995
+cap "LD1" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" 23.2572
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VSS" "G-CLK" 0.938429
+cap "mod_dff_magic_6/MUX_1_2/AND_1_1/inverter_2_0/VOUT" "G-CLK" 4.11831
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 0.0490899
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 2.09912
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD2" 1.85373
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 3.74159
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "LD2" 2.0684
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VDD" "LD2" 3.11434
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "G-CLK" 0.489679
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "G-CLK" 0.65751
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "LD1" 7.82658
+cap "LD1" "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" 0.0945925
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD2" 82.0781
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "LD2" 1.32967
+cap "LD2" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.123681
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.207672
+cap "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "LD1" 0.388614
+cap "LD2" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.00245509
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/B" 2.06693
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.806785
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VSS" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" 116.757
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/B" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" 2.58285
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" -0.0278345
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_1/B" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 0.304453
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_1/B" "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" -13.8252
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" -0.139235
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" "LD_GEN_MAGIC_0/NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" 5.57813
+cap "LD_GEN_MAGIC_0/3AND_MAGIC_0/B" "LD_GEN_MAGIC_0/NOR_MAGIC_1/B" 2.22582
+cap "LD_GEN_MAGIC_0/3AND_MAGIC_0/B" "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" 1.92566
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" "LD_GEN_MAGIC_0/3AND_MAGIC_0/VDD" 21.7345
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" "LD_GEN_MAGIC_0/NOR_MAGIC_1/B" 0.047524
+cap "LD_GEN_MAGIC_0/LD1" "LD_GEN_MAGIC_0/LD2" 1.6561
+cap "LD_GEN_MAGIC_0/LD3" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 84.8561
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "mod_dff_magic_1/MUX_1_1/AND_1_0/A" 0.12286
+cap "G-CLK" "LD_GEN_MAGIC_0/LD1" 1.8037
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/LD1" -0.314009
+cap "LD_GEN_MAGIC_0/LD1" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 85.5771
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "G-CLK" 0.658351
+cap "LD_GEN_MAGIC_0/LD3" "LD_GEN_MAGIC_0/LD2" 14.7907
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "LD_GEN_MAGIC_0/LD2" 19.1325
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "LD_GEN_MAGIC_0/LD3" 0.300361
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/A" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 13.559
+cap "LD_GEN_MAGIC_0/LD1" "LD_GEN_MAGIC_0/LD2" -1.23306
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "LD_GEN_MAGIC_0/LD1" 1.67237
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 6.71231
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "G-CLK" 21.3447
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "LD_GEN_MAGIC_0/LD3" -0.0118214
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VOUT" 0.0279116
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.063591
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VDD" 17.5587
+cap "G-CLK" "LD_GEN_MAGIC_0/LD" 0.0451091
+cap "LD_GEN_MAGIC_0/LD1" "G-CLK" 1.85385
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "G-CLK" 0.459943
+cap "LD_GEN_MAGIC_0/LD1" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 0.00891421
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 13.7826
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VSS" "G-CLK" 2.14232
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "LD_GEN_MAGIC_0/LD2" 0.00933912
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "G-CLK" 0.0662891
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VOUT" 0.000736226
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0744209
+cap "G-CLK" "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/VSS" 2.11594
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 0.0315625
+cap "G-CLK" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 21.3466
+cap "mod_dff_magic_1/MUX_1_1/inverter_1_0/VDD" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 13.6112
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "G-CLK" 0.0275348
+cap "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 0.00326006
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" 0.302453
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VOUT" 0.131049
+cap "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 0.813283
+cap "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 2.62884
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VDD" "G-CLK" 15.7385
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/inverter_1_0/VOUT" 0.0406637
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/B" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 2.30959
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0136958
+cap "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 1.48706
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VDD" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 44.6279
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" 381.774
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/B" "G-CLK" 2.91116
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.65002
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.100896
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" 0.0657979
+cap "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 0.0696721
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" 17.1623
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VDD" "G-CLK" 15.7567
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VOUT" 0.0360336
+cap "G-CLK" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VSS" 1.30948
+cap "mod_dff_magic_1/MUX_1_2/AND_1_1/inverter_2_0/VOUT" "G-CLK" 2.91116
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VDD" 21.1463
+cap "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 0.111029
+cap "mod_dff_magic_2/MUX_1_1/inverter_1_0/VDD" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 15.7992
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0247951
+cap "G-CLK" "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/VSS" 0.241056
+cap "mod_dff_magic_1/MUX_1_2/VOUT" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 17.0572
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 0.0424762
+cap "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 0.00340321
+cap "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 0.398988
+cap "G-CLK" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" 3.30857
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VOUT" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 0.103238
+cap "mod_dff_magic_2/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 0.80074
+cap "mod_dff_magic_2/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 2.74458
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VDD" "mod_dff_magic_3/D1" 0.182727
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/inverter_1_0/VDD" 12.5777
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.100101
+cap "mod_dff_magic_2/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 2.76628
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VOUT" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 0.0393647
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VDD" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 38.808
+cap "mod_dff_magic_2/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 1.46984
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" 2.31077
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" 2.09737
+cap "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS" 318.737
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VDD" 12.5896
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/B" 2.31077
+cap "G-CLK" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VSS" 0.788676
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VDD" 35.859
+cap "G-CLK" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.018479
+cap "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.449404
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.575882
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0430647
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "G-CLK" 2.28497
+cap "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/VSS" "G-CLK" 0.182477
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/VSS" 0.404116
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VOUT" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" 0.0364595
+cap "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" -7.10543e-15
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000571825
+cap "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.125177
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 0.088397
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/B" 1.59695
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.30577
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/inverter_1_0/VOUT" 0.102144
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" 1.39086
+cap "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 3.33168
+cap "G-CLK" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD" 9.12632
+cap "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 0.800247
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VSS" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 306.056
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD" 39.193
+cap "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WNFSTC_1/a_n20_n176#" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" 0.039314
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VOUT" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" 0.033379
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0678191
+cap "G-CLK" "mod_dff_magic_3/li_5244_1738#" 9.12632
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VDD" 19.8394
+cap "mod_dff_magic_3/m1_2610_n3470#" "G-CLK" 0.356517
+cap "mod_dff_magic_3/MUX_1_2/VOUT" "G-CLK" -4.44089e-16
+cap "mod_dff_magic_4/MUX_1_0/OR_MAGIC_0/VSS" "G-CLK" 0.21885
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.116427
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000571019
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_0/OR_MAGIC_0/VSS" 0.399239
+cap "G-CLK" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0223838
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "G-CLK" 2.92568
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0421968
+cap "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VDD" 14.9727
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VOUT" 0.106527
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 0.802225
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 2.82237
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.08763
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/TSPC_MAGIC_1_0/VSS" 323.458
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" 2.67408
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0109435
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 2.8447
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" 1.38761
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VDD" 37.3345
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VOUT" 0.0395173
+cap "G-CLK" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VDD" 15.5052
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/B" 1.84828
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "G-CLK" 0.0650688
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VDD" 22.7981
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "G-CLK" 8.88178e-16
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VSS" "G-CLK" 1.20953
+cap "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VDD" "G-CLK" 15.5224
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VOUT" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 0.0370393
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 0.0703448
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/inverter_2_0/VOUT" "G-CLK" 2.67408
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0703448
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/VSS" "G-CLK" 0.230549
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VDD" 17.0984
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 3.64914
+cap "G-CLK" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0278326
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 0.476957
+cap "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 0.0575012
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0606212
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 8.88178e-16
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" 1.11022e-16
+cap "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VDD" 8.88178e-16
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.0531753
+cap "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.802721
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/B" 2.01116
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 24.8039
+cap "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.490634
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.86833
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.0734894
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VDD" "G-CLK" 9.09395
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_5/MUX_1_2/inverter_1_0/VOUT" 0.054451
+cap "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.802721
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VSS" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 344.22
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 1.88347
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 5.98111
+cap "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WNFSTC_1/a_n20_n176#" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" 0.0395683
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 3.67479
+cap "mod_dff_magic_5/MUX_1_2/li_1219_n385#" "G-CLK" 0.479654
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 37.2503
+cap "mod_dff_magic_5/li_5244_1738#" "G-CLK" 9.09662
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0487942
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VOUT" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 0.036388
+cap "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 0.0699109
+cap "G-CLK" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0269471
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/VSS" "G-CLK" 0.18998
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0586496
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VDD" 2.75024
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "G-CLK" 0.0222465
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" 0.329892
+cap "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0699109
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/inverter_1_0/VOUT" 0.12879
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" 1.02176
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.64267
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" 10.5967
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/B" 3.28164
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" 42.5278
+cap "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" 1.39378
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VSS" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" 397.776
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.118358
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.65627
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_6/MUX_1_2/inverter_1_0/VOUT" 0.0405575
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/B" 2.775
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/AND_1_1/inverter_2_0/VOUT" 2.775
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VSS" "G-CLK" 0.694234
+cap "G-CLK" "mod_dff_magic_6/MUX_1_2/AND_1_1/inverter_2_0/VDD" 10.6066
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "G-CLK" 3.1184
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0572039
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/inverter_1_0/VDD" 39.5765
+cap "G-CLK" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" 0.0115465
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/VSS" 0.248855
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/inverter_1_0/VOUT" 0.0342081
+cap "G-CLK" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/VSS" 0.0232558
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0684105
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0895021
+cap "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0684105
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/B" 2.01268
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VOUT" 0.53022
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0789871
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/inverter_1_0/VOUT" 0.0016176
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VSS" 184.079
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WNFSTC_1/a_n20_n176#" 0.000583105
+cap "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VDD" 14.9973
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" "LD_GEN_MAGIC_0/Q4" 0.189529
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" "LD_GEN_MAGIC_0/NOR_MAGIC_1/B" -0.1224
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" -107.054
+cap "LD_GEN_MAGIC_0/3AND_MAGIC_0/C" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 8.33073
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 0.00528265
+cap "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" -0.130514
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 2.85972
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VDD" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 2.94744
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" -0.00343798
+cap "LD_GEN_MAGIC_0/3AND_MAGIC_0/C" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 8.33073
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" 0.0885429
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" 1.01748
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "LD_GEN_MAGIC_0/inverter_0/OUT" 0.0725909
+cap "LD_GEN_MAGIC_0/LD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.495225
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/A" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 6.91622
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "LD_GEN_MAGIC_0/LD" 38.6783
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "mod_dff_magic_1/MUX_1_1/IN1" 0.921887
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 7.89683
+cap "mod_dff_magic_1/MUX_1_1/IN1" "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" 0.0212419
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0742666
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" 0.154223
+cap "mod_dff_magic_1/MUX_1_1/IN1" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" 0.0233103
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/LD1" -0.628571
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0807249
+cap "LD_GEN_MAGIC_0/LD1" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 15.9792
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VSS" 3.73008
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" 82.5702
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 2.89254
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "LD_GEN_MAGIC_0/LD1" 16.188
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VSS" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.167692
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/A" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 1.98072
+cap "LD_GEN_MAGIC_0/LD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.515428
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 3.70564
+cap "LD_GEN_MAGIC_0/sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0426497
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/A" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 6.91622
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 2.89983
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VSS" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.617156
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/A" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 15.2177
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -0.234907
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/A" "LD" 0.0279726
+cap "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.68506
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" -2.84217e-14
+cap "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_0/A" 4.77116
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0504701
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_0/A" 1.64531
+cap "Q1" "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.99599
+cap "mod_dff_magic_1/MUX_1_2/inverter_1_0/VOUT" "Q1" 0.012582
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.0276363
+cap "Q1" "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" 0.515453
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/MUX_1_1/IN1" 2.31063
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.0862791
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/MUX_1_0/AND_1_0/B" 13.2591
+cap "Q1" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 24.3468
+cap "Q1" "mod_dff_magic_1/TSPC_MAGIC_1_0/Q" 0.277841
+cap "Q1" "mod_dff_magic_1/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.00961
+cap "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/AND_1_0/A" 7.94426
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.0391239
+cap "mod_dff_magic_1/MUX_1_2/AND_1_1/inverter_2_0/VSS" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.825505
+cap "Q1" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" -5.68434e-14
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/AND_1_0/A" 11.6528
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 2.68233
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_2/MUX_1_0/AND_1_0/A" -1.51366
+cap "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 13.2591
+cap "Q1" "mod_dff_magic_2/MUX_1_0/AND_1_0/A" 0.0292558
+cap "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" -2.84217e-14
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/A" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 1.39837
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/A" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 10.2027
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/A" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" -1.32035
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 2.67117
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.329411
+cap "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0278232
+cap "mod_dff_magic_2/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "Q2" 2.78792
+cap "mod_dff_magic_2/MUX_1_2/inverter_1_0/VOUT" "Q2" 0.00928499
+cap "Q2" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 21.2858
+cap "mod_dff_magic_3/D1" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 2.59449
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.104479
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_3/G-CLK" 1.54012
+cap "Q2" "mod_dff_magic_2/TSPC_MAGIC_1_0/Q" 0.265765
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS" "Q2" 0.477452
+cap "Q2" "mod_dff_magic_2/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.7999
+cap "mod_dff_magic_3/MUX_1_1/IN1" "mod_dff_magic_3/MUX_1_0/AND_1_0/A" 0.747391
+cap "mod_dff_magic_3/MUX_1_1/IN1" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 2.84217e-14
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VDD" 1.54012
+cap "mod_dff_magic_3/MUX_1_1/IN1" "Q2" -5.68434e-14
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/AND_1_0/A" 9.14029
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/A" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 13.0827
+cap "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/VSS" 1.20076
+cap "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0144894
+cap "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/AND_1_0/A" 7.04905
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.300622
+cap "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.746957
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -0.234907
+cap "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.746957
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.0742572
+cap "mod_dff_magic_3/MUX_1_2/inverter_1_0/VOUT" "Q3" 0.00915531
+cap "Q3" "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.2231
+cap "Q3" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 4.36017
+cap "m1_26143_2876#" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.231717
+cap "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "Q3" 2.23082
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_4/MUX_1_1/IN1" 0.201873
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/Q" "Q3" 0.275943
+cap "Q3" "mod_dff_magic_3/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VSS" 0.441763
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.797368
+cap "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD" "Q3" 13.4368
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/A" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 21.0077
+cap "mod_dff_magic_3/li_5244_1738#" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.797368
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/A" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 8.79572
+cap "Q3" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" -4.44089e-16
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0169571
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.37727
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.865169
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VSS" 1.13298
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.36847
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.305168
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.865169
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.00447145
+cap "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/AND_1_0/A" 1.02539
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -0.234907
+cap "mod_dff_magic_4/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" -5.68434e-14
+cap "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "Q4" 2.72105
+cap "Q4" "mod_dff_magic_4/MUX_1_2/inverter_1_0/VOUT" 0.00967502
+cap "Q4" "mod_dff_magic_4/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.73253
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/MUX_1_0/IN2" 12.916
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 0.0952109
+cap "Q4" "mod_dff_magic_4/TSPC_MAGIC_1_0/VSS" 0.476231
+cap "Q4" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 20.4082
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/D1" 1.95463
+cap "Q4" "mod_dff_magic_4/TSPC_MAGIC_1_0/Q" 0.268947
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.845638
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VDD" 12.916
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_2/AND_1_1/inverter_2_0/VSS" 0.806445
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 8.08009
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.45331
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 6.14686
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0270568
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.22813
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.45132
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0147358
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 11.3301
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 8.33122
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -0.234907
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0453538
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 5.68434e-14
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 0.0938276
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" -1.77636e-15
+cap "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.845638
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/A" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 1.38778e-17
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/A" 1.38778e-17
+cap "mod_dff_magic_5/MUX_1_2/inverter_1_0/VOUT" "Q5" 0.00980537
+cap "G-CLK" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 1.68824
+cap "Q5" "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.67874
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.0874911
+cap "m1_43718_2961#" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 2.72992
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "Q5" 8.01374
+cap "Q5" "mod_dff_magic_5/li_3762_n723#" 0.251196
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/A" "mod_dff_magic_6/MUX_1_1/IN1" 0.208597
+cap "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "Q5" 3.69746
+cap "mod_dff_magic_5/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VSS" "Q5" 0.536433
+cap "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VDD" "Q5" 14.6469
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VSS" "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.938485
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/li_5244_1738#" 1.68824
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.185661
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_6/MUX_1_0/AND_1_0/A" 8.88178e-16
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_0/A" 23.598
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -0.166047
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 0.000860698
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/A" "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 13.9371
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0741826
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_6/MUX_1_0/AND_1_0/A" 0.128815
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/A" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0222465
+cap "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_0/A" 0.104515
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -0.0688599
+cap "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_6/MUX_1_0/AND_1_0/A" -1.77636e-15
+cap "mod_dff_magic_6/MUX_1_2/inverter_1_0/VOUT" "Q6" 0.0123143
+cap "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "Q6" 3.97467
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" "G-CLK" 2.1681
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_0/D1" 2.05732
+cap "Q6" "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VSS" 0.575354
+cap "Q6" "mod_dff_magic_6/TSPC_MAGIC_1_0/Q" 0.257499
+cap "Q6" "mod_dff_magic_6/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.99577
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.112856
+cap "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" "Q6" 29.5804
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/A" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 6.24426
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 2.1681
+cap "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.571238
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/A" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/VSS" 0.293426
+cap "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/VSS" 2.01127
+cap "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/VSS" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0274211
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0573396
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/A" "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" 11.9863
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/A" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 9.30794
+cap "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0125636
+cap "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.571238
+cap "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/AND_1_0/A" 0.0228349
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.0290412
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "Q7" 3.30056
+cap "mod_dff_magic_0/MUX_1_2/AND_1_1/NAND_MAGIC_1_0/VSS" "Q7" 0.418513
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VDD" 0.0514654
+cap "Q7" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VDD" 11.7872
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" 0.0949886
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VOUT" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" 0.190868
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD_GEN_MAGIC_0/NOR_MAGIC_1/VSS" 2.11968
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VOUT" 0.0222033
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD" 0.0569003
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" 35.5104
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" 0.260819
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" -2.27352
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD" 0.900557
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" 1.88124
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD" 33.48
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" -62.7434
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" 0.199459
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" "LD_GEN_MAGIC_0/Q5" -0.00859741
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VOUT" 0.369045
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" 0.756857
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" 2.26057
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD" 5.85166
+cap "LD" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" 0.904267
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" -13.9744
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VOUT" 0.0165049
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 45.5171
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/OUT" 0.0355718
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/IN" 16.3082
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 0.956607
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" 0.0531233
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/OUT" 5.77233
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/VDD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 0.443497
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VOUT" 0.170731
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 0.953345
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" 0.0362261
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VOUT" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" 0.166086
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" 0.132629
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/OUT" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 0.1275
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD" 20.0863
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/OUT" 0.169622
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 2.85383
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" 2.84067
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 0.198456
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 0.131479
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/IN" "LD" 12.4933
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "G-CLK" 2.25213
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "G-CLK" 3.42374
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/OUT" "LD" 26.3764
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" "LD" 7.11007
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/OUT" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 0.956607
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "LD" 11.6507
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" 0.0311056
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" "LD" 4.82581
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 1.5948
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/OUT" 0.131479
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "LD" 6.20545
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" "G-CLK" 0.266586
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" 7.11007
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/IN" "LD" 0.0347345
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" 0.638704
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" 2.28959
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/OUT" "LD" 7.56453
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" 0.473992
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/OUT" 11.2869
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/OUT" 2.20829
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VDD" 0.147206
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 2.51872
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" "VSS" 0.171519
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" "LD_GEN_MAGIC_0/LD" 30.3589
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" 2.98598
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 3.14375
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "LD_GEN_MAGIC_0/LD" 10.6338
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VDD" 7.11007
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 0.131479
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "LD_GEN_MAGIC_0/LD" 0.00686671
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" "LD_GEN_MAGIC_0/LD" 0.0745528
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" "LD_GEN_MAGIC_0/LD" 11.0652
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 103.81
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "LD_GEN_MAGIC_0/LD" 1.25665
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" "LD_GEN_MAGIC_0/LD" 145.899
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 10.2681
+cap "mod_dff_magic_1/MUX_1_1/IN1" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 1.04744
+cap "mod_dff_magic_1/MUX_1_1/IN1" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" 0.141016
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "mod_dff_magic_1/MUX_1_1/IN1" 0.173034
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 10.1831
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 2.73518
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" 10.8476
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.663454
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" -0.167069
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" 0.131479
+cap "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" 0.0348603
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" 3.23444
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VSS" "LD_GEN_MAGIC_0/LD" 18.9202
+cap "mod_dff_magic_1/MUX_1_1/IN1" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" -1.75614
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_1/MUX_1_1/IN1" 5.67077
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.285981
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 18.8589
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/MUX_1_1/IN1" 0.00233523
+cap "mod_dff_magic_1/MUX_1_1/IN1" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 24.8998
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" 0.0333932
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_1/IN1" 3.00392
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.946401
+cap "mod_dff_magic_1/MUX_1_1/IN1" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.768719
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 15.6636
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 13.9196
+cap "mod_dff_magic_1/MUX_1_1/IN1" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 5.59692
+cap "mod_dff_magic_1/MUX_1_1/IN1" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 25.0756
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_1/IN1" 0.221292
+cap "LD" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 0.0125787
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 14.4033
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" -2.88414
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" -0.532396
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/MUX_1_1/IN1" 0.837393
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 0.285981
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.947696
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/A" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 1.13687e-13
+cap "mod_dff_magic_1/MUX_1_1/IN1" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 0.352061
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 183.483
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" -2.84217e-14
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/A" -1.13687e-13
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" -7.10543e-15
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" 0.000433435
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/B" 1.13687e-13
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 6.73384
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 1.29994
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/D" 0.0466476
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 2.44493
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.0847784
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/CLK" 0.0233238
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/Q" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 4.50427
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 116.095
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.98437
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/CLK" 8.3609
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.602193
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 0.822385
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_1/TSPC_MAGIC_1_0/CLK" -0.174874
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "VSS" 11.5087
+cap "mod_dff_magic_2/MUX_1_0/IN1" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 7.71871
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 1.4897
+cap "mod_dff_magic_2/MUX_1_0/IN1" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 9.1107
+cap "VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 4.63636
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/Q" "mod_dff_magic_2/MUX_1_0/IN1" 0.0516332
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/B" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 4.07428
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 139.001
+cap "mod_dff_magic_1/QB" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.180959
+cap "mod_dff_magic_1/li_5244_1738#" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.0567454
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 8.10255
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.273214
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.6369
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 20.7637
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.318092
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" 0.0011239
+cap "mod_dff_magic_1/li_5244_1738#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" -1.51366
+cap "mod_dff_magic_1/li_5244_1738#" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 12.5347
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_1/li_5244_1738#" -0.483626
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.871647
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.564447
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.00826216
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.293297
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 0.078787
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.564447
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.894886
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 0.199028
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 12.9188
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.60387
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.444185
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 7.67579
+cap "mod_dff_magic_2/MUX_1_1/IN1" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 20.4623
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.273214
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 94.6747
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000433435
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 1.42109e-14
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 1.24938
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" -2.27374e-13
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/D" 0.0210745
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 2.20965
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/D" -5.68434e-14
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS" 3.4936
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" -3.55271e-15
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.00316117
+cap "VSS" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 7.70551
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.635229
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.624691
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/Q" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 2.6319
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/Q" 0.406801
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" -1.77636e-15
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 16.0773
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 3.47453
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.624691
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" -0.174874
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_4/a_n78_n250#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.0927459
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/a_359_n297#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.0311583
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/Q" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.933911
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/Q" "Q2" 0.0408912
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.247799
+cap "mod_dff_magic_3/D1" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 1.33461
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 3.78803
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 88.0619
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "Q2" 7.41848
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "Q2" 7.5599
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/QB" 0.114668
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_1/IN1" 0.169748
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" 2.88791
+cap "mod_dff_magic_3/MUX_1_1/IN1" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" 16.5245
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_1/IN1" -0.107576
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 0.517766
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 0.222071
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0564158
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 12.7119
+cap "mod_dff_magic_3/MUX_1_1/IN1" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.00761214
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 20.865
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.269194
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" -3.43076
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" -0.532396
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/IN1" 16.388
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 166.978
+cap "mod_dff_magic_3/MUX_1_1/IN1" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" -0.429425
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" -1.7053e-13
+cap "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 1.13687e-13
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.023714
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 0.000433435
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/A" -2.27374e-13
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" -0.00430108
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VOUT" 1.42109e-14
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" -2.27374e-13
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "m1_16864_2812#" 0.390296
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.00182827
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/D" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 0.00365655
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/D" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" -2.84217e-14
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" -4.54747e-13
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/CLK" 2.16327
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 1.29981
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "VSS" 10.8307
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" -1.13687e-13
+cap "Q3" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" -1.59295
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 2.15983
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/Q" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.267814
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 206.467
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/Q" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 0.266758
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 0.0803628
+cap "m1_26143_2876#" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.184981
+cap "Q3" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 3.48075
+cap "mod_dff_magic_4/MUX_1_0/IN1" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 6.67371
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/MUX_1_0/IN1" 0.514048
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/MUX_1_1/IN1" 5.68434e-14
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 0.526393
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/Q" "mod_dff_magic_4/MUX_1_0/IN1" 0.0298197
+cap "mod_dff_magic_4/MUX_1_1/IN1" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" -0.465995
+cap "mod_dff_magic_4/MUX_1_1/IN1" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.05336
+cap "mod_dff_magic_4/MUX_1_1/IN1" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 18.5397
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 12.6109
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.182698
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 12.8947
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.89638
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" 0.436768
+cap "mod_dff_magic_4/MUX_1_1/IN1" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.181925
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.278435
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" 0.0875862
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_4/MUX_1_1/IN1" 3.03011
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" -0.0119474
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" -2.84217e-14
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" -3.41735
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" 7.63497
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.278435
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 196.048
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 1.87291
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_1/IN1" -0.457547
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_1/IN1" 0.0818827
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000433435
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" -0.532396
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.918685
+cap "mod_dff_magic_4/MUX_1_1/IN1" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 16.5342
+cap "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.390204
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" -7.10543e-15
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/MUX_1_0/OR_MAGIC_0/B" -3.41061e-13
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 5.68434e-14
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "m1_26143_2876#" 0.0649323
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "m1_26143_2876#" 2.79328
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/VSS" 4.61343
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "m1_26143_2876#" 1.38992
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" -4.54747e-13
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" "m1_26143_2876#" 0.0424472
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/D" "m1_26143_2876#" 0.0424472
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" -2.84217e-14
+cap "m1_26143_2876#" "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.64582
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/D" -5.68434e-14
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/Q" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 0.64582
+cap "VSS" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 6.33025
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 0.547543
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/Q" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 0.277143
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" 2.10639
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.667044
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 11.3925
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" -2.84217e-14
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/Q" "mod_dff_magic_5/CLK" 0.0404005
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/MUX_1_0/IN2" 5.14735
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/D1" 1.54634
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/CLK" 4.20277
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/CLK" 1.67483
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/Q" 0.245017
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 2.08707
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 0.0698774
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 128.379
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 5.14735
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_1/IN1" 4.02676
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/IN1" 16.8454
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" 4.43228
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_1/IN1" 0.206165
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/QB" 0.0684271
+cap "mod_dff_magic_5/MUX_1_1/IN1" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" -0.53073
+cap "mod_dff_magic_5/MUX_1_1/IN1" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.10023
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/A" 5.55112e-17
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 15.3885
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/IN1" 16.6007
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.542073
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 25.3311
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 1.71714
+cap "mod_dff_magic_5/MUX_1_1/IN1" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 0.129083
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 192.561
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" -0.532396
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.627697
+cap "mod_dff_magic_5/MUX_1_1/IN1" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.99612
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.623537
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" -0.00382318
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/B" 0.0099538
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000433435
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 0.0111706
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 1.09797
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 0.0210791
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 1.42109e-14
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/TSPC_MAGIC_1_0/VSS" 4.78781
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/D" "m1_34932_2957#" 0.0804782
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 2.84217e-14
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "m1_34932_2957#" 0.683322
+cap "m1_34932_2957#" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 2.34422
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/D" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" -5.68434e-14
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/Q" 0.683322
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 10.4418
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.683322
+cap "VSS" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 9.55613
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 1.36664
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.723561
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" -5.68434e-14
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/Q" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 0.125813
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 2.13131
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "m1_43718_2961#" 1.93241
+cap "Q5" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 1.01981
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "Q5" 3.26837
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 83.7079
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.0592001
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/Q" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.223998
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 2.01237
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/TSPC_MAGIC_1_0/Q" 0.0211125
+cap "mod_dff_magic_6/MUX_1_0/IN1" "mod_dff_magic_5/QB" 1.01981
+cap "mod_dff_magic_6/MUX_1_1/IN1" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" 0.831671
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_1/IN1" 0.129291
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VDD" "mod_dff_magic_6/MUX_1_0/IN1" 0.875167
+cap "mod_dff_magic_6/MUX_1_0/IN1" "mod_dff_magic_5/li_3762_n723#" 0.0590512
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.649823
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_1/IN1" 0.741461
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.75832
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 23.5939
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" 18.0852
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/QB" 0.00401261
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_1/IN1" 4.44089e-16
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 0.251645
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" -0.0462953
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" 147.501
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" "m1_43718_2961#" 0.00111635
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -0.486101
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -1.42109e-14
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/A" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" 2.27374e-13
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.297376
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.251645
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -1.39428
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" 0.00105687
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 0.000433435
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.236897
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" -1.42109e-14
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.792747
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" 0.633292
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/VSS" 2.84217e-14
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "m1_43718_2961#" 0.633292
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" 5.68434e-14
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "m1_43718_2961#" 0.956056
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" "m1_43718_2961#" 0.0137683
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/D" "m1_43718_2961#" 0.0924009
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/D" "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" -5.68434e-14
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/VSS" 10.3999
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "m1_43718_2961#" 4.4042
+cap "m1_43718_2961#" "mod_dff_magic_6/TSPC_MAGIC_1_0/CLK" 0.138601
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "m1_43718_2961#" 0.695055
+cap "m1_43718_2961#" "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 2.08516
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/CLK" -5.68434e-14
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" -4.54747e-13
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 5.68434e-14
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "m1_43718_2961#" 0.695055
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/Q" 0.267814
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/Q" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.695055
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "VSS" 4.18413
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/CLK" 7.10543e-15
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 2.05413
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.0462005
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 11.4357
+cap "Q6" "mod_dff_magic_6/TSPC_MAGIC_1_0/Q" 0.0701164
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/Q" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.236111
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_1/a_n78_n250#" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.065422
+cap "Q6" "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" 6.16275
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_0/D1" 1.3275
+cap "Q6" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 3.39735
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 107.029
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" "mod_dff_magic_6/TSPC_MAGIC_1_0/CLK" 2.05598
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 4.26022
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_1/IN1" -5.68434e-14
+cap "mod_dff_magic_0/MUX_1_1/IN1" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.0237416
+cap "mod_dff_magic_6/QB" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.027051
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.273458
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" 146.896
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 17.2917
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 27.3067
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" -0.00328781
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.407506
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_1/IN1" -0.0024342
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" -0.532396
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 1.71724
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/B" -2.84217e-14
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.10849
+cap "m1_52943_2936#" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/B" 0.00630952
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "m1_52943_2936#" 1.08526
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000433435
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/A" -2.27374e-13
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" -2.27374e-13
+cap "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "m1_52943_2936#" 0.616322
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 0.273458
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VOUT" -1.13687e-13
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "m1_52943_2936#" 0.84436
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 2.024
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/Q" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.674667
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" 5.15062
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.710512
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/D" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.07169
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.674667
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/CLK" 2.05619
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/Q" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.207503
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 78.2961
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/CLK" 1.95032
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "Q7" 3.83985
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "Q7" 0.748986
+cap "Q7" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 2.41765
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD" -1.42109e-14
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" -0.338172
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" 33.48
+cap "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" 0.362049
+cap "LD" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" -2.77556e-17
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD" 7.528
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" 19.91
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/VDD" 0.40632
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/IN" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 0.0142777
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" 0.156522
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" 7.9471
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/VDD" 5.39926
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/OUT" 0.00219435
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/IN" 16.3082
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/VDD" 6.66734
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_0/OUT" 5.86208
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" 15.3986
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/IN" "LD" 14.4546
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" 89.6164
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD" 8.27877
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/OUT" "LD" 31.0148
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" 9.02933
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" 28.0423
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/OUT" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 0.0142777
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/IN" 0.474144
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/OUT" 14.1397
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" 28.0544
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" "LD" 106.844
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/OUT" 13.9019
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" "LD" 1.11279
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" 4.86064
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 2.85292
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" 7.0425
+cap "G-CLK" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" 9.02933
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" 2.99195
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 0.517315
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 8.01718
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" "G-CLK" 9.02933
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/OUT" "LD" 14.4423
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" "LD" 0.107981
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" "LD" 92.0807
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" "VSS" 28.0719
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" 12.0893
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" 0.128902
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" 32.203
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/CLK" "LD" 0.0970841
+cap "m1_385_2928#" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/VDD" 0.115091
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/VDD" "LD" 82.0344
+cap "VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/VDD" 18.9691
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VSS" "LD" 2.70516
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/OUT" 9.66716
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 2.54509
+cap "LD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/OUT" 14.8332
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/VDD" 6.76286
+cap "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/IN" "LD" 0.45305
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" "m1_385_2928#" 0.00317347
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.548593
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 1.24774
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 30.7628
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 3.63962
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" 3.7647
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" 13.6481
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" -0.676131
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 0.162294
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" "Q1" 0.0194975
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" 0.022006
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 5.98128
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 0.156285
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.585196
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "m1_385_2928#" 153.733
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "Q1" 0.0445102
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" -1.01625
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 5.35606
+cap "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" -4.34097e-14
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" -1.12562
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 18.6075
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" -2.88414
+cap "m1_385_2928#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 25.6296
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" 6.50476
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 3.28725
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" "m1_385_2928#" 16.9286
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 1.06556
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "Q1" 0.0445102
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "m1_385_2928#" 56.0552
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 1.7053e-13
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 2.63915
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/B" "m1_385_2928#" 14.113
+cap "Q1" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" 0.0890203
+cap "mod_dff_magic_1/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 2.49548
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "m1_385_2928#" 53.9499
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "m1_385_2928#" 4.78188
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" "m1_385_2928#" 0.498754
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" 35.4749
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "m1_385_2928#" 2.71405
+cap "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VOUT" 4.52428
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 1.43556
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.093892
+cap "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 7.08619
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 4.77287
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" 18.0338
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/D" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.13058
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/CLK" 0.0652899
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/Q" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.669187
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.714197
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.734477
+cap "VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" -0.0124908
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "VSS" 12.0879
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 0.575295
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" 8.55195
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/CLK" 0.13058
+cap "VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" 4.63636
+cap "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "VSS" -0.0389956
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VOUT" "m1_8368_2892#" 0.000950519
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 8.53953
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 0.252655
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.924616
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "m1_8368_2892#" 13.5127
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 4.89424
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" -0.136432
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "m1_8368_2892#" 2.25899
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "m1_8368_2892#" 9.7521
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "m1_8368_2892#" 17.3676
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 0.0706468
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "m1_8368_2892#" 133.481
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 5.89776
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.80236
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.924616
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" -1.38492
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 5.89575
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VOUT" "m1_8368_2892#" 0.0184206
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" -0.519638
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 2.57981
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" 11.3273
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 0.251332
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" 4.2161
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/B" 13.2162
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 2.50749
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" 39.2404
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VOUT" "m1_8368_2892#" 0.728757
+cap "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" 2.34841
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 1.03125
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" 43.8857
+cap "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" 4.01819
+cap "mod_dff_magic_2/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" 3.20755
+cap "m1_8368_2892#" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 49.0028
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/D" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.0589934
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.00884901
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 3.81494
+cap "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_2/MUX_1_0/AND_1_0/inverter_2_0/VSS" 0.124694
+cap "mod_dff_magic_2/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 18.8409
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 1.32648
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 4.0866
+cap "mod_dff_magic_2/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.00988582
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 7.13477
+cap "VSS" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" 8.2647
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.631258
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/CLK" 0.0796411
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/Q" 0.631258
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" 0.682447
+cap "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.660755
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "m1_16864_2812#" 6.04244
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 5.61579
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" -3.43076
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 0.162294
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 0.781933
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 8.15696
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" -1.38492
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.913043
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "m1_16864_2812#" 8.40918
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" -1.56773
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 3.9992
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "m1_16864_2812#" 107.7
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 6.05521
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 27.0045
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 4.63177
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" 3.91734
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VOUT" "m1_16864_2812#" 0.358102
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 4.93277
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 51.5846
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" -5.68434e-14
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 45.2101
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 2.03246
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.913043
+cap "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/B" "m1_16864_2812#" 8.76515
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 0.666047
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "m1_16864_2812#" 0.00266732
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 26.6279
+cap "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" 0.00260067
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/AND_1_0/inverter_2_0/VSS" 39.1023
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/B" 2.39692
+cap "mod_dff_magic_3/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.00928967
+cap "m1_16864_2812#" "mod_dff_magic_3/MUX_1_0/OR_MAGIC_0/B" 3.87672
+cap "m1_16864_2812#" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.496944
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_3/MUX_1_0/AND_1_0/inverter_2_0/VSS" 0.238826
+cap "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "m1_16864_2812#" 0.318395
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" 5.8771
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.00511785
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "VSS" 11.6301
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/CLK" 0.0153535
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/D" 0.0102357
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 0.0915542
+cap "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" 0.133545
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 7.14144
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 3.39713
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" -0.752364
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 31.4839
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 1.40116
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "m1_26143_2876#" 0.014992
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 5.86051
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VOUT" "m1_26143_2876#" 0.0213708
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 6.88143
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "m1_26143_2876#" -1.274
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 6.46672
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" -3.41735
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" -0.534085
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 33.6084
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" 0.162294
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" -1.38492
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" 10.8698
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "m1_26143_2876#" 25.8525
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 135.737
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 13.1467
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" 26.4334
+cap "m1_26143_2876#" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 4.68768
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VOUT" 0.344238
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" 61.5294
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 3.1428
+cap "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VOUT" 5.44465
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/OR_MAGIC_0/B" 14.0424
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" 1.01587
+cap "m1_26143_2876#" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 36.3416
+cap "mod_dff_magic_4/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" 2.46307
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" "m1_26143_2876#" 0.118822
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "m1_26143_2876#" 5.16097
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" "m1_26143_2876#" 1.552
+cap "m1_26143_2876#" "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.662963
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/D" "m1_26143_2876#" 0.118822
+cap "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "m1_26143_2876#" 11.7333
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" 5.01157
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/Q" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 0.662963
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "VSS" 6.78818
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.722374
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 7.16487
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" 0.0594109
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 0.574612
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" 0.148839
+cap "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/CLK" -1.42109e-14
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" -0.0769639
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" 0.013347
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" 8.22379
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" -6.57465
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "m1_34932_2957#" 208.811
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "m1_34932_2957#" 12.608
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 1.45266
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" 43.3355
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "m1_34932_2957#" -3.28107
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.932078
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 0.162294
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" -8.67362e-19
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" -1.38492
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" 10.384
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" 6.39032
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" 17.5754
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 2.53497
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 3.63472
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" 88.0132
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 1.2301
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/B" 15.1874
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.0474279
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" 6.55697
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.629525
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" -0.00860216
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.932078
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VOUT" 0.0982513
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 101.219
+cap "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VOUT" 5.91285
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 12.0832
+cap "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" 29.4077
+cap "m1_34932_2957#" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 3.42568
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/AND_1_0/inverter_2_0/VSS" 38.3603
+cap "mod_dff_magic_5/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 5.00033
+cap "m1_34932_2957#" "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/B" 0.309582
+cap "m1_34932_2957#" "mod_dff_magic_5/TSPC_MAGIC_1_0/D" 0.225281
+cap "m1_34932_2957#" "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 0.719235
+cap "mod_dff_magic_5/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/inverter_2_0/VSS" 2.60249
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.719235
+cap "VSS" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 10.2778
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/Q" 0.719235
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" 10.9554
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.337921
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.831875
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 1.61708
+cap "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" 0.270726
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.949966
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "m1_43718_2961#" 1.52763
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 9.76939
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 4.68123
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "m1_43718_2961#" -2.17459
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" -4.82927
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 2.60209e-18
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 2.33911
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" -1.38492
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 0.8747
+cap "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -0.162248
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 98.1391
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" 31.4334
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" 1.86022
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -0.0799972
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" 0.162294
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 0.225431
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" 1.49359
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.949966
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" -2.03049
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" 0.722669
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" 139.905
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 116.332
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 5.86135
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" 0.00312497
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 28.7411
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" -0.00860216
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VOUT" "m1_43718_2961#" 0.176879
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 5.81175
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 66.3722
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" 3.73478
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" 16.0481
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 2.64099
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/B" 2.27374e-13
+cap "mod_dff_magic_6/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "m1_43718_2961#" 0.644163
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" 101.906
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "m1_43718_2961#" 4.81302
+cap "m1_43718_2961#" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 3.98384
+cap "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 1.28947
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" -1.7053e-13
+cap "m1_43718_2961#" "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.736838
+cap "mod_dff_magic_6/MUX_1_0/AND_1_1/inverter_2_0/VSS" "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" 11.0419
+cap "m1_43718_2961#" "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 2.40214
+cap "m1_43718_2961#" "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.736838
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "m1_43718_2961#" 8.97705
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/D" "m1_43718_2961#" 0.258656
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/CLK" "m1_43718_2961#" 0.387984
+cap "VSS" "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" 4.50371
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/Q" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.736838
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 5.94447
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.129328
+cap "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" 0.269566
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" 70.9326
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" -1.38492
+cap "m1_52943_2936#" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" 3.43988
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" 6.66795
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.899416
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" 1.69522
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" -0.162248
+cap "m1_52943_2936#" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" -3.50979
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" -8.06377
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "m1_52943_2936#" 165.562
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 9.95586
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" 0.162294
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "m1_52943_2936#" 7.67004
+cap "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/B" "m1_52943_2936#" 7.56233
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 24.2575
+cap "m1_52943_2936#" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 75.502
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "m1_52943_2936#" 92.1237
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" -0.0124253
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VOUT" -5.68434e-14
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" 0.068507
+cap "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "m1_52943_2936#" 0.618698
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VOUT" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 3.12277
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.899416
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 5.51975
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VOUT" "m1_52943_2936#" 1.3546
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "m1_52943_2936#" 48.9072
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" -2.27374e-13
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 0.236491
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "m1_52943_2936#" 0.288634
+cap "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "m1_52943_2936#" 6.39056
+cap "m1_52943_2936#" "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 2.40479
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" 0.84061
+cap "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" "m1_52943_2936#" 0.971655
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/B" 2.73132
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/inverter_2_0/VSS" "m1_52943_2936#" 50.5157
+cap "mod_dff_magic_0/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VOUT" 0.588498
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "m1_52943_2936#" 0.675956
+cap "mod_dff_magic_0/MUX_1_0/OR_MAGIC_0/B" "m1_52943_2936#" 7.56049
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/D" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.200681
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/CLK" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.301021
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/Q" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 0.706248
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" 11.9856
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/sky130_fd_pr__pfet_01v8_WN8SDB_3/a_20_n250#" 2.28782
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_NUEQ7D_1/a_n78_n250#" 0.806588
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/TSPC_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_0/a_20_n150#" 0.706248
+cap "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" 2.96594
+merge "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_0/IN1" -1619.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42327 -1479 -327416 -3316 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_4/MUX_1_0/IN1" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C"
+merge "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/C" "mod_dff_magic_3/MUX_1_2/VOUT"
+merge "mod_dff_magic_3/MUX_1_2/VOUT" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT"
+merge "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VOUT" "Q3"
+merge "mod_dff_magic_6/QB" "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" -3698.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2264655 -16118 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_6/TSPC_MAGIC_1_0/QB" "mod_dff_magic_6/MUX_1_1/IN1"
+merge "mod_dff_magic_6/MUX_1_1/IN1" "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_6/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/D1"
+merge "mod_dff_magic_6/D1" "m1_43718_2961#"
+merge "mod_dff_magic_0/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" -2497.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -651561 -6874 -1938 -182 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_5/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_0/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_0/MUX_1_0/AND_1_0/A" "mod_dff_magic_5/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_5/MUX_1_0/AND_1_0/A" "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_0/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_5/MUX_1_1/inverter_1_0/VIN" "LD_GEN_MAGIC_0/LD2"
+merge "LD_GEN_MAGIC_0/LD2" "LD2"
+merge "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_0/IN1" -3707.11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37404 -2582 -1504242 -9416 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_1/MUX_1_0/IN1" "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_0/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_0/G-CLK"
+merge "mod_dff_magic_0/G-CLK" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_5/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_0/IN2"
+merge "mod_dff_magic_5/MUX_1_0/IN2" "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_4/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_3/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/G-CLK"
+merge "mod_dff_magic_3/G-CLK" "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_2/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/AND_1_0/B"
+merge "mod_dff_magic_2/MUX_1_0/AND_1_0/B" "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_1/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/B" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN"
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/IN" "LD_GEN_MAGIC_0/G_CLK"
+merge "LD_GEN_MAGIC_0/G_CLK" "G-CLK"
+merge "LD_GEN_MAGIC_0/a_4469_2177#" "mod_dff_magic_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_0/VSUBS" "mod_dff_magic_6/VSUBS"
+merge "mod_dff_magic_6/VSUBS" "mod_dff_magic_5/VSUBS"
+merge "mod_dff_magic_5/VSUBS" "mod_dff_magic_4/VSUBS"
+merge "mod_dff_magic_4/VSUBS" "mod_dff_magic_3/VSUBS"
+merge "mod_dff_magic_3/VSUBS" "mod_dff_magic_2/VSUBS"
+merge "mod_dff_magic_2/VSUBS" "mod_dff_magic_1/VSUBS"
+merge "mod_dff_magic_1/VSUBS" "VSUBS"
+merge "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" -27133.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14080756 -61820 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS"
+merge "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS"
+merge "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "LD_GEN_MAGIC_0/VSS"
+merge "LD_GEN_MAGIC_0/VSS" "mod_dff_magic_0/MUX_1_0/AND_1_0/inverter_2_0/VSS"
+merge "mod_dff_magic_0/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_6/MUX_1_0/AND_1_1/inverter_2_0/VSS"
+merge "mod_dff_magic_6/MUX_1_0/AND_1_1/inverter_2_0/VSS" "mod_dff_magic_5/MUX_1_0/AND_1_0/inverter_2_0/VSS"
+merge "mod_dff_magic_5/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS"
+merge "mod_dff_magic_4/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "mod_dff_magic_3/MUX_1_0/AND_1_0/inverter_2_0/VSS"
+merge "mod_dff_magic_3/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_2/MUX_1_0/AND_1_0/inverter_2_0/VSS"
+merge "mod_dff_magic_2/MUX_1_0/AND_1_0/inverter_2_0/VSS" "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS"
+merge "mod_dff_magic_1/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/VSS" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VSS"
+merge "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/VSS" "mod_dff_magic_0/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_0/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_0/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_6/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_6/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_6/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_5/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_5/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_5/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_4/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_4/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_4/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_3/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_3/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_3/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_2/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_2/MUX_1_0/inverter_1_0/VSS" "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS"
+merge "mod_dff_magic_1/TSPC_MAGIC_1_0/VSS" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS"
+merge "mod_dff_magic_1/MUX_1_0/inverter_1_0/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS"
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VSS" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS"
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_1/VSS" "LD_GEN_MAGIC_0/NOR_MAGIC_1/VSS"
+merge "LD_GEN_MAGIC_0/NOR_MAGIC_1/VSS" "VSS"
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_4/VDD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" -1053.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -73564 -3182 0 0 0 0 0 0 0 0 0 0 0 0
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_2/VDD" "mod_dff_magic_1/li_5244_1738#"
+merge "mod_dff_magic_1/li_5244_1738#" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VDD"
+merge "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_2/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD"
+merge "mod_dff_magic_1/TSPC_MAGIC_1_0/VDD" "li_7197_5221#"
+merge "li_7197_5221#" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_1/MUX_1_0/inverter_1_0/VDD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD"
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_3/VDD" "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VDD"
+merge "LD_GEN_MAGIC_0/DFF_MAG_0/inverter_0/VDD" "li_n735_5316#"
+merge "mod_dff_magic_5/MUX_1_1/IN1" "mod_dff_magic_5/QB" -3059.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1563058 -14022 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_5/QB" "mod_dff_magic_5/TSPC_MAGIC_1_0/QB"
+merge "mod_dff_magic_5/TSPC_MAGIC_1_0/QB" "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_5/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/D1"
+merge "mod_dff_magic_5/D1" "m1_34932_2957#"
+merge "mod_dff_magic_2/li_5244_1738#" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VDD" -1055.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -173194 -4098 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_3/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD"
+merge "mod_dff_magic_2/TSPC_MAGIC_1_0/VDD" "li_14666_5286#"
+merge "mod_dff_magic_2/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" -1726.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -224142 -3688 -2240 -204 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_1/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_2/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_2/MUX_1_0/AND_1_0/A" "mod_dff_magic_1/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_1/MUX_1_0/AND_1_0/A" "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_2/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_2/LD"
+merge "mod_dff_magic_2/LD" "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_1/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_1/MUX_1_1/AND_1_0/A"
+merge "mod_dff_magic_1/MUX_1_1/AND_1_0/A" "LD_GEN_MAGIC_0/LD3"
+merge "LD_GEN_MAGIC_0/LD3" "LD3"
+merge "mod_dff_magic_6/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" -3289.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -696722 -9742 -3015 -224 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_4/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN"
+merge "mod_dff_magic_3/MUX_1_0/inverter_1_0/VIN" "mod_dff_magic_6/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_6/MUX_1_0/AND_1_0/A" "mod_dff_magic_4/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_4/MUX_1_0/AND_1_0/A" "mod_dff_magic_3/MUX_1_0/AND_1_0/A"
+merge "mod_dff_magic_3/MUX_1_0/AND_1_0/A" "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_6/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_4/MUX_1_1/inverter_1_0/VIN" "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN"
+merge "mod_dff_magic_3/MUX_1_1/inverter_1_0/VIN" "LD_GEN_MAGIC_0/LD1"
+merge "LD_GEN_MAGIC_0/LD1" "LD1"
+merge "mod_dff_magic_6/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_6/MUX_1_0/IN1" -1519.67 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11223 -608 -268414 -3844 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_6/MUX_1_0/IN1" "LD_GEN_MAGIC_0/Q5"
+merge "LD_GEN_MAGIC_0/Q5" "LD_GEN_MAGIC_0/NOR_MAGIC_0/B"
+merge "LD_GEN_MAGIC_0/NOR_MAGIC_0/B" "mod_dff_magic_5/MUX_1_2/VOUT"
+merge "mod_dff_magic_5/MUX_1_2/VOUT" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT"
+merge "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VOUT" "Q5"
+merge "mod_dff_magic_5/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_5/CLK" -1522.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12556 -670 -329146 -3818 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_5/CLK" "LD_GEN_MAGIC_0/NOR_MAGIC_0/A"
+merge "LD_GEN_MAGIC_0/NOR_MAGIC_0/A" "LD_GEN_MAGIC_0/Q4"
+merge "LD_GEN_MAGIC_0/Q4" "mod_dff_magic_4/Q"
+merge "mod_dff_magic_4/Q" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT"
+merge "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VOUT" "Q4"
+merge "mod_dff_magic_4/li_5244_1738#" "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VDD" -2179.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -367599 -8280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_4/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_5/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD"
+merge "mod_dff_magic_4/TSPC_MAGIC_1_0/VDD" "li_32700_5308#"
+merge "li_32700_5308#" "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD"
+merge "mod_dff_magic_3/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_4/MUX_1_0/VDD"
+merge "mod_dff_magic_4/MUX_1_0/VDD" "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_4/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD"
+merge "mod_dff_magic_3/TSPC_MAGIC_1_0/VDD" "li_23517_5276#"
+merge "mod_dff_magic_2/QB" "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" -2152.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -988758 -11120 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_2/TSPC_MAGIC_1_0/QB" "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_2/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_1/IN1"
+merge "mod_dff_magic_2/MUX_1_1/IN1" "m1_8368_2892#"
+merge "mod_dff_magic_2/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_1/AND_1_0/B" -1755.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416432 -6396 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_2/MUX_1_1/AND_1_0/B" "mod_dff_magic_2/DATA"
+merge "mod_dff_magic_2/DATA" "D2_2"
+merge "mod_dff_magic_2/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_2/MUX_1_0/IN1" -4714.53 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -63701 -1974 -2798952 -22884 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_2/MUX_1_0/IN1" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A"
+merge "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/A" "mod_dff_magic_1/MUX_1_2/VOUT"
+merge "mod_dff_magic_1/MUX_1_2/VOUT" "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT"
+merge "mod_dff_magic_1/MUX_1_2/OR_MAGIC_0/VOUT" "Q1"
+merge "Q1" "li_7921_735#"
+merge "mod_dff_magic_3/TSPC_MAGIC_1_0/QB" "mod_dff_magic_3/QB" -2851.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1319716 -13980 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_3/QB" "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_3/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_1/IN1"
+merge "mod_dff_magic_3/MUX_1_1/IN1" "mod_dff_magic_3/D1"
+merge "mod_dff_magic_3/D1" "m1_16864_2812#"
+merge "LD_GEN_MAGIC_0/LD" "LD_GEN_MAGIC_0/inverter_0/OUT" -3590.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1536980 -20229 0 0 0 0 0 0 0 0 0 0
+merge "LD_GEN_MAGIC_0/inverter_0/OUT" "LD"
+merge "mod_dff_magic_0/TSPC_MAGIC_1_0/QB" "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" -3088.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1500612 -14752 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_0/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_1/IN1"
+merge "mod_dff_magic_0/MUX_1_1/IN1" "mod_dff_magic_0/D1"
+merge "mod_dff_magic_0/D1" "m1_52943_2936#"
+merge "mod_dff_magic_3/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_3/MUX_1_0/IN1" -8606.23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -94929 -2513 -1441926 -46370 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_3/MUX_1_0/IN1" "mod_dff_magic_3/CLK"
+merge "mod_dff_magic_3/CLK" "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B"
+merge "LD_GEN_MAGIC_0/3_INPUT_NOR_MAG_0/B" "mod_dff_magic_2/MUX_1_2/VOUT"
+merge "mod_dff_magic_2/MUX_1_2/VOUT" "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT"
+merge "mod_dff_magic_2/MUX_1_2/OR_MAGIC_0/VOUT" "Q2"
+merge "mod_dff_magic_4/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_4/DATA" -449.382 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -71536 -1460 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_4/DATA" "D2_4"
+merge "mod_dff_magic_6/MUX_1_0/VDD" "mod_dff_magic_6/li_5244_1738#" -2140.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -364337 -8126 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_6/li_5244_1738#" "mod_dff_magic_5/li_5244_1738#"
+merge "mod_dff_magic_5/li_5244_1738#" "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_0/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_6/MUX_1_2/AND_1_1/inverter_2_0/VDD"
+merge "mod_dff_magic_6/MUX_1_2/AND_1_1/inverter_2_0/VDD" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD"
+merge "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD"
+merge "mod_dff_magic_6/TSPC_MAGIC_1_0/VDD" "li_50609_5393#"
+merge "li_50609_5393#" "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD"
+merge "mod_dff_magic_6/MUX_1_0/inverter_1_0/VDD" "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VDD"
+merge "mod_dff_magic_5/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VDD"
+merge "mod_dff_magic_6/MUX_1_0/AND_1_0/NAND_MAGIC_1_0/VDD" "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD"
+merge "mod_dff_magic_5/TSPC_MAGIC_1_0/VDD" "li_41447_5402#"
+merge "mod_dff_magic_5/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_5/MUX_1_1/IN2" -414.492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -62016 -1320 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_5/MUX_1_1/IN2" "mod_dff_magic_5/DATA"
+merge "mod_dff_magic_5/DATA" "D2_5"
+merge "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VDD" "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" -271.37 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30400 -1078 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_0/TSPC_MAGIC_1_0/VDD" "VDD"
+merge "mod_dff_magic_1/QB" "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" -2090.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -796616 -10034 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_1/TSPC_MAGIC_1_0/QB" "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_1/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_1/MUX_1_1/IN1"
+merge "mod_dff_magic_1/MUX_1_1/IN1" "m1_385_2928#"
+merge "mod_dff_magic_0/MUX_1_0/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_0/MUX_1_0/IN1" -3295.23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -121571 -2029 -1738599 -11841 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_0/MUX_1_0/IN1" "LD_GEN_MAGIC_0/NOR_MAGIC_1/A"
+merge "LD_GEN_MAGIC_0/NOR_MAGIC_1/A" "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT"
+merge "mod_dff_magic_6/MUX_1_2/OR_MAGIC_0/VOUT" "Q6"
+merge "mod_dff_magic_0/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_0/DATA" -335.734 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42024 -1026 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_0/DATA" "D2_7"
+merge "mod_dff_magic_4/TSPC_MAGIC_1_0/QB" "mod_dff_magic_4/QB" -3406.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1810042 -14972 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_4/QB" "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B"
+merge "mod_dff_magic_4/MUX_1_1/AND_1_1/NAND_MAGIC_1_0/B" "mod_dff_magic_4/MUX_1_1/IN1"
+merge "mod_dff_magic_4/MUX_1_1/IN1" "m1_26143_2876#"
+merge "LD_GEN_MAGIC_0/NOR_MAGIC_1/B" "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" -3523.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11103 -692 -1580460 -11414 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_0/MUX_1_2/OR_MAGIC_0/VOUT" "Q7"
+merge "mod_dff_magic_1/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_1/DATA" -766.877 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -176408 -4626 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_1/DATA" "D2_1"
+merge "mod_dff_magic_6/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_6/DATA" -369.844 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -46920 -1098 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_6/DATA" "D2_6"
+merge "mod_dff_magic_3/MUX_1_1/AND_1_0/NAND_MAGIC_1_0/B" "mod_dff_magic_3/DATA" -422.037 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -59182 -1288 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mod_dff_magic_3/DATA" "D2_3"

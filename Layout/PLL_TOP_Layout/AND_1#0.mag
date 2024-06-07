@@ -1,0 +1,35 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717691374
+<< nwell >>
+rect 582 1121 1387 1172
+rect 533 1041 857 1121
+rect 533 1022 671 1041
+rect 582 936 669 1022
+rect 578 868 669 936
+rect 582 791 669 868
+<< locali >>
+rect 533 1022 671 1121
+rect 1207 792 1241 857
+rect -29 568 71 604
+rect 575 589 636 781
+rect 1207 722 1378 792
+rect -45 470 77 510
+rect 919 84 980 518
+rect 530 23 980 84
+use inverter_2#0  inverter_2_0
+timestamp 1717691374
+transform 1 0 669 0 1 798
+box -72 -328 718 323
+use NAND_MAGIC_1#0  NAND_MAGIC_1_0
+timestamp 1717691374
+transform 1 0 48 0 1 605
+box -45 -626 577 567
+<< labels >>
+flabel locali s 7 482 7 482 0 FreeSans 2000 0 0 0 A
+flabel locali s 19 583 19 583 0 FreeSans 2000 0 0 0 B
+flabel locali s 1366 746 1366 746 0 FreeSans 2000 0 0 0 VOUT
+flabel locali s 687 40 687 40 0 FreeSans 2000 0 0 0 VSS
+flabel locali s 580 1093 580 1093 0 FreeSans 2000 0 0 0 VDD
+<< end >>

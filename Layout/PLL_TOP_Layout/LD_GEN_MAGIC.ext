@@ -1,0 +1,940 @@
+timestamp 1717686518
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use 3_INPUT_NOR_MAG 3_INPUT_NOR_MAG_0 1 0 -74 0 1 1001
+use NOR_MAGIC NOR_MAGIC_1 1 0 -83 0 1 3558
+use NOR_MAGIC NOR_MAGIC_0 1 0 863 0 1 3558
+use 3AND_MAGIC 3AND_MAGIC_0 1 0 1779 0 1 3792
+use inverter inverter_0 1 0 3354 0 1 3871
+use NAND_MAGIC NAND_MAGIC_0 1 0 3676 0 -1 2800
+use sky130_fd_pr__nfet_01v8_T7BQPS sky130_fd_pr__nfet_01v8_T7BQPS_1 1 0 4632 0 1 2741
+use sky130_fd_pr__nfet_01v8_T7BQPS sky130_fd_pr__nfet_01v8_T7BQPS_2 1 0 5032 0 1 2741
+use sky130_fd_pr__nfet_01v8_T7BQPS sky130_fd_pr__nfet_01v8_T7BQPS_4 1 0 5632 0 1 2741
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_2 1 0 4730 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_3 1 0 4632 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_4 1 0 5130 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_5 1 0 5032 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_8 1 0 5730 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_9 1 0 5632 0 1 3626
+use sky130_fd_pr__nfet_01v8_T7BQPS sky130_fd_pr__nfet_01v8_T7BQPS_0 1 0 7032 0 1 2741
+use sky130_fd_pr__nfet_01v8_T7BQPS sky130_fd_pr__nfet_01v8_T7BQPS_3 1 0 6632 0 1 2741
+use sky130_fd_pr__nfet_01v8_T7BQPS sky130_fd_pr__nfet_01v8_T7BQPS_5 1 0 6032 0 1 2741
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_0 1 0 7130 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_1 1 0 7032 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_6 1 0 6730 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_7 1 0 6632 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_10 1 0 6032 0 1 3626
+use sky130_fd_pr__pfet_01v8_WNVYTC sky130_fd_pr__pfet_01v8_WNVYTC_11 1 0 6130 0 1 3626
+use DFF_MAG DFF_MAG_0 1 0 3809 0 1 1189
+node "G_CLK" 138 945.677 1199 549 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68813 1864 140970 3818 0 0 0 0 0 0 0 0 0 0
+node "li_3784_1905#" 16 174.471 3784 1905 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68208 1052 0 0 0 0 0 0 0 0 0 0 0 0
+node "LD1" 129 163.887 7064 3091 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15650 870 16609 786 0 0 0 0 0 0 0 0 0 0
+node "LD2" 174 431.333 6064 3091 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19084 1072 75558 4394 0 0 0 0 0 0 0 0 0 0
+node "LD3" 140 746.447 5064 3091 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15684 872 112924 6592 0 0 0 0 0 0 0 0 0 0
+node "li_4174_2799#" 41 1624.38 4174 2799 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8040 388 320008 11264 0 0 0 0 0 0 0 0 0 0
+node "li_1448_2932#" 71 260.237 1448 2932 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52427 1274 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 356 1752 798 291 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 587732 8372 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q3" 42 51.3319 -245 741 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5576 354 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q2" 46 31.7262 -251 833 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6068 378 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q1" 44 53.4442 -242 922 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5822 366 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_521_2932#" 55 192.935 521 2932 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34087 944 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_3055_3535#" 262 751.694 3055 3535 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32808 1712 56880 2016 0 0 0 0 0 0 0 0 0 0
+node "li_1479_3379#" 167 160.959 1479 3379 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20655 1118 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q5" 34 446.513 915 3367 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7920 384 79908 3812 0 0 0 0 0 0 0 0 0 0
+node "Q7" 31 34.8603 -140 3375 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3096 244 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q4" 34 471.728 1138 3447 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7920 384 89904 4288 0 0 0 0 0 0 0 0 0 0
+node "Q6" 37 43.5734 -140 3464 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3708 278 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_467_3373#" 180 585.992 467 3373 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28292 1340 60444 2808 0 0 0 0 0 0 0 0 0 0
+node "li_3311_2335#" 149 3070.41 3311 2335 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84463 2088 593438 14572 0 0 0 0 0 0 0 0 0 0
+node "li_816_748#" 135 1181.84 816 748 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18920 944 170820 8064 0 0 0 0 0 0 0 0 0 0
+node "li_3178_4142#" 102 244.001 3178 4142 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36697 1218 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_491_4134#" 83 218.204 491 4134 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30843 1032 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2439_4146#" 107 259.918 2439 4146 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38525 1272 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1407_4134#" 108 263.536 1407 4134 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40911 1312 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6889_3155#" 649 305.486 6889 3155 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18610 944 0 0 21791 1166 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5896_3153#" 646 406.578 5896 3153 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18232 930 0 0 22064 1180 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_4896_3138#" 650 303.292 4896 3138 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18232 930 0 0 20292 1144 0 0 0 0 0 0 0 0 0 0 0 0
+node "LD" 2076 4050.86 4494 3153 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52826 2686 0 0 164924 5304 335300 9720 0 0 0 0 0 0 0 0 0 0
+node "w_n79_1532#" 4857 3147.44 -79 1532 nw 0 0 0 0 1049148 5538 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_3677_1980#" 1908 456.409 3677 1980 nw 0 0 0 0 148860 1638 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 25167 7612.74 4518 4038 nw 0 0 0 0 1841996 13328 0 0 273156 5510 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 603501 14676 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_2839_4142#" 1957 27.738 2839 4142 nw 0 0 0 0 9246 410 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_2702_4128#" 1478 18.522 2702 4128 nw 0 0 0 0 6174 322 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_2439_4146#" 1239 18.63 2439 4146 nw 0 0 0 0 6210 318 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "a_4469_2177#" 0 0 4469 2177 ppd 0 0 0 0 0 0 0 0 0 0 264519 5648 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 635116 13152 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Q4" "li_521_2932#" 73.716
+cap "li_1407_4134#" "li_816_748#" 13.0601
+cap "G_CLK" "VSS" 513.65
+cap "VDD" "a_5896_3153#" 61.9869
+cap "VDD" "LD" 284.965
+cap "a_4896_3138#" "a_5896_3153#" 0.49511
+cap "a_4896_3138#" "LD" 79.7909
+cap "Q4" "Q6" 1.12101
+cap "li_3311_2335#" "a_5896_3153#" 0.19829
+cap "LD" "li_3311_2335#" 473.717
+cap "li_816_748#" "w_n79_1532#" 93.6949
+cap "li_491_4134#" "li_521_2932#" 6.81639
+cap "li_4174_2799#" "LD" 84.6493
+cap "li_816_748#" "li_1448_2932#" 87.2415
+cap "VSS" "w_n79_1532#" 225.315
+cap "li_816_748#" "li_4174_2799#" 706.714
+cap "li_816_748#" "li_467_3373#" 154.682
+cap "VSS" "li_1448_2932#" 5.12102
+cap "VSS" "li_4174_2799#" 622.984
+cap "VSS" "li_467_3373#" 0.0989677
+cap "li_3784_1905#" "w_3677_1980#" 83.8452
+cap "Q5" "li_521_2932#" 47.9564
+cap "Q1" "Q2" 46.6382
+cap "Q5" "Q6" 0.0150507
+cap "Q7" "Q6" 27.0741
+cap "Q4" "li_491_4134#" 0.44658
+cap "li_816_748#" "Q2" 0.102747
+cap "G_CLK" "w_n79_1532#" 18.6886
+cap "LD1" "LD3" 0.065735
+cap "li_816_748#" "Q3" 0.996598
+cap "LD2" "LD3" 705.954
+cap "a_6889_3155#" "VDD" 171.622
+cap "VSS" "Q2" 0.937668
+cap "G_CLK" "li_4174_2799#" 95.3101
+cap "a_6889_3155#" "li_3311_2335#" 0.20353
+cap "VSS" "Q3" 0.159233
+cap "li_816_748#" "li_521_2932#" 1.40321
+cap "Q4" "li_1479_3379#" 3.09262
+cap "li_1407_4134#" "li_1448_2932#" 4.58527
+cap "a_4896_3138#" "VDD" 154.814
+cap "Q5" "Q4" 902.754
+cap "Q4" "Q7" 0.326104
+cap "VDD" "li_3311_2335#" 119.303
+cap "w_n79_1532#" "li_3311_2335#" 0.194988
+cap "a_4896_3138#" "li_3311_2335#" 0.434246
+cap "w_n79_1532#" "li_1448_2932#" 5.86197
+cap "li_1407_4134#" "li_467_3373#" 7.97664
+cap "VSS" "li_521_2932#" 11.0972
+cap "Q5" "li_491_4134#" 1.05103
+cap "VDD" "li_4174_2799#" 0.0974863
+cap "li_4174_2799#" "w_n79_1532#" 143.198
+cap "li_467_3373#" "w_n79_1532#" 0.174749
+cap "li_2439_4146#" "li_3178_4142#" 8.25017
+cap "LD1" "LD2" 19.923
+cap "li_4174_2799#" "li_3311_2335#" 418.209
+cap "li_4174_2799#" "li_1448_2932#" 1.76837
+cap "LD3" "a_5896_3153#" 7.0633
+cap "LD" "LD3" 43.083
+cap "li_467_3373#" "li_1448_2932#" 0.770586
+cap "G_CLK" "Q2" 0.718346
+cap "li_4174_2799#" "li_467_3373#" 0.0337532
+cap "G_CLK" "Q3" 2.02322
+cap "li_816_748#" "Q4" 23.6623
+cap "li_3055_3535#" "li_3178_4142#" 7.21741
+cap "Q5" "li_1479_3379#" 3.26543
+cap "Q5" "Q7" 0.100637
+cap "li_816_748#" "li_491_4134#" 0.0185454
+cap "li_3055_3535#" "li_1479_3379#" 1.23919
+cap "VSS" "Q4" 2.19511
+cap "li_3784_1905#" "w_n79_1532#" 0.058272
+cap "LD1" "a_5896_3153#" 0.018908
+cap "LD1" "LD" 19.0158
+cap "li_3784_1905#" "li_3311_2335#" 175.916
+cap "LD" "LD2" 41.4973
+cap "LD2" "a_5896_3153#" 70.0737
+cap "li_3784_1905#" "li_4174_2799#" 49.1726
+cap "w_n79_1532#" "li_521_2932#" 4.33267
+cap "w_n79_1532#" "Q6" 0.0295295
+cap "li_1448_2932#" "li_521_2932#" 1.87238
+cap "li_816_748#" "li_1479_3379#" 47.9728
+cap "li_816_748#" "Q5" 88.8272
+cap "li_3055_3535#" "LD" 1.46902
+cap "li_816_748#" "li_3055_3535#" 20.5138
+cap "li_467_3373#" "li_521_2932#" 6.838
+cap "li_2439_4146#" "w_2839_4142#" 8.55024
+cap "VSS" "Q5" 12.6304
+cap "li_467_3373#" "Q6" 0.185456
+cap "a_6889_3155#" "LD3" 0.230851
+cap "LD" "a_5896_3153#" 73.1293
+cap "VDD" "LD3" 929.474
+cap "Q3" "Q2" 43.8987
+cap "a_4896_3138#" "LD3" 68.1839
+cap "li_816_748#" "Q1" 0.100221
+cap "Q4" "w_n79_1532#" 0.264446
+cap "li_2439_4146#" "w_2702_4128#" 5.70941
+cap "li_1407_4134#" "li_491_4134#" 3.54024
+cap "li_2439_4146#" "w_2439_4146#" 5.7427
+cap "VSS" "Q1" 0.940198
+cap "li_4174_2799#" "Q4" 0.05042
+cap "LD1" "a_6889_3155#" 67.8444
+cap "Q4" "li_467_3373#" 320.576
+cap "VSS" "li_816_748#" 287.393
+cap "li_1407_4134#" "li_2439_4146#" 4.06849
+cap "a_6889_3155#" "LD2" 7.35141
+cap "LD1" "VDD" 152.862
+cap "li_491_4134#" "li_467_3373#" 5.77251
+cap "VDD" "li_3178_4142#" 4.63663
+cap "li_1407_4134#" "li_1479_3379#" 0.820745
+cap "LD1" "li_3311_2335#" 0.0693923
+cap "VDD" "LD2" 445.653
+cap "li_3178_4142#" "li_3311_2335#" 11.5284
+cap "Q5" "w_n79_1532#" 18.9029
+cap "w_n79_1532#" "Q7" 0.0800277
+cap "G_CLK" "Q1" 0.434781
+cap "li_1479_3379#" "li_1448_2932#" 19.7088
+cap "Q5" "li_1448_2932#" 0.542446
+cap "li_4174_2799#" "li_1479_3379#" 0.141711
+cap "li_3055_3535#" "li_3311_2335#" 392.82
+cap "li_3055_3535#" "li_1448_2932#" 0.277577
+cap "G_CLK" "li_816_748#" 20.1481
+cap "li_1479_3379#" "li_467_3373#" 57.6954
+cap "a_6889_3155#" "a_5896_3153#" 0.170133
+cap "li_3311_2335#" "w_3677_1980#" 45.6305
+cap "a_6889_3155#" "LD" 72.5684
+cap "Q5" "li_467_3373#" 6.72052
+cap "li_467_3373#" "Q7" 1.83061
+cap "li_3055_3535#" "li_4174_2799#" 11.8173
+cap "li_4174_2799#" "w_3677_1980#" 29.0212
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/VSS" 23.3386
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" "DFF_MAG_0/inverter_1/VSS" 55.2926
+cap "DFF_MAG_0/TG_MAGIC_1/OUT" "3_INPUT_NOR_MAG_0/A" 0.0741482
+cap "3_INPUT_NOR_MAG_0/A" "DFF_MAG_0/TG_MAGIC_0/IN" 0.60881
+cap "DFF_MAG_0/inverter_1/VDD" "3_INPUT_NOR_MAG_0/B" 0.0931518
+cap "3_INPUT_NOR_MAG_0/C" "3_INPUT_NOR_MAG_0/B" -13.2354
+cap "3_INPUT_NOR_MAG_0/VOUT" "DFF_MAG_0/inverter_1/IN" 69.6072
+cap "3_INPUT_NOR_MAG_0/A" "DFF_MAG_0/inverter_1/VSS" 3.49102
+cap "DFF_MAG_0/TG_MAGIC_1/a_538_271#" "3_INPUT_NOR_MAG_0/A" 0.134628
+cap "DFF_MAG_0/inverter_1/OUT" "DFF_MAG_0/TG_MAGIC_0/IN" 3.34609
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/inverter_1/IN" 1.0931
+cap "3_INPUT_NOR_MAG_0/C" "DFF_MAG_0/inverter_1/IN" 13.4131
+cap "3_INPUT_NOR_MAG_0/VOUT" "DFF_MAG_0/inverter_1/VDD" 10.1783
+cap "DFF_MAG_0/inverter_1/VSS" "3_INPUT_NOR_MAG_0/B" -0.937668
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "DFF_MAG_0/inverter_1/IN" 5.73317
+cap "3_INPUT_NOR_MAG_0/C" "3_INPUT_NOR_MAG_0/VOUT" 0.00509018
+cap "3_INPUT_NOR_MAG_0/A" "3_INPUT_NOR_MAG_0/B" -15.7697
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/IN" 6.2927
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" "DFF_MAG_0/inverter_1/IN" 7.51704
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "3_INPUT_NOR_MAG_0/VOUT" 1.0981
+cap "DFF_MAG_0/TG_MAGIC_1/OUT" "3_INPUT_NOR_MAG_0/VOUT" 1.27326
+cap "DFF_MAG_0/inverter_1/VSS" "DFF_MAG_0/inverter_1/IN" 328.637
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" "3_INPUT_NOR_MAG_0/VOUT" 148.751
+cap "3_INPUT_NOR_MAG_0/A" "DFF_MAG_0/TG_MAGIC_1/sky130_fd_pr__nfet_01v8_S4GQ7J_5/a_20_n50#" 0.00405304
+cap "3_INPUT_NOR_MAG_0/C" "DFF_MAG_0/inverter_1/VDD" 0.0707453
+cap "DFF_MAG_0/inverter_1/VSS" "3_INPUT_NOR_MAG_0/VOUT" 45.2622
+cap "3_INPUT_NOR_MAG_0/A" "DFF_MAG_0/inverter_1/IN" 15.2932
+cap "3_INPUT_NOR_MAG_0/A" "3_INPUT_NOR_MAG_0/VOUT" 9.05344
+cap "DFF_MAG_0/inverter_1/VSS" "DFF_MAG_0/inverter_1/VDD" 6.67218
+cap "3_INPUT_NOR_MAG_0/C" "DFF_MAG_0/inverter_1/VSS" -0.159233
+cap "DFF_MAG_0/inverter_1/IN" "3_INPUT_NOR_MAG_0/B" 10.5212
+cap "3_INPUT_NOR_MAG_0/A" "DFF_MAG_0/inverter_1/VDD" 0.155445
+cap "3_INPUT_NOR_MAG_0/A" "3_INPUT_NOR_MAG_0/C" 0.303661
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "DFF_MAG_0/inverter_1/VSS" -0.205739
+cap "3_INPUT_NOR_MAG_0/VOUT" "3_INPUT_NOR_MAG_0/B" 1.44847
+cap "3_INPUT_NOR_MAG_0/C" "DFF_MAG_0/inverter_1/IN" 0.0277917
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/VSS" 135.076
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_0/IN" 7.14422
+cap "3_INPUT_NOR_MAG_0/VOUT" "DFF_MAG_0/inverter_1/IN" 4.87265
+cap "DFF_MAG_0/inverter_1/IN" "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.111642
+cap "DFF_MAG_0/inverter_1/IN" "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" 0.250874
+cap "DFF_MAG_0/inverter_1/IN" "3_INPUT_NOR_MAG_0/A" 0.175126
+cap "DFF_MAG_0/inverter_2/OUT" "DFF_MAG_0/inverter_1/VSS" 3.61062
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/TG_MAGIC_0/IN" 42.8216
+cap "DFF_MAG_0/inverter_1/IN" "3_INPUT_NOR_MAG_0/B" 0.0332679
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/VDD" "DFF_MAG_0/inverter_1/VSS" 1.40721
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/inverter_1/VSS" -6.39569
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "DFF_MAG_0/inverter_1/VSS" 0.400001
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_2/OUT" 0.864522
+cap "DFF_MAG_0/inverter_1/OUT" "DFF_MAG_0/inverter_1/VSS" 0.249629
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_2/OUT" -0.521571
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/TG_MAGIC_1/inverter_0/VDD" 1.50984
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_1/VDD" -4.43188
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/VDD" -0.30194
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "DFF_MAG_0/inverter_1/IN" 0.536576
+cap "DFF_MAG_0/inverter_1/OUT" "DFF_MAG_0/TG_MAGIC_0/IN" 4.21275
+cap "DFF_MAG_0/inverter_1/VSS" "DFF_MAG_0/inverter_0/IN" 37.2307
+cap "3_INPUT_NOR_MAG_0/VOUT" "DFF_MAG_0/inverter_0/IN" 1.27326
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_1/VSS" 35.128
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "DFF_MAG_0/inverter_0/IN" -4.26326e-14
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_1/IN" -0.0415244
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/IN" 0.000307215
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_1/IN" 3.1353
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_0/IN" -0.136755
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_0/IN" 2.55304
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/IN" 4.04191
+cap "DFF_MAG_0/inverter_2/OUT" "DFF_MAG_0/inverter_0/VSS" 0.141086
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "DFF_MAG_0/inverter_2/OUT" -1.13687e-13
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_2/OUT" 0.826948
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_2/OUT" -0.0211582
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_2/OUT" 0.965854
+cap "DFF_MAG_0/inverter_0/IN" "DFF_MAG_0/inverter_2/OUT" 1.13687e-13
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/OUT" "DFF_MAG_0/inverter_0/VSS" 0.256886
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_0/VSS" 0.11821
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_0/VSS" -0.000426641
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/VSS" 0.0173913
+cap "DFF_MAG_0/inverter_0/OUT" "DFF_MAG_0/inverter_0/VSS" 0.021971
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_0/OUT" -0.0304753
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_0/VSS" -0.0779678
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" -0.05907
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/OUT" 1.35248
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/VSS" 2.1825
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" 1.77754
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 0.022365
+cap "LD" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 0.00034246
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 3.44599
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_4/OUT" 1.24181
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_3/IN" -0.351359
+cap "DFF_MAG_0/TG_MAGIC_1/CLK" "DFF_MAG_0/inverter_3/OUT" 0.0336763
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" -0.120177
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_4/OUT" -0.0291272
+cap "DFF_MAG_0/inverter_3/IN" "DFF_MAG_0/inverter_3/OUT" 8.74214
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/IN" 6.19383
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_2/inverter_0/sky130_fd_pr__nfet_01v8_S4GQ7J_1/a_n20_n76#" 0.00411969
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/VDD" 79.8019
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/VSS" 22.5943
+cap "DFF_MAG_0/inverter_3/OUT" "LD" 2.18755
+cap "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" "DFF_MAG_0/inverter_3/OUT" 0.0721261
+cap "DFF_MAG_0/inverter_3/VDD" "DFF_MAG_0/inverter_3/VSS" -1.06617
+cap "DFF_MAG_0/inverter_1/VDD" "NOR_MAGIC_0/B" -2.96725
+cap "NOR_MAGIC_0/A" "3_INPUT_NOR_MAG_0/C" 0.0282726
+cap "3_INPUT_NOR_MAG_0/C" "DFF_MAG_0/inverter_1/VSS" 0.0369231
+cap "3_INPUT_NOR_MAG_0/C" "DFF_MAG_0/inverter_1/VDD" 0.476183
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/OUT" 3.25706
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "3AND_MAGIC_0/C" 0.0226508
+cap "DFF_MAG_0/inverter_1/OUT" "3_INPUT_NOR_MAG_0/A" 0.0509292
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3_INPUT_NOR_MAG_0/A" 0.00734462
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/inverter_1/VSS" 10.3824
+cap "3_INPUT_NOR_MAG_0/A" "NOR_MAGIC_0/B" 0.82734
+cap "3AND_MAGIC_0/C" "DFF_MAG_0/inverter_1/VDD" -17.3183
+cap "3_INPUT_NOR_MAG_0/C" "NOR_MAGIC_0/B" 0.82734
+cap "NOR_MAGIC_0/A" "3_INPUT_NOR_MAG_0/B" 0.0282726
+cap "3_INPUT_NOR_MAG_0/B" "DFF_MAG_0/inverter_1/VSS" 0.0369231
+cap "DFF_MAG_0/inverter_1/VDD" "3_INPUT_NOR_MAG_0/B" 0.451982
+cap "DFF_MAG_0/inverter_1/IN" "DFF_MAG_0/TG_MAGIC_0/IN" 6.29998
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" "DFF_MAG_0/inverter_1/VSS" 38.8285
+cap "DFF_MAG_0/inverter_1/VDD" "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" 8.58341
+cap "3AND_MAGIC_0/C" "3_INPUT_NOR_MAG_0/A" 0.987109
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_0/B" 1.89984
+cap "3AND_MAGIC_0/C" "3_INPUT_NOR_MAG_0/C" 0.0980649
+cap "3_INPUT_NOR_MAG_0/B" "NOR_MAGIC_0/B" 0.82734
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" 0.00253815
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "3_INPUT_NOR_MAG_0/A" 0.00440769
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" "NOR_MAGIC_0/B" 6.02902
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "DFF_MAG_0/inverter_1/VDD" 0.811051
+cap "NOR_MAGIC_0/A" "DFF_MAG_0/inverter_1/VDD" 0.37036
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/inverter_1/VSS" -22.4873
+cap "3AND_MAGIC_0/C" "3_INPUT_NOR_MAG_0/B" 0.232468
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "NOR_MAGIC_0/B" 5.69953
+cap "3AND_MAGIC_0/C" "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" 85.0797
+cap "DFF_MAG_0/inverter_1/OUT" "DFF_MAG_0/inverter_1/VSS" 2.93525
+cap "NOR_MAGIC_0/A" "3_INPUT_NOR_MAG_0/A" 0.0543609
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/VDD" -8.55747
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/VSS" -5.68434e-14
+cap "3_INPUT_NOR_MAG_0/A" "DFF_MAG_0/inverter_1/VSS" 0.410249
+cap "DFF_MAG_0/inverter_1/VSS" "NOR_MAGIC_0/B" 8.88178e-16
+cap "3_INPUT_NOR_MAG_0/C" "NOR_MAGIC_1/B" 0.199715
+cap "DFF_MAG_0/inverter_1/VDD" "3_INPUT_NOR_MAG_0/A" 3.85653
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" 9.07486
+cap "DFF_MAG_0/inverter_1/VSS" "DFF_MAG_0/inverter_1/IN" 15.2133
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/inverter_1/IN" 36.903
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 3.78924
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/VSS" 4.86955
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/TG_MAGIC_0/IN" 31.6591
+cap "3AND_MAGIC_0/B" "DFF_MAG_0/inverter_1/OUT" 0.229908
+cap "DFF_MAG_0/inverter_1/VDD" "3AND_MAGIC_0/C" 0.207119
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" "DFF_MAG_0/inverter_1/IN" 0.43382
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/OUT" 25.1888
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/B" 1.24536
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "inverter_0/VDD" 0.86449
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/inverter_1/OUT" 0.116923
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/IN" 8.19459
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/inverter_1/VSS" 47.6036
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "DFF_MAG_0/inverter_1/OUT" 0.12096
+cap "NOR_MAGIC_0/A" "DFF_MAG_0/inverter_1/IN" 0.071066
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "DFF_MAG_0/inverter_1/OUT" 0.018972
+cap "3AND_MAGIC_0/C" "DFF_MAG_0/inverter_1/IN" 0.893791
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/C" 1.28016
+cap "DFF_MAG_0/inverter_1/VSS" "DFF_MAG_0/inverter_1/OUT" 3.18687
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/inverter_1/IN" 0.0307047
+cap "DFF_MAG_0/inverter_1/OUT" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.0356362
+cap "DFF_MAG_0/inverter_1/VDD" "DFF_MAG_0/inverter_1/OUT" 2.01737
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/TG_MAGIC_0/IN" 0.810688
+cap "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "DFF_MAG_0/inverter_1/IN" 0.183731
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "DFF_MAG_0/TG_MAGIC_0/IN" 3.07193
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "DFF_MAG_0/TG_MAGIC_0/IN" 1.79432
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" 2.14484
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_2/VDD" 0.132885
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/TG_MAGIC_0/IN" 3.47352
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_1/OUT" 1.72402
+cap "DFF_MAG_0/inverter_0/VSS" "NAND_MAGIC_0/B" 0.601916
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "DFF_MAG_0/inverter_1/OUT" 0.034086
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "NAND_MAGIC_0/A" 10.9437
+cap "NAND_MAGIC_0/B" "DFF_MAG_0/inverter_1/IN" 0.00679314
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 0.00576958
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/A" 258.763
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "DFF_MAG_0/inverter_1/OUT" 0.018972
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_2/OUT" 1.12478
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_0/IN" 11.827
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" 0.228848
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "NAND_MAGIC_0/B" 14.275
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/inverter_1/OUT" 0.0712598
+cap "DFF_MAG_0/inverter_0/IN" "NAND_MAGIC_0/B" 1.94207
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 1.27378
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" 0.51398
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/inverter_0/VDD" 7.24223
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_1/OUT" 2.6844
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "DFF_MAG_0/TG_MAGIC_0/IN" 9.88065
+cap "NAND_MAGIC_0/B" "DFF_MAG_0/inverter_1/OUT" 0.00506318
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "DFF_MAG_0/inverter_0/VDD" 112.584
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "NAND_MAGIC_0/B" 0.256124
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_0/IN" 3.19562
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/B" 21.2945
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/A" 0.483633
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 0.161557
+cap "DFF_MAG_0/inverter_0/VSS" "NAND_MAGIC_0/A" -3.73782
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" "DFF_MAG_0/inverter_0/VDD" 0.0391169
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_1/IN" 3.19358
+cap "NAND_MAGIC_0/B" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" -2.22045e-16
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 0.775828
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "NAND_MAGIC_0/A" 2.88719
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" 1.3407
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/IN" 25.216
+cap "NAND_MAGIC_0/A" "NAND_MAGIC_0/B" 2.0514
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "DFF_MAG_0/inverter_0/VDD" 0.0758676
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/inverter_1/OUT" 0.116923
+cap "NAND_MAGIC_0/B" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 0.0132105
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" 1.72764
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "NAND_MAGIC_0/A" 0.016045
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "NAND_MAGIC_0/A" 19.1555
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "NAND_MAGIC_0/A" 0.0538513
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" -0.703912
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/A" 1.60291
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.15126
+cap "DFF_MAG_0/inverter_0/IN" "NAND_MAGIC_0/A" 24.7413
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.103692
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/A" 381.982
+cap "DFF_MAG_0/inverter_0/VSS" "NAND_MAGIC_0/B" -0.119531
+cap "DFF_MAG_0/inverter_0/VSS" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" -0.413088
+cap "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" "NAND_MAGIC_0/A" 24.5158
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "DFF_MAG_0/inverter_0/OUT" 0.000510512
+cap "DFF_MAG_0/inverter_0/VSS" "NAND_MAGIC_0/A" 2.46828
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 0.00855462
+cap "DFF_MAG_0/inverter_2/VDD" "NAND_MAGIC_0/A" 0.175957
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.0026843
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 0.464137
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 39.3541
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/OUT" -5.1249
+cap "DFF_MAG_0/inverter_0/IN" "NAND_MAGIC_0/OUT" 1.07459
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/OUT" 0.0314626
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/inverter_0/OUT" -1.48598
+cap "NAND_MAGIC_0/OUT" "DFF_MAG_0/inverter_0/VDD" 341.329
+cap "DFF_MAG_0/inverter_0/IN" "DFF_MAG_0/inverter_0/OUT" -2.84217e-14
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "DFF_MAG_0/inverter_0/VDD" 0.6702
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" 1.59109
+cap "DFF_MAG_0/inverter_0/VSS" "NAND_MAGIC_0/OUT" 44.3351
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "DFF_MAG_0/inverter_0/VSS" 129.064
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 55.9168
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 0.332387
+cap "DFF_MAG_0/inverter_2/OUT" "NAND_MAGIC_0/A" 0.148658
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "DFF_MAG_0/inverter_0/VDD" -0.374644
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" 0.22811
+cap "DFF_MAG_0/inverter_0/VSS" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 21.647
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/VDD" 1.78296
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.0579476
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/B" 1.56402
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" 0.962519
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/VSS" 221.039
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/OUT" 77.3026
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "NAND_MAGIC_0/A" 0.397655
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/A" 11.1272
+cap "DFF_MAG_0/inverter_0/IN" "DFF_MAG_0/inverter_0/VDD" 13.6679
+cap "DFF_MAG_0/inverter_0/VDD" "DFF_MAG_0/TG_MAGIC_1/inverter_0/IN" -0.123734
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/inverter_0/VDD" 229.353
+cap "DFF_MAG_0/inverter_0/IN" "DFF_MAG_0/inverter_0/VSS" 0.976789
+cap "DFF_MAG_0/inverter_0/OUT" "DFF_MAG_0/inverter_3/OUT" 77.9966
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/inverter_3/IN" 0.769585
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" 3.26843
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 27.6927
+cap "DFF_MAG_0/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 0.0455566
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/VDD" 6.79307
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "DFF_MAG_0/inverter_0/VSS" 12.5345
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_3/OUT" 0.501027
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "DFF_MAG_0/TG_MAGIC_1/CLK" 0.011581
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 39.9164
+cap "DFF_MAG_0/inverter_0/VSS" "DFF_MAG_0/inverter_0/VDD" 155.152
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_3/IN" 0.395527
+cap "DFF_MAG_0/TG_MAGIC_1/CLK" "DFF_MAG_0/inverter_0/VDD" 0.025923
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_0/VSS" 0.573737
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_1/CLK" 4.62116
+cap "DFF_MAG_0/inverter_0/VSS" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 129.125
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" 0.0066274
+cap "DFF_MAG_0/inverter_3/IN" "DFF_MAG_0/inverter_0/VDD" -0.726612
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "DFF_MAG_0/inverter_0/VDD" 0.0225754
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/IN" 52.1499
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" 32.9797
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 2.61306
+cap "DFF_MAG_0/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.0728312
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_4/OUT" 1.41767
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.533264
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_0/VDD" 336.294
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" 84.9151
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "DFF_MAG_0/inverter_0/VDD" 0.692796
+cap "DFF_MAG_0/inverter_0/VSS" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" 34.1815
+cap "DFF_MAG_0/inverter_0/VSS" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.0520989
+cap "DFF_MAG_0/inverter_3/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 0.250514
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/VSS" 520.212
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_1/CLK" 0.258997
+cap "DFF_MAG_0/TG_MAGIC_1/CLK" "DFF_MAG_0/inverter_0/VSS" 0.245564
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 29.1744
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_0/VSS" 65.4217
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" 3.58053
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_3/IN" 1.28841
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" 4.30742
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" 0.324094
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/OUT" -5.94161
+cap "DFF_MAG_0/inverter_0/OUT" "DFF_MAG_0/inverter_0/VDD" -1.36146
+cap "DFF_MAG_0/inverter_3/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 2.18755
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 28.4339
+cap "DFF_MAG_0/inverter_3/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 0.271988
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/VDD" 255.305
+cap "DFF_MAG_0/inverter_3/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" 68.0129
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 9.65278
+cap "DFF_MAG_0/inverter_3/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" -2.1067
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/IN" 24.3476
+cap "DFF_MAG_0/TG_MAGIC_3/inverter_0/IN" "DFF_MAG_0/inverter_3/OUT" 0.0312729
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "DFF_MAG_0/inverter_3/IN" 0.325316
+cap "DFF_MAG_0/inverter_3/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.575469
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_4/OUT" 0.0773492
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/inverter_3/VSS" 2.96483
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "DFF_MAG_0/inverter_3/VSS" 9.11258
+cap "DFF_MAG_0/inverter_3/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 1.64988
+cap "DFF_MAG_0/inverter_3/VSS" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 26.473
+cap "DFF_MAG_0/inverter_3/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 1.26557
+cap "DFF_MAG_0/inverter_3/VDD" "DFF_MAG_0/inverter_3/IN" 0.130889
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" 0.0575206
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_3/VSS" 63.6718
+cap "DFF_MAG_0/inverter_3/VDD" "DFF_MAG_0/inverter_3/VSS" 50.707
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/TG_MAGIC_2/sky130_fd_pr__nfet_01v8_S4GQ7J_2/a_n78_n50#" 1.26161
+cap "DFF_MAG_0/inverter_3/OUT" "DFF_MAG_0/CLK" 0.0258164
+cap "DFF_MAG_0/inverter_3/IN" "DFF_MAG_0/inverter_3/VSS" 1.52845
+cap "3AND_MAGIC_0/VSS" "NOR_MAGIC_1/A" 0.0175716
+cap "DFF_MAG_0/inverter_1/VDD" "NOR_MAGIC_1/A" 0.325396
+cap "3AND_MAGIC_0/VDD" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" -1.58686
+cap "3AND_MAGIC_0/VDD" "3AND_MAGIC_0/A" -5.12948
+cap "3AND_MAGIC_0/VSS" "3AND_MAGIC_0/C" 27.3958
+cap "3AND_MAGIC_0/B" "DFF_MAG_0/inverter_1/VDD" -0.174749
+cap "3AND_MAGIC_0/VSS" "3AND_MAGIC_0/B" -0.224984
+cap "3AND_MAGIC_0/VDD" "NOR_MAGIC_0/A" 6.32113
+cap "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "3AND_MAGIC_0/B" 2.66738
+cap "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "NOR_MAGIC_0/B" -0.926036
+cap "3AND_MAGIC_0/A" "NOR_MAGIC_0/B" 5.08157
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_0/B" 8.37231
+cap "3AND_MAGIC_0/VSS" "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_4/a_20_n300#" 0.0210396
+cap "3AND_MAGIC_0/B" "NOR_MAGIC_1/A" 6.08006
+cap "NOR_MAGIC_1/B" "NOR_MAGIC_0/B" 0.301429
+cap "3AND_MAGIC_0/VSS" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" -6.60775
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/B" -0.00220459
+cap "NOR_MAGIC_1/B" "3_INPUT_NOR_MAG_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n20_n326#" 0.199715
+cap "3AND_MAGIC_0/VSS" "3AND_MAGIC_0/A" 0.458165
+cap "3AND_MAGIC_0/VSS" "NOR_MAGIC_0/A" 123.077
+cap "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "NOR_MAGIC_0/A" 3.33932
+cap "NOR_MAGIC_1/B" "DFF_MAG_0/inverter_1/VDD" 0.403239
+cap "3AND_MAGIC_0/VDD" "NOR_MAGIC_0/B" -0.925984
+cap "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "NOR_MAGIC_1/A" 0.0070166
+cap "3AND_MAGIC_0/A" "NOR_MAGIC_1/A" 0.0316009
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/A" 5.20745
+cap "3AND_MAGIC_0/B" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" 53.4083
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_1/A" 5.50926
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_0/A" -2.46795
+cap "3AND_MAGIC_0/VSS" "3AND_MAGIC_0/VDD" -1.31386
+cap "NOR_MAGIC_0/A" "3AND_MAGIC_0/B" 19.0588
+cap "3AND_MAGIC_0/B" "3AND_MAGIC_0/A" 1.76251
+cap "NOR_MAGIC_1/B" "NOR_MAGIC_1/A" -11.0885
+cap "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "3AND_MAGIC_0/VDD" -1.13687e-13
+cap "NOR_MAGIC_1/B" "3AND_MAGIC_0/B" 0.170673
+cap "3AND_MAGIC_0/VSS" "li_4174_2799#" 0.00116293
+cap "3AND_MAGIC_0/VSS" "NOR_MAGIC_0/B" 85.7053
+cap "NOR_MAGIC_0/B" "DFF_MAG_0/inverter_1/VDD" 0.16768
+cap "3AND_MAGIC_0/VDD" "NOR_MAGIC_1/A" 0.700326
+cap "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "NOR_MAGIC_0/B" 0.0320723
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/VDD" -0.0185454
+cap "3AND_MAGIC_0/A" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" -0.312268
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" -1.03584
+cap "3AND_MAGIC_0/VDD" "3AND_MAGIC_0/B" 135.543
+cap "NOR_MAGIC_0/A" "3AND_MAGIC_0/A" 10.8769
+cap "3AND_MAGIC_0/VSS" "DFF_MAG_0/inverter_1/VDD" 10.6163
+cap "NOR_MAGIC_0/B" "NOR_MAGIC_1/A" 8.84106
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_0/B" -6.32625
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_1/B" 5.29496
+cap "3AND_MAGIC_0/B" "NOR_MAGIC_0/B" 20.0151
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "3AND_MAGIC_0/A" 0.0187214
+cap "3AND_MAGIC_0/A" "inverter_0/VDD" 28.7665
+cap "NAND_MAGIC_0/B" "NAND_MAGIC_0/VSS" -0.00473462
+cap "3AND_MAGIC_0/B" "DFF_MAG_0/inverter_1/OUT" 0.229908
+cap "DFF_MAG_0/inverter_1/VDD" "3AND_MAGIC_0/B" 0.442239
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" 0.561615
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "li_4174_2799#" 1.5339
+cap "DFF_MAG_0/inverter_1/IN" "NOR_MAGIC_0/A" 0.071066
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_1/A" -0.381546
+cap "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "3AND_MAGIC_0/A" -3.12698
+cap "3AND_MAGIC_0/C" "li_4174_2799#" 0.127002
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" 6.88554
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "NAND_MAGIC_0/VSS" -2.84217e-14
+cap "NOR_MAGIC_0/A" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.351383
+cap "inverter_0/VDD" "NAND_MAGIC_0/VSS" -5.47591
+cap "3AND_MAGIC_0/A" "li_4174_2799#" 0.0983602
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "3AND_MAGIC_0/A" 2.49702
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/A" 90.9172
+cap "3AND_MAGIC_0/B" "NOR_MAGIC_0/B" 0.499796
+cap "NOR_MAGIC_0/A" "DFF_MAG_0/inverter_1/VDD" 0.0280722
+cap "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "NAND_MAGIC_0/VSS" -0.597003
+cap "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" "3AND_MAGIC_0/B" 0.0336346
+cap "3AND_MAGIC_0/B" "inverter_0/VDD" 27.1585
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "NAND_MAGIC_0/B" 0.0179299
+cap "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "3AND_MAGIC_0/B" 0.0284823
+cap "NAND_MAGIC_0/VSS" "li_4174_2799#" 2.23304
+cap "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "3AND_MAGIC_0/B" 58.2711
+cap "3AND_MAGIC_0/C" "NAND_MAGIC_0/VSS" 83.4246
+cap "3AND_MAGIC_0/C" "NAND_MAGIC_0/A" 0.000355071
+cap "NOR_MAGIC_1/A" "inverter_0/VDD" 0.0329795
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "NOR_MAGIC_0/A" 0.131048
+cap "3AND_MAGIC_0/A" "NAND_MAGIC_0/VSS" -2.86131
+cap "3AND_MAGIC_0/B" "li_4174_2799#" 0.1287
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_0/B" 0.443596
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "3AND_MAGIC_0/B" 0.674009
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/B" -3.39307
+cap "NOR_MAGIC_0/A" "inverter_0/VDD" 0.796919
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/B" 0.0024942
+cap "3AND_MAGIC_0/B" "3AND_MAGIC_0/A" 169.862
+cap "NOR_MAGIC_0/A" "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" -0.0382383
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "li_4174_2799#" 3.3012
+cap "NOR_MAGIC_0/A" "li_4174_2799#" 0.0783266
+cap "NOR_MAGIC_0/A" "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" 0.123048
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_0/A" 4.80513
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 70.6406
+cap "3AND_MAGIC_0/B" "NAND_MAGIC_0/VSS" 0.570049
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "3AND_MAGIC_0/A" 62.6366
+cap "NOR_MAGIC_0/A" "3AND_MAGIC_0/A" 8.69727
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "inverter_0/VDD" -1.11022e-16
+cap "inverter_0/VDD" "NOR_MAGIC_0/B" 0.102265
+cap "3AND_MAGIC_0/C" "DFF_MAG_0/inverter_1/VDD" 0.416034
+cap "3AND_MAGIC_0/B" "NOR_MAGIC_1/B" 0.0432076
+cap "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "inverter_0/VDD" 0.00109592
+cap "DFF_MAG_0/inverter_1/IN" "NAND_MAGIC_0/VSS" 0.915795
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/inverter_1/OUT" 0.116923
+cap "DFF_MAG_0/inverter_1/VDD" "3AND_MAGIC_0/A" 0.156035
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "NAND_MAGIC_0/VSS" 13.385
+cap "3AND_MAGIC_0/C" "NAND_MAGIC_0/B" -3.975
+cap "NOR_MAGIC_0/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" "inverter_0/VDD" -0.706614
+cap "NOR_MAGIC_0/A" "NAND_MAGIC_0/VSS" 11.6845
+cap "NAND_MAGIC_0/B" "3AND_MAGIC_0/A" -0.599344
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "li_4174_2799#" 2.20239
+cap "3AND_MAGIC_0/B" "NOR_MAGIC_1/A" 0.0847905
+cap "inverter_0/VDD" "li_4174_2799#" 0.635526
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "inverter_0/VDD" 3.67781
+cap "3AND_MAGIC_0/C" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" 1.13258
+cap "DFF_MAG_0/inverter_1/VDD" "NAND_MAGIC_0/VSS" 13.6768
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_0/B" -4.67277
+cap "NOR_MAGIC_0/A" "3AND_MAGIC_0/B" 17.743
+cap "3AND_MAGIC_0/C" "inverter_0/VDD" 41.8291
+cap "3AND_MAGIC_0/A" "NOR_MAGIC_0/B" -1.42198
+cap "3AND_MAGIC_0/C" "NOR_MAGIC_1/sky130_fd_pr__pfet_01v8_2PVZQB_2/a_n78_n200#" 0.0472285
+cap "NAND_MAGIC_0/B" "NAND_MAGIC_0/OUT" 1.09987
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" 4.16269
+cap "NAND_MAGIC_0/A" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 17.2769
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 1.80284
+cap "3AND_MAGIC_0/B" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 0.00670642
+cap "NAND_MAGIC_0/B" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" 57.8843
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/A" 2.80104
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/A" -0.156704
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 0.0294833
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "NAND_MAGIC_0/B" 18.0627
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" "NAND_MAGIC_0/A" 62.4074
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" -0.134308
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 0.422818
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/inverter_1/OUT" 0.116923
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "NAND_MAGIC_0/A" 10.1119
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "NAND_MAGIC_0/OUT" 1.1012
+cap "NAND_MAGIC_0/A" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 3.00096
+cap "3AND_MAGIC_0/A" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 0.132838
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 0.140641
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 0.785045
+cap "DFF_MAG_0/TG_MAGIC_0/IN" "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" 0.00694249
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" 0.228848
+cap "NAND_MAGIC_0/B" "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.30125
+cap "NAND_MAGIC_0/B" "NAND_MAGIC_0/A" 14.7275
+cap "3AND_MAGIC_0/B" "NAND_MAGIC_0/B" 0.310828
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "3AND_MAGIC_0/C" 0.0145045
+cap "3AND_MAGIC_0/A" "NAND_MAGIC_0/OUT" 0.0579081
+cap "NAND_MAGIC_0/B" "3AND_MAGIC_0/C" -3.84123
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 2.77192
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "DFF_MAG_0/inverter_0/IN" 0.00983467
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/inverter_0/VDD" 0.214359
+cap "3AND_MAGIC_0/B" "NAND_MAGIC_0/A" 0.331787
+cap "3AND_MAGIC_0/A" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" -0.798418
+cap "3AND_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_2/a_n78_n150#" "NAND_MAGIC_0/B" 0.614098
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 0.505291
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 0.216504
+cap "3AND_MAGIC_0/C" "NAND_MAGIC_0/A" 0.12794
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 0.622004
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.00126039
+cap "NAND_MAGIC_0/B" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" 5.34992
+cap "3AND_MAGIC_0/A" "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" 0.0815812
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" -5.33051
+cap "DFF_MAG_0/inverter_0/IN" "NAND_MAGIC_0/A" 0.0820513
+cap "3AND_MAGIC_0/A" "NAND_MAGIC_0/B" 0.285109
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "NAND_MAGIC_0/A" -0.177636
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" 3.46618
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" "NAND_MAGIC_0/A" 3.28216
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" 7.68454
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 17.0507
+cap "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 0.359859
+cap "3AND_MAGIC_0/A" "NAND_MAGIC_0/A" 0.448802
+cap "NAND_MAGIC_0/B" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" 13.0345
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "DFF_MAG_0/inverter_0/VDD" 0.124096
+cap "3AND_MAGIC_0/A" "DFF_MAG_0/TG_MAGIC_0/inverter_0/OUT" 0.00147685
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_2/a_n78_n100#" "NAND_MAGIC_0/OUT" 1.21555
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "NAND_MAGIC_0/OUT" 2.57084
+cap "DFF_MAG_0/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.00039594
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/A" 5.65068
+cap "NAND_MAGIC_0/A" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 22.5389
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 17.6934
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 5.78949
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 64.9117
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "NAND_MAGIC_0/A" 0.0382133
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" -0.107323
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/B" 0.195538
+cap "NAND_MAGIC_0/B" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.0208127
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.767382
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.661893
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" -1.61216
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/B" -0.688224
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 56.1559
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.472347
+cap "NAND_MAGIC_0/A" "DFF_MAG_0/inverter_0/IN" 0.283617
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 17.1556
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.854328
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 28.2437
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" -0.169392
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 86.3995
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" -0.0957781
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "NAND_MAGIC_0/A" 0.215694
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 0.398448
+cap "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.238225
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/OUT" 0.0431269
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" 2.02806
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/OUT" -0.0957781
+cap "NAND_MAGIC_0/A" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.39564
+cap "3AND_MAGIC_0/sky130_fd_pr__pfet_01v8_ES6JQB_6/a_n78_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.100422
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 9.72497
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "NAND_MAGIC_0/A" 8.841
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 2.2085
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" 0.0469411
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.967042
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 0.832429
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "NAND_MAGIC_0/OUT" 5.31623
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "NAND_MAGIC_0/OUT" 0.0049706
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" 299.426
+cap "NAND_MAGIC_0/B" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 0.136149
+cap "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" "NAND_MAGIC_0/A" 1.79069
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" -0.218929
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 74.9944
+cap "DFF_MAG_0/inverter_0/VDD" "NAND_MAGIC_0/A" 1.29821
+cap "NAND_MAGIC_0/OUT" "NAND_MAGIC_0/A" 4.81141
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 0.221422
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "DFF_MAG_0/inverter_0/VDD" 240.11
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" -0.00947253
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" -17.7088
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 7.72461
+cap "li_3311_2335#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" -0.0354625
+cap "li_3311_2335#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" -0.070925
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" -0.017769
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "NAND_MAGIC_0/A" 0.0188984
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_3/OUT" 0.0177548
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "NAND_MAGIC_0/B" 0.0142018
+cap "NAND_MAGIC_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" -1.12409
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 1.82338
+cap "DFF_MAG_0/inverter_0/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 104.449
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/inverter_0/VDD" 188.85
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 0.595052
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" 48.0022
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 9.45464
+cap "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 1.16708
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "DFF_MAG_0/TG_MAGIC_2/inverter_0/OUT" 1.22649
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_0/VDD" -18.3782
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" 25.731
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 71.6584
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 309.334
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" 0.692641
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" -0.165057
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 27.9121
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 31.7443
+cap "NAND_MAGIC_0/sky130_fd_pr__nfet_01v8_NUEGCF_1/a_20_n100#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 0.0540359
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 25.6294
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "DFF_MAG_0/inverter_0/VDD" 412.159
+cap "inverter_0/sky130_fd_pr__nfet_01v8_S4GQ7J_3/a_n20_n76#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 0.0844414
+cap "DFF_MAG_0/inverter_3/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 0.0343427
+cap "DFF_MAG_0/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 0.0613211
+cap "DFF_MAG_0/inverter_3/IN" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.252753
+cap "DFF_MAG_0/inverter_0/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.0447532
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" 0.494052
+cap "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "DFF_MAG_0/inverter_0/VDD" 28.5145
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" 17.7567
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" -1.03553
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 5.10512
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "LD3" 0.494052
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" -0.061499
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_3/OUT" 0.0810292
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "li_3311_2335#" -0.0354625
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_3/VDD" 9.39148
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 3.05724
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "li_3311_2335#" -0.0204435
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "DFF_MAG_0/inverter_3/VDD" 23.2701
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 9.68382
+cap "DFF_MAG_0/inverter_3/VDD" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 9.50483
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 45.6425
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "DFF_MAG_0/inverter_3/IN" 0.523188
+cap "LD3" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.0934217
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" -0.513018
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "DFF_MAG_0/inverter_3/VDD" 48.9247
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" 15.7535
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" 24.6019
+cap "DFF_MAG_0/inverter_3/OUT" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 0.0109545
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" 0.212306
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "LD3" 0.467108
+cap "DFF_MAG_0/inverter_3/VDD" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 9.72111
+cap "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" 3.71194
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_10/a_20_n350#" -1029.13 0 0 0 0 0 0 0 0 0 0 -40600 -1516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25160 -1684 -32200 -1492 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_10/a_20_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_20_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_20_n350#" "LD2"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_0/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_11/VSUBS" -3484.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -107772 -5130 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_11/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_10/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_10/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_7/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_7/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_6/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_6/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_1/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_1/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_8/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_8/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_9/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_9/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_5/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_5/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_4/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_4/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_3/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_3/VSUBS" "sky130_fd_pr__pfet_01v8_WNVYTC_2/VSUBS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_2/VSUBS" "inverter_0/VSS"
+merge "inverter_0/VSS" "sky130_fd_pr__nfet_01v8_T7BQPS_0/a_n78_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_0/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/VSUBS"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_5/VSUBS" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_3/VSUBS"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_3/VSUBS" "sky130_fd_pr__nfet_01v8_T7BQPS_3/a_n78_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_3/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_0/VSUBS"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_0/VSUBS" "sky130_fd_pr__nfet_01v8_T7BQPS_4/a_n78_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_4/a_n78_n350#" "DFF_MAG_0/inverter_0/VSS"
+merge "DFF_MAG_0/inverter_0/VSS" "sky130_fd_pr__nfet_01v8_T7BQPS_4/VSUBS"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_4/VSUBS" "sky130_fd_pr__nfet_01v8_T7BQPS_2/VSUBS"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_2/VSUBS" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_1/VSUBS"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_1/VSUBS" "sky130_fd_pr__nfet_01v8_T7BQPS_1/a_n78_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_1/a_n78_n350#" "NAND_MAGIC_0/VSS"
+merge "NAND_MAGIC_0/VSS" "DFF_MAG_0/VSUBS"
+merge "DFF_MAG_0/VSUBS" "DFF_MAG_0/inverter_1/VSS"
+merge "DFF_MAG_0/inverter_1/VSS" "3AND_MAGIC_0/VSS"
+merge "3AND_MAGIC_0/VSS" "NOR_MAGIC_0/VSS"
+merge "NOR_MAGIC_0/VSS" "li_1448_2932#"
+merge "li_1448_2932#" "NOR_MAGIC_1/VSS"
+merge "NOR_MAGIC_1/VSS" "li_521_2932#"
+merge "li_521_2932#" "3_INPUT_NOR_MAG_0/VSS"
+merge "3_INPUT_NOR_MAG_0/VSS" "a_4469_2177#"
+merge "a_4469_2177#" "VSS"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_0/a_20_n350#" -11256.1 0 0 0 0 -1823785 -37390 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65741 -4676 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_0/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_0/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_0/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_11/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_11/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_10/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_10/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_10/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_10/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_7/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_6/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_6/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_6/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_6/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_1/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_1/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_9/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_8/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_8/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_8/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_8/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_9/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_5/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_5/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_4/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_4/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_4/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_4/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n78_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_3/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_3/w_n114_n412#" "sky130_fd_pr__pfet_01v8_WNVYTC_2/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_2/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_2/w_n114_n412#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_2/w_n114_n412#" "inverter_0/VDD"
+merge "inverter_0/VDD" "DFF_MAG_0/inverter_3/VDD"
+merge "DFF_MAG_0/inverter_3/VDD" "DFF_MAG_0/inverter_0/VDD"
+merge "DFF_MAG_0/inverter_0/VDD" "VDD"
+merge "VDD" "DFF_MAG_0/inverter_1/VDD"
+merge "DFF_MAG_0/inverter_1/VDD" "3_INPUT_NOR_MAG_0/VDD"
+merge "3_INPUT_NOR_MAG_0/VDD" "w_n79_1532#"
+merge "w_n79_1532#" "NAND_MAGIC_0/VDD"
+merge "NAND_MAGIC_0/VDD" "li_3784_1905#"
+merge "li_3784_1905#" "w_3677_1980#"
+merge "w_3677_1980#" "3AND_MAGIC_0/VDD"
+merge "3AND_MAGIC_0/VDD" "li_3178_4142#"
+merge "li_3178_4142#" "w_2839_4142#"
+merge "w_2839_4142#" "li_2439_4146#"
+merge "li_2439_4146#" "w_2702_4128#"
+merge "w_2702_4128#" "w_2439_4146#"
+merge "w_2439_4146#" "NOR_MAGIC_0/VDD"
+merge "NOR_MAGIC_0/VDD" "li_1407_4134#"
+merge "li_1407_4134#" "NOR_MAGIC_1/VDD"
+merge "NOR_MAGIC_1/VDD" "li_491_4134#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_0/a_n20_n376#" -950.424 0 0 0 0 0 0 0 0 0 0 -40600 -1516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3120 -396 0 0 -25160 -1684 -32200 -1492 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_0/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_0/a_n20_n376#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_0/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_3/a_20_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_3/a_20_n350#" "a_6889_3155#"
+merge "inverter_0/IN" "DFF_MAG_0/inverter_3/OUT" -1428.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11640 -650 -5864 -360 0 0 0 0 0 0 0 0 0 0
+merge "DFF_MAG_0/inverter_3/OUT" "NAND_MAGIC_0/A"
+merge "NAND_MAGIC_0/A" "li_3311_2335#"
+merge "NOR_MAGIC_1/A" "Q6" -40.3953 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1944 -180 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_1/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_0/a_n78_n350#" -766.168 0 0 0 0 0 0 0 0 0 0 -40600 -1516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25160 -1684 -32200 -1492 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_0/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_0/a_20_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_0/a_20_n350#" "LD1"
+merge "3_INPUT_NOR_MAG_0/A" "Q1" -33.3548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2050 -182 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NOR_MAGIC_1/B" "Q7" -22.5642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1296 -144 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3AND_MAGIC_0/C" "3_INPUT_NOR_MAG_0/VOUT" -531.123 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4165 -370 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3_INPUT_NOR_MAG_0/VOUT" "li_816_748#"
+merge "3_INPUT_NOR_MAG_0/B" "Q2" -21.266 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1968 -178 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3AND_MAGIC_0/VOUT" "NAND_MAGIC_0/B" -251.107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2520 -284 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NAND_MAGIC_0/B" "li_3055_3535#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_11/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_10/a_n20_n376#" -1071.3 0 0 0 0 0 0 0 0 0 0 -40600 -1516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3120 -396 0 0 -25160 -1684 -32200 -1492 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_10/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n20_n376#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_5/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_9/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_8/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_8/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_4/a_20_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_4/a_20_n350#" "a_5896_3153#"
+merge "3AND_MAGIC_0/B" "NOR_MAGIC_1/VOUT" -405.353 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6200 -454 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NOR_MAGIC_1/VOUT" "li_467_3373#"
+merge "3_INPUT_NOR_MAG_0/C" "Q3" -28.6635 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1845 -172 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_4/a_n78_n350#" -1126.22 0 0 0 0 0 0 0 0 0 0 -40600 -1516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24378 -1638 -57394 -3008 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_4/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_20_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_20_n350#" "LD3"
+merge "NAND_MAGIC_0/OUT" "DFF_MAG_0/TG_MAGIC_0/IN" -893.645 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1281 -164 -5586 -310 0 0 0 0 0 0 0 0 0 0
+merge "DFF_MAG_0/TG_MAGIC_0/IN" "li_4174_2799#"
+merge "NOR_MAGIC_0/A" "Q4" -216.929 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7920 -384 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NOR_MAGIC_0/B" "Q5" -150.527 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7920 -384 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DFF_MAG_0/inverter_1/IN" "G_CLK" -443.789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15483 -872 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_5/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_4/a_n20_n376#" -954.803 0 0 0 0 0 0 0 0 0 0 -40600 -1516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3120 -396 0 0 -24378 -1638 -32200 -1492 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_4/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_20_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_20_n350#" "sky130_fd_pr__pfet_01v8_WNVYTC_2/a_n78_n350#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_2/a_n78_n350#" "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n20_n376#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_2/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_1/a_20_n350#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_1/a_20_n350#" "a_4896_3138#"
+merge "3AND_MAGIC_0/A" "NOR_MAGIC_0/VOUT" -258.154 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1877 -260 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NOR_MAGIC_0/VOUT" "li_1479_3379#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_7/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n20_n376#" -1550.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5978 -1028 0 0 -4900 -280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_6/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_3/a_n20_n376#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_3/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_9/a_n20_n376#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_9/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_8/a_n20_n376#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_8/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_4/a_n20_n376#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_4/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_3/a_n20_n376#" "sky130_fd_pr__pfet_01v8_WNVYTC_2/a_n20_n376#"
+merge "sky130_fd_pr__pfet_01v8_WNVYTC_2/a_n20_n376#" "sky130_fd_pr__nfet_01v8_T7BQPS_1/a_n20_n376#"
+merge "sky130_fd_pr__nfet_01v8_T7BQPS_1/a_n20_n376#" "inverter_0/OUT"
+merge "inverter_0/OUT" "LD"

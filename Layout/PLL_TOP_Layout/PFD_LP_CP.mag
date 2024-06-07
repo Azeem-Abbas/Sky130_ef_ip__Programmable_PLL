@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717691374
+use CP  CP_0 ~/Sky130Projects/top_layout
+timestamp 1717691374
+transform 1 0 8062 0 1 80657
+box -3766 -80648 80252 15106
+use PFD  PFD_0 ~/Sky130Projects/top_layout
+timestamp 1717691374
+transform 1 0 -803 0 1 78884
+box -539 -474 2730 2342
+<< end >>

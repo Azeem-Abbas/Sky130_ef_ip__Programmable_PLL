@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717691374
+<< nwell >>
+rect 0 292 218 452
+<< pwell >>
+rect -23 -394 230 -263
+<< psubdiff >>
+rect 3 -299 204 -289
+rect 3 -333 83 -299
+rect 117 -333 204 -299
+rect 3 -368 204 -333
+<< nsubdiff >>
+rect 37 386 181 416
+rect 37 352 79 386
+rect 113 352 181 386
+rect 37 322 181 352
+<< psubdiffcont >>
+rect 83 -333 117 -299
+<< nsubdiffcont >>
+rect 79 352 113 386
+<< poly >>
+rect 94 29 124 38
+rect -65 10 124 29
+rect -65 -24 -31 10
+rect 3 -8 124 10
+rect 3 -24 52 -8
+rect -65 -42 52 -24
+rect 86 -42 124 -8
+rect -65 -49 124 -42
+rect 22 -67 124 -49
+rect 94 -92 124 -67
+<< polycont >>
+rect -31 -24 3 10
+rect 52 -42 86 -8
+<< locali >>
+rect 0 386 218 452
+rect 0 352 79 386
+rect 113 352 218 386
+rect 0 292 218 352
+rect 48 234 82 292
+rect -65 24 18 29
+rect -65 10 102 24
+rect -65 -24 -31 10
+rect 3 -8 102 10
+rect 3 -24 52 -8
+rect -65 -42 52 -24
+rect 86 -42 102 -8
+rect -65 -49 102 -42
+rect 22 -67 102 -49
+rect 136 -1 170 58
+rect 136 -40 271 -1
+rect 136 -138 170 -40
+rect 48 -289 82 -156
+rect 3 -299 204 -289
+rect 3 -333 83 -299
+rect 117 -333 204 -299
+rect 3 -368 204 -333
+use sky130_fd_pr__nfet_01v8_A6LSUL  sky130_fd_pr__nfet_01v8_A6LSUL_0
+timestamp 1717691374
+transform 1 0 109 0 1 -160
+box -99 -68 99 68
+use sky130_fd_pr__pfet_01v8_54DJGB  sky130_fd_pr__pfet_01v8_54DJGB_0
+timestamp 1717691374
+transform 1 0 109 0 1 146
+box -109 -146 109 146
+<< labels >>
+flabel locali s -31 -10 -31 -10 0 FreeSans 600 0 0 0 IN
+flabel locali s 255 -14 255 -14 0 FreeSans 600 0 0 0 OUT
+flabel locali s 96 369 96 369 0 FreeSans 600 0 0 0 VDD
+flabel locali s 100 -315 100 -315 0 FreeSans 600 0 0 0 VSS
+<< end >>

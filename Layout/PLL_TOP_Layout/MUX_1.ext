@@ -1,0 +1,297 @@
+timestamp 1717686518
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use AND_1 AND_1_1 1 0 1299 0 -1 2518
+use AND_1 AND_1_0 1 0 300 0 1 0
+use OR_MAGIC OR_MAGIC_0 1 0 3843 0 1 -1096
+use inverter_1 inverter_1_0 1 0 386 0 -1 1950
+node "VOUT" 224 326.769 2609 171 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32336 1590 0 0 0 0 0 0 0 0 0 0 0 0
+node "a3" 146 281.155 1709 289 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41582 1500 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_112_568#" 33 37.5793 112 568 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3312 256 0 0 0 0 0 0 0 0 0 0 0 0
+node "IN2" 69 93.269 -88 568 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7020 462 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 187 738.987 398 1184 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 385361 5068 0 0 0 0 0 0 0 0 0 0 0 0
+node "a4" 358 1219.93 1849 174 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 117484 3746 79255 2560 0 0 0 0 0 0 0 0 0 0
+node "IN1" 114 805.853 1117 1914 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13652 764 104802 3974 0 0 0 0 0 0 0 0 0 0
+node "li_1219_n385#" 300 2659.32 1219 -385 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212236 4622 404653 7388 0 0 0 0 0 0 0 0 0 0
+node "a1" 148 125.219 827 2008 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18520 1006 0 0 0 0 0 0 0 0 0 0 0 0
+node "SEL" 110 932.446 150 470 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28460 1088 105954 3762 0 0 0 0 0 0 0 0 0 0
+node "VSS" 159 496.415 1006 2270 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92020 2312 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1322_1907#" 129 103.319 1322 1907 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6144 352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_360_1172#" 12248 2456.22 360 1172 nw 0 0 0 0 818740 7002 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VDD" "a4" 15.9664
+cap "a1" "w_360_1172#" 15.958
+cap "IN2" "li_112_568#" 27.8182
+cap "li_1219_n385#" "w_360_1172#" 8.47074
+cap "li_1219_n385#" "a1" 0.412678
+cap "w_360_1172#" "a3" 9.99928
+cap "li_1219_n385#" "a3" 7.96892
+cap "VSS" "w_360_1172#" 0.20936
+cap "VSS" "a1" 28.968
+cap "a1" "VDD" 10.5794
+cap "VDD" "w_360_1172#" 540.345
+cap "li_1219_n385#" "VDD" 21.3097
+cap "SEL" "w_360_1172#" 42.0933
+cap "SEL" "a1" 2.63723
+cap "VDD" "a3" 9.35
+cap "SEL" "a3" 1.02804
+cap "VSS" "VDD" 10.7744
+cap "IN1" "w_360_1172#" 76.3178
+cap "IN1" "a1" 102.573
+cap "w_360_1172#" "a_1322_1907#" 10.258
+cap "IN1" "li_1219_n385#" 4.8213
+cap "li_1219_n385#" "a_1322_1907#" 0.110143
+cap "SEL" "VDD" 41.7451
+cap "IN1" "VSS" 85.5494
+cap "VSS" "a_1322_1907#" 0.397407
+cap "IN1" "VDD" 18.9309
+cap "VDD" "a_1322_1907#" 0.461002
+cap "a3" "li_112_568#" 0.598826
+cap "VOUT" "a4" 84.4419
+cap "IN1" "SEL" 27.0075
+cap "SEL" "a_1322_1907#" 0.0440752
+cap "SEL" "IN2" 1.49083
+cap "w_360_1172#" "a4" 9.98729
+cap "SEL" "li_112_568#" 22.5391
+cap "li_1219_n385#" "a4" 152.388
+cap "IN1" "a_1322_1907#" 19.5716
+cap "VOUT" "w_360_1172#" 0.111668
+cap "li_1219_n385#" "VOUT" 75.9682
+cap "a3" "a4" 37.7825
+cap "inverter_1_0/VIN" "AND_1_0/NAND_MAGIC_1_0/VOUT" 24.7354
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0076425
+cap "OR_MAGIC_0/A" "inverter_1_0/VDD" 9.80673
+cap "OR_MAGIC_0/A" "AND_1_1/NAND_MAGIC_1_0/B" 1.89943
+cap "OR_MAGIC_0/B" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0462258
+cap "OR_MAGIC_0/A" "inverter_1_0/VIN" -0.416561
+cap "AND_1_1/NAND_MAGIC_1_0/B" "inverter_1_0/VDD" 1.33587
+cap "inverter_1_0/VIN" "inverter_1_0/VDD" 141.717
+cap "AND_1_0/NAND_MAGIC_1_0/B" "AND_1_0/NAND_MAGIC_1_0/VOUT" -0.727989
+cap "OR_MAGIC_0/B" "inverter_1_0/VIN" 0.186882
+cap "inverter_1_0/VIN" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.0437139
+cap "OR_MAGIC_0/A" "AND_1_0/NAND_MAGIC_1_0/B" -0.299413
+cap "inverter_1_0/VOUT" "AND_1_0/NAND_MAGIC_1_0/VOUT" 1.89747
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VSS" 0.433593
+cap "AND_1_0/NAND_MAGIC_1_0/B" "inverter_1_0/VDD" 3.7553
+cap "AND_1_0/NAND_MAGIC_1_0/B" "inverter_1_0/VIN" 33.624
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.020655
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "OR_MAGIC_0/A" 0.587577
+cap "OR_MAGIC_0/A" "inverter_1_0/VSS" 6.41378
+cap "OR_MAGIC_0/A" "inverter_1_0/VOUT" 1.13748
+cap "inverter_1_0/VDD" "inverter_1_0/VSS" -1.01485
+cap "inverter_1_0/VOUT" "inverter_1_0/VDD" 1.2196
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VDD" 1.77395
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VIN" 0.0247796
+cap "inverter_1_0/VIN" "inverter_1_0/VOUT" 0.0434087
+cap "inverter_1_0/VIN" "inverter_1_0/VSS" 0.042574
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "inverter_1_0/VSS" 1.1814
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.118809
+cap "OR_MAGIC_0/B" "inverter_1_0/VSS" 1.39474
+cap "inverter_1_0/VIN" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.128768
+cap "OR_MAGIC_0/B" "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.56316
+cap "AND_1_0/NAND_MAGIC_1_0/B" "inverter_1_0/VOUT" 0.0429175
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VOUT" 0.000517345
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VSS" 1.86655
+cap "OR_MAGIC_0/A" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.271556
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.111868
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/B" 0.483105
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VDD" 16.8451
+cap "inverter_1_0/VDD" "inverter_1_0/VOUT" 0.00112373
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/A" 18.9431
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.136702
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.673886
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VDD" 0.0431405
+cap "inverter_1_0/VOUT" "OR_MAGIC_0/A" 0.935161
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "OR_MAGIC_0/A" 0.0859689
+cap "inverter_1_0/VDD" "inverter_1_0/VSS" -8.42844
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/B" 0.0442211
+cap "inverter_1_0/VDD" "OR_MAGIC_0/VOUT" -4.56484
+cap "inverter_1_0/VSS" "OR_MAGIC_0/A" 22.4552
+cap "OR_MAGIC_0/B" "inverter_1_0/VSS" 73.453
+cap "AND_1_1/NAND_MAGIC_1_0/B" "OR_MAGIC_0/A" 3.80225
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/VOUT" 124.651
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" -1.35148
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.179159
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/B" 0.0353841
+cap "inverter_1_0/VDD" "inverter_1_0/VIN" 0.611151
+cap "OR_MAGIC_0/A" "AND_1_0/NAND_MAGIC_1_0/B" -0.299413
+cap "inverter_1_0/VIN" "OR_MAGIC_0/A" -0.460229
+cap "inverter_1_0/VIN" "OR_MAGIC_0/B" 0.186882
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/VOUT" 28.198
+cap "inverter_1_0/VSS" "OR_MAGIC_0/VOUT" 35.5647
+cap "OR_MAGIC_0/B" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.142318
+cap "OR_MAGIC_0/A" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.245739
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.872148
+cap "inverter_1_0/VOUT" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.00226363
+cap "inverter_1_0/VSS" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.298787
+cap "inverter_1_0/VDD" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" -6.40707
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 143.67
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "OR_MAGIC_0/A" 0.798587
+cap "AND_1_1/NAND_MAGIC_1_0/B" "AND_1_0/NAND_MAGIC_1_0/VOUT" 1.11374
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "OR_MAGIC_0/A" 9.14394
+cap "OR_MAGIC_0/VOUT" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0688103
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "OR_MAGIC_0/B" 31.3752
+cap "OR_MAGIC_0/B" "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.58226
+cap "inverter_1_0/VSS" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" -1.64925
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "inverter_1_0/VSS" -13.8145
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VDD" 0.00136246
+cap "inverter_1_0/VSS" "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.84705
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "OR_MAGIC_0/VOUT" 0.34494
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/A" 4.41024
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/B" 0.246129
+cap "inverter_1_0/VDD" "OR_MAGIC_0/A" 193.055
+cap "inverter_1_0/VDD" "OR_MAGIC_0/B" 48.5639
+cap "OR_MAGIC_0/VDD" "OR_MAGIC_0/VSS" 3.19316
+cap "OR_MAGIC_0/A" "OR_MAGIC_0/VSS" 0.108487
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "OR_MAGIC_0/B" 3.3333
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/VSS" 0.240307
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.131712
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "OR_MAGIC_0/VSS" 0.54667
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/VOUT" 42.6052
+cap "OR_MAGIC_0/VSS" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.141169
+cap "OR_MAGIC_0/VOUT" "OR_MAGIC_0/VSS" 33.9768
+cap "OR_MAGIC_0/VDD" "OR_MAGIC_0/B" 6.3529
+cap "OR_MAGIC_0/A" "OR_MAGIC_0/B" -4.97361
+cap "OR_MAGIC_0/A" "inverter_1_0/VOUT" 1.17135
+cap "inverter_1_0/VOUT" "inverter_1_0/VIN" 45.9674
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VIN" 0.288703
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/VOUT" 9.81397
+cap "inverter_1_0/VDD" "inverter_1_0/VSS" -6.55895
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/B" 7.33873
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/B" 0.912731
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 0.106388
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VSS" 0.949278
+cap "inverter_1_0/VSS" "AND_1_1/NAND_MAGIC_1_0/B" 161.082
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VOUT" 2.57165
+cap "OR_MAGIC_0/B" "inverter_1_0/VIN" 0.0136079
+cap "AND_1_0/NAND_MAGIC_1_0/B" "AND_1_1/NAND_MAGIC_1_0/B" 0.0656851
+cap "inverter_1_0/VSS" "inverter_1_0/VOUT" 14.3105
+cap "AND_1_0/NAND_MAGIC_1_0/B" "inverter_1_0/VOUT" 0.779463
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/B" -3.29893
+cap "inverter_1_0/VDD" "inverter_1_0/VOUT" 31.5608
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VIN" 0.639484
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VOUT" 0.0153461
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/VOUT" 1.78394
+cap "AND_1_0/NAND_MAGIC_1_0/B" "inverter_1_0/VIN" 3.65468
+cap "inverter_1_0/VSS" "inverter_1_0/VIN" 17.4027
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "AND_1_1/NAND_MAGIC_1_0/B" 19.0779
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VOUT" 2.90862
+cap "inverter_1_0/VDD" "inverter_1_0/VIN" 186.972
+cap "inverter_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/B" 145.168
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/B" 0.832808
+cap "AND_1_0/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VIN" 0.0438058
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VOUT" 0.545201
+cap "OR_MAGIC_0/A" "AND_1_1/NAND_MAGIC_1_0/B" 1.84581
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VIN" 0.055982
+cap "AND_1_1/NAND_MAGIC_1_0/B" "inverter_1_0/VIN" 15.8992
+cap "inverter_1_0/VSS" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.0763549
+cap "OR_MAGIC_0/A" "OR_MAGIC_0/B" 1.7219
+cap "inverter_1_0/VOUT" "OR_MAGIC_0/A" 0.301517
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/B" 4.33739
+cap "inverter_1_0/VOUT" "inverter_1_0/VDD" 8.60066
+cap "AND_1_1/NAND_MAGIC_1_0/B" "AND_1_1/NAND_MAGIC_1_0/VOUT" 26.2303
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 4.90881
+cap "inverter_1_0/VOUT" "OR_MAGIC_0/B" 0.00052869
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/VOUT" 0.000849561
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.00895562
+cap "OR_MAGIC_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/VOUT" 0.72095
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "AND_1_1/NAND_MAGIC_1_0/VOUT" 2.65489
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VSS" 41.7522
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -7.64324
+cap "inverter_1_0/VDD" "inverter_1_0/VIN" 3.9841
+cap "inverter_1_0/VSS" "inverter_1_0/VIN" 0.33984
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VSS" 0.00165096
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/VOUT" 9.48687
+cap "inverter_1_0/VSS" "AND_1_1/NAND_MAGIC_1_0/VOUT" 7.56986
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/VOUT" 49.1007
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.00174781
+cap "OR_MAGIC_0/A" "AND_1_1/NAND_MAGIC_1_0/VOUT" 5.99703
+cap "AND_1_1/NAND_MAGIC_1_0/B" "inverter_1_0/VSS" -9.55665
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/B" 41.4852
+cap "OR_MAGIC_0/B" "inverter_1_0/VIN" 0.00521618
+cap "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" "AND_1_1/NAND_MAGIC_1_0/VOUT" 3.13663
+cap "inverter_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.64728
+cap "AND_1_1/NAND_MAGIC_1_0/B" "OR_MAGIC_0/A" 2.2347
+cap "inverter_1_0/VOUT" "inverter_1_0/VIN" 0.263303
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "OR_MAGIC_0/B" 0.00075658
+cap "inverter_1_0/VOUT" "AND_1_0/NAND_MAGIC_1_0/VOUT" 0.000602723
+cap "OR_MAGIC_0/B" "AND_1_1/NAND_MAGIC_1_0/VOUT" 2.43692
+cap "inverter_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/VOUT" -0.28626
+cap "inverter_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/B" 36.2828
+cap "inverter_1_0/VSS" "OR_MAGIC_0/VOUT" 2.66667
+cap "inverter_1_0/VDD" "AND_1_0/NAND_MAGIC_1_0/B" 0.00147434
+cap "inverter_1_0/VDD" "OR_MAGIC_0/VOUT" 4.45852
+cap "inverter_1_0/VSS" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 0.0538403
+cap "inverter_1_0/VDD" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 8.04652
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/VOUT" 7.34902
+cap "inverter_1_0/VDD" "inverter_1_0/VSS" -11.7324
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "inverter_1_0/VIN" 0.027198
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" 6.64804
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "AND_1_0/NAND_MAGIC_1_0/VOUT" 5.51943e-05
+cap "inverter_1_0/VDD" "OR_MAGIC_0/A" 7.36792
+cap "inverter_1_0/VSS" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.089052
+cap "AND_1_1/NAND_MAGIC_1_0/VOUT" "inverter_1_0/VIN" 0.178824
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "AND_1_1/NAND_MAGIC_1_0/B" 30.6321
+cap "inverter_1_0/VDD" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 4.74266
+cap "AND_1_0/NAND_MAGIC_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/VOUT" 0.00105676
+cap "AND_1_1/NAND_MAGIC_1_0/B" "inverter_1_0/VIN" 1.79595
+cap "OR_MAGIC_0/B" "inverter_1_0/VSS" 72.2553
+cap "inverter_1_0/VOUT" "inverter_1_0/VSS" 5.39087
+cap "inverter_1_0/VDD" "OR_MAGIC_0/B" 60.6006
+cap "AND_1_1/NAND_MAGIC_1_0/B" "OR_MAGIC_0/VSS" 0.0150369
+cap "OR_MAGIC_0/A" "OR_MAGIC_0/VSS" 0.098519
+cap "OR_MAGIC_0/VSS" "OR_MAGIC_0/B" 18.5402
+cap "OR_MAGIC_0/VSS" "AND_1_1/A" 0.0418582
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/VDD" 40.3242
+cap "OR_MAGIC_0/VOUT" "OR_MAGIC_0/B" 4.13994
+cap "OR_MAGIC_0/VSS" "OR_MAGIC_0/VDD" 20.9949
+cap "OR_MAGIC_0/VOUT" "OR_MAGIC_0/VSS" 2.7253
+cap "OR_MAGIC_0/B" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.186337
+cap "OR_MAGIC_0/VSS" "OR_MAGIC_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_20_n150#" 0.101449
+cap "OR_MAGIC_0/B" "AND_1_1/NAND_MAGIC_1_0/VOUT" 0.712559
+cap "OR_MAGIC_0/sky130_fd_pr__pfet_01v8_6WH9DB_2/a_n78_n300#" "OR_MAGIC_0/VSS" 0.293483
+cap "OR_MAGIC_0/VSS" "AND_1_1/NAND_MAGIC_1_0/VOUT" 1.3671
+cap "AND_1_1/NAND_MAGIC_1_0/B" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.09156
+cap "inverter_1_0/VOUT" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -0.282684
+cap "inverter_1_0/VSS" "AND_1_1/NAND_MAGIC_1_0/VOUT" 2.86615
+cap "AND_1_1/NAND_MAGIC_1_0/B" "inverter_1_0/VSS" 0.542477
+cap "inverter_1_0/VDD" "inverter_1_0/VSS" -5.59656
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "AND_1_0/VOUT" 0.0459026
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "AND_1_1/NAND_MAGIC_1_0/VOUT" -0.511069
+cap "AND_1_1/NAND_MAGIC_1_0/B" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 2.21468
+cap "inverter_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 1.02612
+cap "inverter_1_0/VSS" "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 37.235
+cap "AND_1_1/NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" "AND_1_0/inverter_2_0/VIN" 0.153524
+cap "inverter_1_0/VOUT" "inverter_1_0/VSS" 4.89132
+merge "AND_1_0/inverter_2_0/VDD" "inverter_1_0/VDD" -2853.02 0 0 0 0 -172453 -12128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -31812 -2684 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_1_0/VDD" "OR_MAGIC_0/VDD"
+merge "OR_MAGIC_0/VDD" "AND_1_0/NAND_MAGIC_1_0/VDD"
+merge "AND_1_0/NAND_MAGIC_1_0/VDD" "AND_1_1/NAND_MAGIC_1_0/VDD"
+merge "AND_1_1/NAND_MAGIC_1_0/VDD" "VDD"
+merge "VDD" "w_360_1172#"
+merge "inverter_1_0/VIN" "AND_1_0/A" -433.604 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11256 -722 0 0 0 0 0 0 0 0 0 0 0 0
+merge "AND_1_0/A" "SEL"
+merge "AND_1_0/inverter_2_0/VSS" "inverter_1_0/VSS" -1225.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -106454 -3698 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_1_0/VSS" "OR_MAGIC_0/VSS"
+merge "OR_MAGIC_0/VSS" "AND_1_0/VSUBS"
+merge "AND_1_0/VSUBS" "AND_1_1/VSUBS"
+merge "AND_1_1/VSUBS" "VSUBS"
+merge "VSUBS" "AND_1_0/NAND_MAGIC_1_0/VSS"
+merge "AND_1_0/NAND_MAGIC_1_0/VSS" "AND_1_1/NAND_MAGIC_1_0/VSS"
+merge "AND_1_1/NAND_MAGIC_1_0/VSS" "li_1219_n385#"
+merge "li_1219_n385#" "VSS"
+merge "AND_1_0/VOUT" "OR_MAGIC_0/A" -367.542 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10156 -644 0 0 0 0 0 0 0 0 0 0 0 0
+merge "OR_MAGIC_0/A" "AND_1_0/inverter_2_0/VOUT"
+merge "AND_1_0/inverter_2_0/VOUT" "a3"
+merge "AND_1_1/NAND_MAGIC_1_0/B" "IN1" -534.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6144 -352 0 0 -13652 -764 0 0 0 0 0 0 0 0 0 0 0 0
+merge "IN1" "a_1322_1907#"
+merge "OR_MAGIC_0/VOUT" "VOUT" -233.207 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1849 -172 0 0 0 0 0 0 0 0 0 0 0 0
+merge "OR_MAGIC_0/B" "AND_1_1/inverter_2_0/VOUT" -640.597 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9754 -670 0 0 0 0 0 0 0 0 0 0 0 0
+merge "AND_1_1/inverter_2_0/VOUT" "a4"
+merge "AND_1_0/NAND_MAGIC_1_0/B" "li_112_568#" -65.1375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3708 -350 0 0 0 0 0 0 0 0 0 0 0 0
+merge "li_112_568#" "IN2"
+merge "inverter_1_0/VOUT" "AND_1_1/A" -338.373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6762 -496 0 0 0 0 0 0 0 0 0 0 0 0
+merge "AND_1_1/A" "a1"

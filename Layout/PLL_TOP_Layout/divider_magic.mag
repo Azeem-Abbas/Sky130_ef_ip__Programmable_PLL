@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717691374
+use P2_Gen_magic  P2_Gen_magic_0
+timestamp 1717691374
+transform -1 0 -3589 0 -1 10017
+box -1333 -2959 14790 1405
+use P3_Gen_magic  P3_Gen_magic_0
+timestamp 1717691374
+transform -1 0 -3589 0 1 16761
+box -1330 -2945 14790 1405
+<< end >>

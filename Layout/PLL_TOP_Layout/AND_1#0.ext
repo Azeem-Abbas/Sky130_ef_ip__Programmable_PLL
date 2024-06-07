@@ -1,0 +1,57 @@
+timestamp 1717686518
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use NAND_MAGIC_1#0 NAND_MAGIC_1_0 1 0 48 0 1 605
+use inverter_2#0 inverter_2_0 1 0 669 0 1 798
+node "VSS" 185 424.734 530 23 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53924 1890 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 39 51.2245 -45 470 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4880 324 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_575_589#" 40 93.9771 575 589 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11712 506 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 36 40.1121 -29 568 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 272 0 0 0 0 0 0 0 0 0 0 0 0
+node "VOUT" 56 132.163 1207 722 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14180 612 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 18 70.526 533 1022 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13662 474 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_533_1022#" 14247 269.898 533 1022 nw 0 0 0 0 89966 2478 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_533_1022#" "VOUT" 2.11164
+cap "li_575_589#" "VOUT" 2.51169
+cap "VSS" "w_533_1022#" 1.45251
+cap "VDD" "w_533_1022#" 29.1074
+cap "VSS" "VDD" 2.03261
+cap "li_575_589#" "w_533_1022#" 4.94311
+cap "VSS" "li_575_589#" 2.91839
+cap "VSS" "A" 1.17241
+cap "li_575_589#" "VDD" 5.78253
+cap "li_575_589#" "B" 0.718985
+cap "A" "B" 29.6512
+cap "inverter_2_0/VDD" "inverter_2_0/VSS" 4.04654
+cap "inverter_2_0/VSS" "NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 38.6033
+cap "inverter_2_0/VSS" "inverter_2_0/VOUT" 12.1386
+cap "inverter_2_0/VIN" "inverter_2_0/VDD" 118.092
+cap "inverter_2_0/VIN" "NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" 5.68434e-14
+cap "inverter_2_0/VIN" "inverter_2_0/VOUT" 38.8421
+cap "NAND_MAGIC_1_0/a_302_n157#" "inverter_2_0/VDD" 2.32923
+cap "NAND_MAGIC_1_0/a_302_n157#" "NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -0.0261119
+cap "NAND_MAGIC_1_0/a_302_n157#" "inverter_2_0/VOUT" 0.0947927
+cap "inverter_2_0/VIN" "inverter_2_0/VSS" 31.5194
+cap "inverter_2_0/VDD" "NAND_MAGIC_1_0/B" 0.0094093
+cap "NAND_MAGIC_1_0/B" "NAND_MAGIC_1_0/sky130_fd_pr__nfet_01v8_FQGQPX_1/a_n78_n150#" -7.10543e-15
+cap "NAND_MAGIC_1_0/a_302_n157#" "inverter_2_0/VSS" 15.6626
+cap "NAND_MAGIC_1_0/a_302_n157#" "inverter_2_0/VIN" 5.16046
+cap "inverter_2_0/VDD" "inverter_2_0/VOUT" 55.0451
+cap "inverter_2_0/VSS" "NAND_MAGIC_1_0/B" 1.56179
+cap "inverter_2_0/VIN" "NAND_MAGIC_1_0/B" -0.609633
+cap "NAND_MAGIC_1_0/a_302_n157#" "NAND_MAGIC_1_0/B" 6.36447
+cap "inverter_2_0/VOUT" "inverter_2_0/VDD" 4.10055
+merge "inverter_2_0/VSS" "NAND_MAGIC_1_0/VSS" -176.009 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1948 -276 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NAND_MAGIC_1_0/VSS" "VSUBS"
+merge "VSUBS" "VSS"
+merge "inverter_2_0/VOUT" "VOUT" -108.113 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -34 -70 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_2_0/VDD" "NAND_MAGIC_1_0/VDD" -347.84 0 0 0 0 -20201 -2950 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -591 -414 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NAND_MAGIC_1_0/VDD" "VDD"
+merge "VDD" "w_533_1022#"
+merge "inverter_2_0/VIN" "NAND_MAGIC_1_0/VOUT" -181.491 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2007 -264 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NAND_MAGIC_1_0/VOUT" "li_575_589#"
+merge "NAND_MAGIC_1_0/B" "B" -46.1678 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2448 -208 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NAND_MAGIC_1_0/a_302_n157#" "A" -31.4564 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38 -78 0 0 0 0 0 0 0 0 0 0 0 0
